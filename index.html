@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<title>每日双拼日报 | 2026年06月30日</title>
+<style>
+  :root {
+    --bg: #fafaf9;
+    --card-bg: #ffffff;
+    --text: #292524;
+    --text-secondary: #57534e;
+    --border: #e7e5e4;
+    --accent-ai: #7c3aed;
+    --accent-story: #b45309;
+    --tag-bg: #f5f5f4;
+    --score-color: #f59e0b;
+    --divider: #e7e5e4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1917;
+      --card-bg: #292524;
+      --text: #e7e5e4;
+      --text-secondary: #a8a29e;
+      --border: #44403c;
+      --tag-bg: #44403c;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+      "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 0;
+  }
+
+  /* ── Header ── */
+  .header {
+    background: linear-gradient(135deg, #7c3aed 0%, #b45309 100%);
+    color: white;
+    text-align: center;
+    padding: 48px 20px 40px;
+  }
+  .header h1 {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+  .header .subtitle {
+    font-size: 16px;
+    opacity: .85;
+  }
+  .header .date-badge {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 6px 20px;
+    border-radius: 20px;
+    background: rgba(255,255,255,.2);
+    font-size: 14px;
+    backdrop-filter: blur(4px);
+  }
+
+  /* ── Container ── */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+  }
+
+  /* ── Section Heading ── */
+  .section-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 36px 0 20px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--border);
+  }
+  .section-heading .icon { font-size: 28px; }
+  .section-heading h2 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .section-heading .count {
+    margin-left: auto;
+    font-size: 13px;
+    color: var(--text-secondary);
+    background: var(--tag-bg);
+    padding: 3px 12px;
+    border-radius: 12px;
+  }
+  .section-heading.ai { border-bottom-color: var(--accent-ai); }
+  .section-heading.story { border-bottom-color: var(--accent-story); }
+
+  /* ── Card ── */
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 14px;
+    transition: box-shadow .15s;
+  }
+  .card:hover { box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+
+  .card-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .card-number {
+    flex-shrink: 0;
+    width: 28px; height: 28px;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700; color: white;
+  }
+  .card-number.ai { background: var(--accent-ai); }
+  .card-number.story { background: var(--accent-story); }
+
+  .card-title {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.4;
+    flex: 1;
+  }
+  .card-title a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .card-title a:hover { text-decoration: underline; }
+
+  /* ── Meta tags ── */
+  .card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+  }
+  .tag {
+    font-size: 12px;
+    padding: 2px 10px;
+    border-radius: 10px;
+    background: var(--tag-bg);
+    color: var(--text-secondary);
+  }
+  .tag.source { background: #ede9fe; color: #6d28d9; }
+  .tag.dynasty { background: #fef3c7; color: #92400e; }
+  .tag.category { background: #fef3c7; color: #92400e; }
+
+  /* ── Score stars ── */
+  .score { color: var(--score-color); font-size: 14px; white-space: nowrap; }
+
+  /* ── Summary ── */
+  .summary {
+    font-size: 14px;
+    color: var(--text-secondary);
+    line-height: 1.8;
+  }
+  .story-content {
+    font-size: 15px;
+    line-height: 1.85;
+    color: var(--text);
+  }
+  .lesson {
+    margin-top: 12px;
+    padding: 10px 14px;
+    background: #fef3c7;
+    border-radius: 8px;
+    font-size: 14px;
+    border-left: 3px solid #f59e0b;
+  }
+  .lesson .lesson-label {
+    font-weight: 700;
+    color: #92400e;
+    margin-right: 4px;
+  }
+  .fun-fact {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-top: 6px;
+    font-style: italic;
+  }
+
+  /* ── Footer ── */
+  .footer {
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    border-top: 1px solid var(--border);
+    margin-top: 40px;
+  }
+  .footer a { color: var(--accent-ai); }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>📬 每日双拼日报</h1>
+  <div class="subtitle">AI 快讯 · 洞察科技前沿 &nbsp;|&nbsp; 古代故事 · 品味千年智慧</div>
+  <div class="date-badge">2026年06月30日</div>
+</div>
+
+<div class="container">
+
+  <!-- ═══════════ AI 快讯 ═══════════ -->
+  <div class="section-heading ai">
+    <span class="icon">🤖</span>
+    <h2>AI 快讯 · 今日必读</h2>
+    <span class="count">10 条精选</span>
+  </div>
+
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number ai">1</span>
+      <span class="card-title">
+        <a href="https://www.ifanr.com/1670225" target="_blank">GPT-5.6正式发布，史上最强但使用受限</a>
+      </span>
+      <span class="score">★★★★★</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag source">爱范儿</span>
+    </div>
+    <div class="summary">OpenAI正式发布GPT-5.6，号称史上最强模型，在推理、多模态和长文本处理上实现重大突破。然而，由于模型能力逼近关键安全阈值，OpenAI对使用资格和方式施加了严格限制，引发业界对AI安全与可用性平衡的广泛讨论。这一事件标志着前沿AI部署进入新阶段。</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number ai">2</span>
+      <span class="card-title">
+        <a href="https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/" target="_blank">Chamath Palihapitiya的AI编程初创公司获1.35亿美元A轮融资</a>
+      </span>
+      <span class="score">★★★★★</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag source">TechCrunch</span>
+    </div>
+    <div class="summary">知名投资人Chamath Palihapitiya创立的AI编程初创公司完成1.35亿美元A轮融资，他本人亲自出任CEO。此举凸显VC对AI编程赛道持续高涨的热情。该融资规模在A轮中极为罕见，反映市场对AI辅助软件开发工具的巨大需求，可能重塑编程工具竞争格局。</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number ai">3</span>
+      <span class="card-title">
+        <a href="https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/" target="_blank">Anthropic与加州政府达成协议，以半价提供Claude服务</a>
+      </span>
+      <span class="score">★★★★★</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag source">TechCrunch</span>
+    </div>
+    <div class="summary">Anthropic与加州州长纽森达成协议，允许加州政府以半价使用Claude AI模型。此举不仅为Anthropic赢得重要政府客户，也标志着AI公司与公共部门深度合作的新模式。与此同时，联邦政府与Anthropic关系紧张，凸显AI政治博弈的复杂性。</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number ai">4</span>
+      <span class="card-title">
+        <a href="https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/" target="_blank">韩国科技巨头承诺投资超5500亿美元缓解‘内存危机’</a>
+      </span>
+      <span class="score">★★★★★</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag source">TechCrunch</span>
+    </div>
+    <div class="summary">全球两大内存芯片巨头三星和SK海力士宣布投资超过5500亿美元建设新内存晶圆厂，以应对AI驱动下的‘内存危机’。此举旨在巩固韩国作为AI技术强国的地位，并缓解因AI训练和推理需求激增导致的内存短缺问题，对全球AI基础设施供应至关重要。</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number ai">5</span>
+      <span class="card-title">
+        <a href="https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder" target="_blank">OpenAI为Codex发布专用硬件设备</a>
+      </span>
+      <span class="score">★★★★☆</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag source">The Verge</span>
+    </div>
+    <div class="summary">OpenAI宣布将于7月15日发布一款与AI编程工具Codex相关的硬件设备。视频展示了一个方形多按钮设备，旨在为Codex提供快捷操作升级。此举标志着OpenAI从纯软件向硬件领域的拓展，可能开创AI编程的新交互范式，并引发对AI专用硬件的更多关注。</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number ai">6</span>
+      <span class="card-title">
+        <a href="https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/" target="_blank">Arena AI排行榜业务估值达1亿美元</a>
+      </span>
+      <span class="score">★★★★☆</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag source">TechCrunch</span>
+    </div>
+    <div class="summary">运营广受欢迎的AI模型排行榜的初创公司Arena，其商业服务自去年9月推出以来迅速增长，目前业务估值已达1亿美元。这一成就凸显了AI评估和基准测试市场的巨大商业潜力，也反映了行业对模型性能透明度的迫切需求。</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number ai">7</span>
+      <span class="card-title">
+        <a href="https://www.ifanr.com/1670249" target="_blank">DeepSeek发布大模型推理加速框架DSpark</a>
+      </span>
+      <span class="score">★★★★☆</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag source">爱范儿</span>
+    </div>
+    <div class="summary">DeepSeek发布DSpark推理加速框架，旨在解决大模型推理时的‘挤出效应’问题，加快回答生成速度。该框架通过系统工程创新优化模型部署效率，对降低AI应用延迟和成本具有实际意义，可能推动大模型在实时场景中的更广泛应用。</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number ai">8</span>
+      <span class="card-title">
+        <a href="https://www.ifanr.com/1670322" target="_blank">自变量机器人2个月完成4轮融资，估值突破200亿元</a>
+      </span>
+      <span class="score">★★★★☆</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag source">爱范儿</span>
+    </div>
+    <div class="summary">具身智能公司自变量机器人在两个月内连续完成四轮融资，估值突破200亿元人民币，成为大湾区首家达到此估值的具身智能公司。投资方阵容豪华，反映出资本对机器人结合AI技术的强烈信心，以及具身智能赛道的高热度。</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number ai">9</span>
+      <span class="card-title">
+        <a href="https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/" target="_blank">Cursor推出移动应用，可远程指导编码代理</a>
+      </span>
+      <span class="score">★★★★☆</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag source">TechCrunch</span>
+    </div>
+    <div class="summary">AI编程工具Cursor发布移动应用，允许开发者通过手机远程监控和指导其编码代理。这一创新解决了开发者在外出时无法跟进AI编程进度的痛点，提升了AI编程工作流的灵活性和可控性，有望成为AI编程工具的新标配功能。</div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number ai">10</span>
+      <span class="card-title">
+        <a href="https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/" target="_blank">TIDAL打击AI音乐，切断AI生成内容的变现渠道</a>
+      </span>
+      <span class="score">★★★★☆</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag source">TechCrunch</span>
+    </div>
+    <div class="summary">音乐流媒体平台TIDAL宣布新政策，将从7月15日起对完全由AI生成的音乐进行标记，并立即停止对此类内容的付费。平台还将使用自动化工具移除冒充艺术家的AI音乐。此举在保护艺术家权益和应对AI音乐泛滥方面树立了行业先例，可能引发其他平台效仿。</div>
+  </div>
+  
+
+  <!-- ═══════════ 中国古代故事 · 典故 · 天文地理 · 科技发明 ═══════════ -->
+  <div class="section-heading story">
+    <span class="icon">🏯</span>
+    <h2>中国古代故事 · 典故 · 天文地理 · 科技发明</h2>
+    <span class="count">10 则故事</span>
+  </div>
+
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number story">1</span>
+      <span class="card-title">沈园惊梦</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag dynasty">南宋</span>
+      <span class="tag category">唐诗宋词背后的故事</span>
+      <span class="tag">《宋史·陆游传》、周密《齐东野语》</span>
+    </div>
+    <div class="story-content">南宋诗人陆游与表妹唐婉青梅竹马，婚后琴瑟和鸣。陆母却以唐婉无子为由，强逼休妻。陆游无奈另娶，唐婉再嫁赵士程。十年后，陆游在绍兴沈园偶遇唐婉夫妇。唐婉遣人送酒肴致意。陆游悲痛欲绝，在园壁题下《钗头凤》：'红酥手，黄縢酒，满城春色宫墙柳……'唐婉读后和词一首，不久抑郁而终。陆游晚年多次重游沈园，写下'伤心桥下春波绿，曾是惊鸿照影来'等悼亡诗句，至死不忘。</div>
+    
+    <div class="lesson">
+      <span class="lesson-label">💡 寓意：</span>爱情虽美，但封建礼教常无情扼杀真情，珍惜眼前人，莫待失去空悲切。
+    </div>
+    
+    
+    <div class="fun-fact">📎 沈园至今保留陆游题壁的《钗头凤》石刻，是绍兴著名爱情圣地。</div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number story">2</span>
+      <span class="card-title">杜甫草堂诗史</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag dynasty">唐代</span>
+      <span class="tag category">唐诗宋词背后的故事</span>
+      <span class="tag">《旧唐书·杜甫传》、仇兆鳌《杜诗详注》</span>
+    </div>
+    <div class="story-content">安史之乱后，杜甫携家逃难至成都，在浣花溪畔建起茅屋，即后世闻名的杜甫草堂。在此居住的四年间，他创作了240余首诗，包括《春夜喜雨》：'好雨知时节，当春乃发生'；《茅屋为秋风所破歌》：'安得广厦千万间，大庇天下寒士俱欢颜'。这些诗真实记录了战乱中百姓的苦难，被誉为'诗史'。杜甫在草堂种药、养鸡，与邻居农夫交往，生活虽贫困却充满人文关怀。</div>
+    
+    <div class="lesson">
+      <span class="lesson-label">💡 寓意：</span>真正的伟大文学源自对人民苦难的深切同情与真实记录。
+    </div>
+    
+    
+    <div class="fun-fact">📎 杜甫草堂现存明清建筑，是中国文学史上最著名的故居之一。</div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number story">3</span>
+      <span class="card-title">白居易《长恨歌》创作缘起</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag dynasty">唐代</span>
+      <span class="tag category">唐诗宋词背后的故事</span>
+      <span class="tag">陈鸿《长恨歌传》、《新唐书·白居易传》</span>
+    </div>
+    <div class="story-content">元和元年（806年），白居易与友人陈鸿、王质夫同游仙游寺，谈及唐玄宗与杨贵妃的悲剧。王质夫建议白居易以诗记录这段历史，以免湮没。白居易于是创作了长篇叙事诗《长恨歌》，陈鸿则写了《长恨歌传》。诗中'回眸一笑百媚生''梨花一枝春带雨'等句千古流传。白居易并非单纯歌颂爱情，而是借'长恨'讽刺唐玄宗荒淫误国，表达'从此君王不早朝'的批判，同时寄寓对美好爱情幻灭的哀悯。</div>
+    
+    <div class="lesson">
+      <span class="lesson-label">💡 寓意：</span>文学可以同时承载歌颂与批判，借古讽今方能发人深省。
+    </div>
+    
+    
+    <div class="fun-fact">📎 《长恨歌》中的'七月七日长生殿'场景，实为白居易的艺术虚构，史书无此记载。</div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number story">4</span>
+      <span class="card-title">柳永奉旨填词</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag dynasty">北宋</span>
+      <span class="tag category">唐诗宋词背后的故事</span>
+      <span class="tag">《宋史·柳永传》、叶梦得《避暑录话》</span>
+    </div>
+    <div class="story-content">柳永才华横溢却屡试不第，失意后流连于青楼歌馆，为歌女填词。他的词通俗动人，'凡有井水处，即能歌柳词'。一次，柳永科举本已考中，但宋仁宗看到他的名字，想起他写过的'忍把浮名，换了浅斟低唱'，便故意黜落他，说：'且去浅斟低唱，何要浮名？'柳永从此自嘲为'奉旨填词柳三变'，索性专心创作慢词，将市井生活与羁旅离愁写入词中，开创了宋词新局面。他的《雨霖铃》至今传唱不衰。</div>
+    
+    <div class="lesson">
+      <span class="lesson-label">💡 寓意：</span>逆境可以成为创作的催化剂，真正的才华不会被政治打压所埋没。
+    </div>
+    
+    
+    <div class="fun-fact">📎 柳永去世时家无余财，由歌女们集资安葬，每年清明节有'吊柳会'。</div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number story">5</span>
+      <span class="card-title">范仲淹划粥断齑</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag dynasty">北宋</span>
+      <span class="tag category">唐诗宋词背后的故事</span>
+      <span class="tag">《宋史·范仲淹传》、彭乘《墨客挥犀》</span>
+    </div>
+    <div class="story-content">范仲淹少年时家贫，寄居在寺庙读书。他每日煮一锅粥，等粥凝固后划成四块，早晚各取两块，撒上碎咸菜（齑）充饥，这就是'划粥断齑'的故事。他曾在城南书院苦读五年，冬天困倦时用冷水洗脸，甚至因营养不良而面黄肌瘦。后来他考中进士，官至参知政事，主持'庆历新政'，写下《岳阳楼记》中'先天下之忧而忧，后天下之乐而乐'的千古名句，成为宋代士大夫的楷模。</div>
+    
+    <div class="lesson">
+      <span class="lesson-label">💡 寓意：</span>艰苦环境能磨砺意志，真正的伟大源于对理想的坚守与对人民的担当。
+    </div>
+    
+    
+    <div class="fun-fact">📎 范仲淹晚年捐出全部积蓄创办范氏义庄，是中国最早的家族慈善基金。</div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number story">6</span>
+      <span class="card-title">毕昇发明活字印刷</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag dynasty">北宋</span>
+      <span class="tag category">古代科技发明故事</span>
+      <span class="tag">沈括《梦溪笔谈·技艺》</span>
+    </div>
+    <div class="story-content">北宋庆历年间（1041-1048年），平民毕昇在雕版印刷基础上发明了活字印刷术。他用胶泥刻字，火烧使硬，制成一个个单字。排版时，将活字排列在铁板上，用松脂和蜡固定。印刷后拆下活字可重复使用。沈括在《梦溪笔谈》中详细记录了这项发明，称其'若止印三二本，未为简易；若印数十百千本，则极为神速'。活字印刷比德国古登堡的铅活字早400多年，大大降低了书籍成本，推动了文化传播。</div>
+    
+    <div class="lesson">
+      <span class="lesson-label">💡 寓意：</span>技术创新往往来自对现有工艺的改进，小人物也能改变世界。
+    </div>
+    
+    
+    <div class="fun-fact">📎 毕昇的泥活字没有实物留存，但韩国发现的《直指》是现存最早金属活字本。</div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number story">7</span>
+      <span class="card-title">徐霞客探长江源</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag dynasty">明代</span>
+      <span class="tag category">古代天文地理</span>
+      <span class="tag">《徐霞客游记·溯江纪源》</span>
+    </div>
+    <div class="story-content">明代地理学家徐霞客不信古人'岷山导江'的说法，决心亲自探明长江源头。崇祯十一年（1638年），年过半百的他深入云南，在瘴气和盗匪出没的荒野中跋涉数月。他追循金沙江，发现其长度远超岷江，最终在《溯江纪源》中科学论证：长江正源是金沙江，而非岷江。这一结论比西方地理学家的认知早200多年。徐霞客在旅途中写下60万字游记，成为世界最早系统考察中国地貌的学者。</div>
+    
+    <div class="lesson">
+      <span class="lesson-label">💡 寓意：</span>实践出真知，勇于质疑权威才能发现真理。
+    </div>
+    
+    
+    <div class="fun-fact">📎 现代考察确认长江正源为青藏高原的沱沱河，徐霞客的推论方向正确。</div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number story">8</span>
+      <span class="card-title">张骞凿空西域</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag dynasty">西汉</span>
+      <span class="tag category">古代天文地理</span>
+      <span class="tag">《史记·大宛列传》、《汉书·张骞传》</span>
+    </div>
+    <div class="story-content">汉武帝为联合大月氏夹击匈奴，派张骞出使西域。建元二年（前139年），张骞率百余人从长安出发，途中被匈奴扣留十余年。他始终持汉节不失，后趁机逃脱，穿越葱岭，到达大宛、康居、大月氏等国。虽未能达成军事同盟，却带回了西域的地理、物产、风俗资料。元狩四年（前119年），张骞再次出使，与乌孙等国建交，打通了丝绸之路。司马迁称此举为'凿空'，意为开辟通道。</div>
+    
+    <div class="lesson">
+      <span class="lesson-label">💡 寓意：</span>勇敢的探索者即使未能完成原定目标，也可能带来意想不到的文明贡献。
+    </div>
+    
+    
+    <div class="fun-fact">📎 张骞带回了葡萄、苜蓿、石榴、胡桃等物种，丰富了中原的餐桌。</div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number story">9</span>
+      <span class="card-title">李冰父子修都江堰</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag dynasty">战国（秦国）</span>
+      <span class="tag category">古代科技发明故事</span>
+      <span class="tag">《史记·河渠书》、《华阳国志·蜀志》</span>
+    </div>
+    <div class="story-content">秦昭襄王时期，蜀郡守李冰携子二郎主持修建都江堰。他们利用岷江出山口的地形，采用'鱼嘴'分水、'飞沙堰'溢洪、'宝瓶口'引水的巧妙设计，实现了无坝引水、自动分流。李冰还刻制三石人立于水中，作为观测水位的标尺。都江堰建成后，成都平原'水旱从人，不知饥馑'，成为'天府之国'。历经2200多年，都江堰至今仍灌溉着千万亩良田，是世界水利工程的奇迹。</div>
+    
+    <div class="lesson">
+      <span class="lesson-label">💡 寓意：</span>顺应自然规律而非对抗自然，才能实现永续发展。
+    </div>
+    
+    
+    <div class="fun-fact">📎 都江堰的'深淘滩，低作堰'六字诀，至今仍是水利工程的经典原则。</div>
+    
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number story">10</span>
+      <span class="card-title">管仲射钩与齐桓公称霸</span>
+    </div>
+    <div class="card-meta">
+      <span class="tag dynasty">春秋</span>
+      <span class="tag category">历史故事</span>
+      <span class="tag">《史记·齐太公世家》、《左传·庄公九年》</span>
+    </div>
+    <div class="story-content">齐国内乱，公子小白与公子纠争位。管仲辅佐公子纠，在小白归国途中射箭，射中其衣带钩。小白诈死骗过管仲，抢先回国即位，是为齐桓公。桓公欲报一箭之仇，但鲍叔牙力荐管仲之才，称'欲成霸王之业，非管仲不可'。桓公不计前嫌，重用管仲为相。管仲推行'尊王攘夷'、改革内政、发展工商，助齐国九合诸侯、一匡天下，成为春秋首霸。齐桓公因此被誉为'春秋五霸'之首。</div>
+    
+    <div class="lesson">
+      <span class="lesson-label">💡 寓意：</span>成大事者不拘小怨，善于用人的君主才能成就霸业。
+    </div>
+    
+    
+    <div class="fun-fact">📎 管仲临终前劝齐桓公远离易牙、竖刁等小人，桓公不听，最终饿死宫中。</div>
+    
+  </div>
+  
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <p>📬 每日自动推送 · 基于 AI 智能生成 · <a href="https://github.com">GitHub Actions</a> 驱动</p>
+  <p style="margin-top:4px;">如有内容偏差，欢迎反馈纠偏 | Generated at 2026-06-30 11:03:22 北京时间</p>
+</div>
+
+</body>
+</html>
