@@ -20,6 +20,7 @@ import sys
 import traceback
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from urllib.parse import quote
 
 import yaml
 from jinja2 import Template
@@ -263,6 +264,42 @@ def render_html(ai_news: list[dict], stories: list[dict]) -> str:
     )
 
 
+def generate_story_links(story: dict) -> list[tuple[str, str]]:
+    """
+    从故事关键词自动生成百度百科链接
+    返回: [(显示文本, URL), ...]
+    """
+    links = []
+    seen = set()
+
+    def add_link(term: str):
+        term = term.strip()
+        if term and term not in seen and len(term) >= 2:
+            seen.add(term)
+            url = f"https://baike.baidu.com/item/{quote(term)}"
+            links.append((term, url))
+
+    # 1. LLM 生成的关键词（优先）
+    for kw in story.get("keywords", []):
+        add_link(kw)
+
+    # 2. 从其他字段补充提取
+    for char in story.get("characters", "").replace("、", "，").split("，"):
+        add_link(char.strip())
+
+    if story.get("title"):
+        add_link(story.get("title", ""))
+
+    # 提取出处文献名
+    source = story.get("source", "")
+    import re
+    # 匹配《...》中的书名
+    for book in re.findall(r"《(.+?)》", source):
+        add_link(book)
+
+    return links[:7]  # 最多7个链接，避免太多
+
+
 def render_markdown(ai_news: list[dict], stories: list[dict]) -> str:
     """渲染 Markdown 日报（用于 GitHub Pages）"""
     today = datetime.now().strftime("%Y年%m月%d日")
@@ -303,6 +340,13 @@ def render_markdown(ai_news: list[dict], stories: list[dict]) -> str:
             md += f"> 💡 **寓意**：{story['lesson']}\n\n"
         if story.get("fun_fact"):
             md += f"> 📎 {story['fun_fact']}\n\n"
+
+        # 百度百科链接
+        links = story.get("_links", [])
+        if links:
+            md += "🔗 **深入了解**："
+            md += " | ".join(f"[{text}]({url})" for text, url in links)
+            md += "\n\n"
 
     md += f"""---
 
@@ -427,6 +471,10 @@ def main():
 
     logger.info("=" * 50)
     logger.info("🎨 渲染日报...")
+
+    # 预计算百度百科链接
+    for story in stories:
+        story["_links"] = generate_story_links(story)
 
     html_content = render_html(ai_news, stories)
     md_content = render_markdown(ai_news, stories)

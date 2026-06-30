@@ -188,6 +188,33 @@
     font-style: italic;
   }
 
+  /* ── Baidu Baike links ── */
+  .story-links {
+    margin-top: 14px;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+    font-size: 13px;
+  }
+  .story-links .links-label {
+    color: var(--text-secondary);
+    margin-right: 6px;
+  }
+  .story-links a {
+    display: inline-block;
+    margin: 2px 4px;
+    padding: 3px 12px;
+    border-radius: 14px;
+    background: #eff6ff;
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 12px;
+    transition: background .15s;
+  }
+  .story-links a:hover {
+    background: #dbeafe;
+    text-decoration: underline;
+  }
+
   /* ── Footer ── */
   .footer {
     text-align: center;
@@ -260,6 +287,14 @@
     {% endif %}
     {% if story.fun_fact %}
     <div class="fun-fact">📎 {{ story.fun_fact }}</div>
+    {% endif %}
+    {% if story._links %}
+    <div class="story-links">
+      <span class="links-label">🔗 深入了解：</span>
+      {% for text, url in story._links %}
+      <a href="{{ url }}" target="_blank" rel="noopener">{{ text }}</a>
+      {% endfor %}
+    </div>
     {% endif %}
   </div>
   {% endfor %}
