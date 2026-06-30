@@ -507,7 +507,7 @@ def main():
         from modules.notion_sync import create_daily_page
         notion_url = create_daily_page(
             token=notion_config.get("token", ""),
-            database_id=notion_config.get("database_id", ""),
+            page_id=notion_config.get("page_id", ""),
             ai_news=ai_news,
             stories=stories,
         )

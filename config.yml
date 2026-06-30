@@ -63,7 +63,7 @@ email:
 notion:
   enabled: true                    # 是否启用
   token: "${NOTION_TOKEN}"         # Notion Internal Integration Secret
-  database_id: "${NOTION_DATABASE_ID}"  # 数据库 ID（从 URL 获取）
+  page_id: "${NOTION_PAGE_ID}"     # 父页面 ID（日报作为子页面创建在下面）
 
 # --- 调度配置 ---
 schedule:
