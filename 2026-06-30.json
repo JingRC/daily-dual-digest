@@ -5,195 +5,195 @@
   "ai_news": [
     {
       "title": "GPT-5.6正式发布，史上最强但被自己坑惨了",
-      "summary_zh": "OpenAI正式发布GPT-5.6，号称史上最强模型，但因其能力逼近关键安全阈值，导致使用资格和方式受限，部分用户可能无法使用。这一矛盾凸显了AI能力增长与安全可控性之间的核心张力。",
+      "summary_zh": "OpenAI发布GPT-5.6，号称史上最强模型，但因其能力逼近关键安全阈值，导致使用资格和使用方式受到严格限制，引发用户争议。该模型在推理、编码和多模态任务上取得突破，但可访问性问题成为焦点。",
       "source": "爱范儿",
       "url": "https://www.ifanr.com/1670225",
       "score": 5
     },
     {
-      "title": "韩国科技巨头承诺投资超5500亿美元缓解‘内存危机’",
-      "summary_zh": "三星和SK海力士宣布将投资超过5500亿美元建设更多内存芯片工厂，以缓解全球AI算力需求激增导致的‘内存危机’。此举将巩固韩国作为AI技术强国的地位，并可能重塑全球存储芯片供应链格局。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
-      "score": 5
-    },
-    {
-      "title": "Anthropic与加州州长达成协议，政府可半价使用Claude",
-      "summary_zh": "Anthropic与加州州长纽森达成协议，允许加州政府以半价使用其AI模型Claude。此举标志着AI公司与地方政府合作的深化，同时也引发了对联邦政府与科技巨头关系的关注。",
+      "title": "Anthropic与加州州长达成协议，加州政府半价使用Claude",
+      "summary_zh": "Anthropic与加州州长纽森达成协议，允许加州政府以半价使用其AI模型Claude。此举深化了Anthropic与加州的关系，同时凸显其与联邦政府的紧张态势，标志着AI公司与地方政府合作的新模式。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
       "score": 5
     },
     {
-      "title": "AI就业辩论再起波澜：采用AI的企业反而增加了初级岗位",
-      "summary_zh": "一项新报告显示，高密度采用AI的企业员工总数增长了10.2%，其中初级岗位增长了12%，反驳了AI会消灭初级工作的论调。这为AI与就业关系的辩论提供了新的实证数据。",
+      "title": "韩国科技巨头承诺投资超5500亿美元缓解“内存危机”",
+      "summary_zh": "三星和SK海力士宣布投资超过5500亿美元建设新的内存芯片工厂，以应对AI需求激增导致的“内存危机”。此举将巩固韩国作为AI科技强国的地位，并缓解全球内存供应紧张局面。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
-      "score": 4
+      "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
+      "score": 5
     },
     {
-      "title": "OpenAI为Codex发布新硬件设备",
-      "summary_zh": "OpenAI发布了一段视频，展示了一款与AI编程工具Codex相关的新硬件设备，计划于7月15日推出。该设备带有多个按钮，旨在为Codex快捷键提供升级体验，标志着OpenAI向硬件领域的进一步拓展。",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
-      "score": 4
-    },
-    {
-      "title": "DeepSeek发布DSpark大模型推理加速框架",
-      "summary_zh": "DeepSeek联合北京大学发布DSpark推理加速框架，旨在解决大模型回答‘挤牙膏’式缓慢的问题。该技术突破有望显著提升AI推理效率，降低延迟，对实时AI应用具有重要价值。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1670249",
-      "score": 4
-    },
-    {
-      "title": "AI领导者Arena估值达1亿美元，商业化加速",
-      "summary_zh": "运营知名AI排行榜的初创公司Arena现已成长为价值1亿美元的业务，其商业服务于去年9月才推出。这反映了AI基准测试和评估工具的巨大商业潜力，以及行业对模型性能透明度的需求。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
-      "score": 4
-    },
-    {
-      "title": "自变量机器人2个月完成4轮融资，估值突破200亿元",
-      "summary_zh": "具身智能初创公司自变量机器人在两个月内完成四轮融资，估值突破200亿元人民币，成为大湾区首家估值超200亿的具身智能公司。这显示了资本对具身智能赛道的高度热情。",
+      "title": "自变量机器人连融4轮，估值突破200亿元",
+      "summary_zh": "大湾区具身智能公司自变量机器人在2个月内完成4轮融资，估值突破200亿元人民币，投资方阵容豪华。该公司专注于通用具身机器人研发，其精灵G2机器人已量产下线15000台，成为行业新星。",
       "source": "爱范儿",
       "url": "https://www.ifanr.com/1670322",
       "score": 4
     },
     {
-      "title": "Tidal打击AI音乐：不再支付版税，但非全面封禁",
-      "summary_zh": "音乐流媒体平台Tidal宣布新政策，自7月15日起对完全由AI生成的音乐进行标记，并停止支付版税。同时将用自动工具移除冒充艺术家的AI音乐。此举在保护艺术家与应对AI内容之间寻求平衡。",
+      "title": "DeepSeek发布DSpark大模型推理加速框架",
+      "summary_zh": "DeepSeek与北京大学联合发布DSpark推理加速框架，旨在解决大模型回答“挤牙膏”问题。该框架通过优化推理过程，显著提升模型响应速度和效率，是AI系统工程领域的重要突破。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670249",
+      "score": 4
+    },
+    {
+      "title": "OpenAI为Codex发布首款硬件设备",
+      "summary_zh": "OpenAI预告将于7月15日发布一款与AI编程工具Codex相关的硬件设备，视频中展示了一个带有多个按钮的方形设备。此举标志着OpenAI从软件向硬件领域拓展，可能重新定义AI编程交互方式。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+      "score": 4
+    },
+    {
+      "title": "Chamath Palihapitiya为其AI编程初创公司融资1.35亿美元",
+      "summary_zh": "知名投资人Chamath Palihapitiya为其AI编程初创公司完成1.35亿美元A轮融资，并亲自担任CEO。尽管AI编程赛道竞争激烈，VC仍持续押注，凸显市场对AI辅助开发工具的巨大需求。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
+      "score": 4
+    },
+    {
+      "title": "AI领导者Arena业务规模达1亿美元",
+      "summary_zh": "知名AI模型排行榜平台Arena宣布其商业服务业务规模已达1亿美元。该平台自去年9月推出商业服务以来快速增长，成为AI行业评估模型性能的关键参考，其商业化成功标志着AI测评市场的成熟。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+      "score": 4
+    },
+    {
+      "title": "Tidal停止对AI生成音乐支付版税",
+      "summary_zh": "音乐流媒体平台Tidal宣布新政策，将从7月15日起对完全由AI生成的音乐进行标记，并停止支付版税。同时使用自动化工具移除冒充艺术家的AI音乐，此举在保护原创与限制AI创作间引发争议。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
       "score": 3
     },
     {
-      "title": "谷歌Gemini个性化AI图像生成向美国免费用户开放",
-      "summary_zh": "谷歌宣布将Gemini的个性化AI图像生成功能扩展至美国免费用户，允许聊天机器人根据用户兴趣和关联谷歌应用的数据创建图像。此举进一步降低了AI创作工具的使用门槛，但引发了隐私担忧。",
+      "title": "AI研究显示高采用率企业员工数增长10.2%",
+      "summary_zh": "一份新报告显示，高强度采用AI的企业员工总数增长10.2%，其中初级岗位增长12%，反驳了AI消灭初级工作的观点。该研究为AI就业影响提供了新数据，引发行业对AI与劳动力关系的重新思考。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
       "score": 3
     }
   ],
   "stories": [
     {
-      "title": "古代‘冰箱’：曾侯乙铜鉴缶的冰镇智慧",
-      "dynasty": "战国",
+      "title": "汉文帝的‘露台惜费’：百金不筑台",
+      "dynasty": "西汉",
       "category": "历史趣考",
-      "source": "《周礼·天官·凌人》与曾侯乙墓考古报告"
+      "source": "《史记·孝文本纪》"
     },
     {
-      "title": "最早的‘消防队’：南宋临安的‘潜火军’",
-      "dynasty": "南宋",
+      "title": "唐代‘不良人’：古代的便衣警察",
+      "dynasty": "唐",
       "category": "历史趣考",
-      "source": "《东京梦华录》《梦粱录》"
+      "source": "《资治通鉴》《唐六典》"
     },
     {
-      "title": "《山海经》里的‘外星人’：贯胸国与羽民国",
-      "dynasty": "先秦",
-      "category": "古代天文地理",
-      "source": "《山海经·海外南经》"
-    },
-    {
-      "title": "郑国渠：阴谋变福祉的‘疲秦计’",
-      "dynasty": "战国（秦）",
-      "category": "历史趣考",
-      "source": "《史记·河渠书》"
-    },
-    {
-      "title": "古代‘高考’：科举中的‘糊名’与‘誊录’",
+      "title": "宋代‘试官’制度：皇帝也需‘考编’？",
       "dynasty": "宋",
       "category": "历史趣考",
       "source": "《宋史·选举志》"
     },
     {
-      "title": "最早的‘纸币’：交子如何诞生于四川",
-      "dynasty": "北宋",
+      "title": "明代‘廷杖’：朝堂上的‘打屁股’政治",
+      "dynasty": "明",
       "category": "历史趣考",
-      "source": "《宋史·食货志》"
+      "source": "《明史·刑法志》"
     },
     {
-      "title": "马可·波罗的‘东方见闻’：元大都的真实记录",
-      "dynasty": "元",
-      "category": "古代天文地理",
-      "source": "《马可·波罗游记》"
-    },
-    {
-      "title": "‘田忌赛马’的另一面：孙膑的兵法谋略",
+      "title": "古代‘冰箱’：战国青铜冰鉴",
       "dynasty": "战国",
-      "category": "兵法谋略故事",
-      "source": "《史记·孙子吴起列传》"
+      "category": "历史趣考",
+      "source": "《周礼》《楚辞》"
     },
     {
-      "title": "空城计：并非诸葛亮的专利",
-      "dynasty": "春秋",
-      "category": "兵法谋略故事",
-      "source": "《左传·庄公二十八年》"
+      "title": "张骞带回的‘天马’：汗血宝马的真相",
+      "dynasty": "西汉",
+      "category": "古代天文地理",
+      "source": "《史记·大宛列传》《汉书·西域传》"
     },
     {
-      "title": "除夕‘守岁’的起源：驱赶‘年兽’与祭祖",
+      "title": "《山海经》中的‘四大部洲’：古人眼中的世界地图",
       "dynasty": "先秦",
-      "category": "传统节日传说",
-      "source": "《诗经·豳风·七月》及《荆楚岁时记》"
+      "category": "古代天文地理",
+      "source": "《山海经·海内经》《史记·孟子荀卿列传》"
     },
     {
-      "title": "腊八节的由来：释迦牟尼成道与‘赤豆打鬼’",
-      "dynasty": "南北朝",
-      "category": "传统节日传说",
-      "source": "《荆楚岁时记》《梦粱录》"
-    },
-    {
-      "title": "古代‘天文台’：登封观星台的圭表测影",
+      "title": "郭守敬的‘四海测验’：元代的天文大普查",
       "dynasty": "元",
       "category": "古代天文地理",
       "source": "《元史·天文志》"
     },
     {
-      "title": "《水经注》：郦道元的‘地理百科全书’",
-      "dynasty": "北魏",
-      "category": "古代天文地理",
-      "source": "《水经注》"
-    },
-    {
-      "title": "古代‘法律顾问’：商鞅的‘徙木立信’",
-      "dynasty": "战国（秦）",
-      "category": "历史趣考",
-      "source": "《史记·商君列传》"
-    },
-    {
-      "title": "古代‘高速公路’：秦直道的军事奇迹",
-      "dynasty": "秦",
-      "category": "古代天文地理",
-      "source": "《史记·秦始皇本纪》"
-    },
-    {
-      "title": "古代‘广告’：宋代的‘叫卖’与‘招牌’",
-      "dynasty": "宋",
-      "category": "历史趣考",
-      "source": "《东京梦华录》《清明上河图》"
-    },
-    {
-      "title": "古代‘间谍’：孙武的‘女兵训练’与纪律",
-      "dynasty": "春秋",
+      "title": "孙膑‘围魏救赵’的续集：马陵道伏击",
+      "dynasty": "战国",
       "category": "兵法谋略故事",
       "source": "《史记·孙子吴起列传》"
     },
     {
-      "title": "古代‘环保法’：《吕氏春秋》中的‘四时之禁’",
-      "dynasty": "战国（秦）",
-      "category": "历史趣考",
-      "source": "《吕氏春秋·十二纪》"
-    },
-    {
-      "title": "古代‘快递’：唐代的‘驿传’系统",
+      "title": "李靖的‘定襄之战’：三千骑兵破突厥",
       "dynasty": "唐",
-      "category": "历史趣考",
-      "source": "《唐六典》《资治通鉴》"
+      "category": "兵法谋略故事",
+      "source": "《旧唐书·李靖传》《资治通鉴》"
     },
     {
-      "title": "古代‘水利工程师’：西门豹治邺与引漳灌溉",
-      "dynasty": "战国（魏）",
+      "title": "重阳节的‘登高’：桓景避灾的传说",
+      "dynasty": "东汉",
+      "category": "传统节日传说",
+      "source": "《续齐谐记》（南朝梁·吴均）"
+    },
+    {
+      "title": "元宵节‘破镜重圆’：乐昌公主的传奇",
+      "dynasty": "隋",
+      "category": "传统节日传说",
+      "source": "《本事诗·情感》（唐·孟棨）"
+    },
+    {
+      "title": "古代‘马拉松’：元代‘急递铺’的极限速度",
+      "dynasty": "元",
+      "category": "历史趣考",
+      "source": "《元史·兵志》"
+    },
+    {
+      "title": "《水经注》中的‘黄河源’：郦道元的实地考察",
+      "dynasty": "北魏",
       "category": "古代天文地理",
-      "source": "《史记·滑稽列传》"
+      "source": "《水经注·河水》"
+    },
+    {
+      "title": "郑国渠的‘疲秦计’：韩国反成强秦之基",
+      "dynasty": "战国",
+      "category": "历史趣考",
+      "source": "《史记·河渠书》"
+    },
+    {
+      "title": "赵武灵王‘胡服骑射’：一场服装引发的军事革命",
+      "dynasty": "战国",
+      "category": "历史趣考",
+      "source": "《史记·赵世家》"
+    },
+    {
+      "title": "沈括的《梦溪笔谈》：古代科学百科全书",
+      "dynasty": "北宋",
+      "category": "古代天文地理",
+      "source": "《梦溪笔谈·象数》"
+    },
+    {
+      "title": "《天工开物》中的‘水碓’：古代自动化机械",
+      "dynasty": "明",
+      "category": "古代天文地理",
+      "source": "《天工开物·乃粒》"
+    },
+    {
+      "title": "屈原投江的真实原因：政治斗争与‘美政’理想",
+      "dynasty": "战国",
+      "category": "传统节日传说",
+      "source": "《史记·屈原贾生列传》《楚辞》"
+    },
+    {
+      "title": "古代‘身份证’：唐代‘鱼符’与明代‘牙牌’",
+      "dynasty": "唐/明",
+      "category": "历史趣考",
+      "source": "《新唐书·车服志》《明史·舆服志》"
     }
   ]
 }
