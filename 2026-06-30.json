@@ -4,196 +4,196 @@
   "stories_count": 20,
   "ai_news": [
     {
-      "title": "Anthropic与加州政府达成协议，州政府可半价使用Claude",
-      "summary_zh": "Anthropic与加州州长纽森达成协议，允许加州政府以半价使用其AI助手Claude。此举深化了Anthropic与加州的关系，同时凸显了该公司与联邦政府之间的紧张关系。这一合作模式可能为其他AI公司与政府合作提供范本。",
+      "title": "GPT-5.6正式发布，史上最强但被自己坑惨了",
+      "summary_zh": "OpenAI正式发布GPT-5.6，号称史上最强模型，在多项基准测试中刷新纪录。然而，由于模型能力逼近关键阈值，OpenAI对其施加了严格的使用限制，导致多数用户无法直接访问其全部功能。此举引发社区争议，凸显了超强AI能力与安全可控之间的深层矛盾。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670225",
+      "score": 5
+    },
+    {
+      "title": "Anthropic与加州州长达成协议，加州政府半价使用Claude",
+      "summary_zh": "Anthropic与加州州长纽森达成协议，允许加州政府机构以半价使用其AI助手Claude。此举标志着AI公司与政府合作的重大进展，但同时也使Anthropic与联邦政府的关系趋于紧张。该协议可能为其他AI企业与地方政府的合作树立先例。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
       "score": 5
     },
     {
-      "title": "韩国科技巨头承诺投资超5500亿美元缓解‘内存危机’",
-      "summary_zh": "全球最大的两家内存芯片公司——三星和SK海力士，承诺投资超过5500亿美元建设更多内存实验室和工厂。此举旨在应对AI算力需求激增导致的内存短缺问题，并巩固韩国作为AI技术强国的地位。",
+      "title": "韩国科技巨头承诺投入超5500亿美元缓解‘内存危机’",
+      "summary_zh": "全球最大的两家内存芯片公司三星和SK海力士宣布，将共同投资超过5500亿美元建设新的内存芯片工厂，以应对AI算力需求激增导致的‘RAMageddon’（内存危机）。此举旨在巩固韩国作为AI技术强国的地位，并缓解全球AI芯片供应链紧张。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
       "score": 5
     },
     {
-      "title": "GPT-5.6正式发布，史上最强但使用受限",
-      "summary_zh": "OpenAI正式发布GPT-5.6，号称史上最强模型。然而，由于模型能力逼近关键安全阈值，其使用资格和方式受到严格限制，部分用户可能无法使用。这引发了关于AI能力与安全平衡的广泛讨论。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1670225?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "score": 5
-    },
-    {
       "title": "OpenAI为Codex推出首款硬件设备",
-      "summary_zh": "OpenAI预告将于7月15日发布一款与AI编程工具Codex相关的硬件设备。从视频看，该设备为方形，带有多个按钮，用于快捷操作Codex。这标志着OpenAI从软件向硬件领域的重要扩张。",
+      "summary_zh": "OpenAI预告将于7月15日发布一款与AI编程工具Codex配套的硬件设备。从预告视频看，该设备为方形，带有多个按钮，旨在为开发者提供更便捷的编程快捷键操作。此举标志着OpenAI从纯软件向硬件领域的拓展，可能重塑AI编程交互方式。",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
       "score": 4
     },
     {
-      "title": "GLM-5.2发布：专为长周期任务设计",
-      "summary_zh": "智谱AI发布GLM-5.2模型，专为长周期任务优化。该模型在复杂、多步骤的推理和规划任务上表现出显著提升，旨在解决当前大模型在长时间交互中容易出错和遗忘的问题，推动AI在自动化领域的应用。",
-      "source": "Hugging Face - Blog",
-      "url": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "score": 4
-    },
-    {
-      "title": "自变量机器人两个月完成4轮融资，估值突破200亿元",
-      "summary_zh": "具身智能公司自变量机器人（XBot）在两个月内连续完成4轮融资，估值突破200亿元人民币，成为大湾区首家估值超200亿的具身智能公司。投资方阵容豪华，显示资本市场对具身智能赛道的高度热情。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1670322?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "score": 4
-    },
-    {
-      "title": "北大与DeepSeek联合发布大模型推理加速框架DSpark",
-      "summary_zh": "北京大学与DeepSeek联合发布DSpark框架，旨在加速大模型推理过程，解决AI回答‘挤牙膏’的问题。该技术通过优化推理引擎，显著提升模型响应速度，对降低AI应用延迟、提升用户体验具有重要意义。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1670249?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "score": 4
-    },
-    {
-      "title": "AI就业争论再起波澜：报告显示AI采用者反而增加员工数量",
-      "summary_zh": "一份新报告发现，‘高强度AI采用者’公司的员工数量增长了10.2%，其中入门级岗位增长了12%。这一数据反驳了AI会消灭初级岗位的常见说法，为AI对就业市场的影响提供了新的视角。",
+      "title": "Chamath Palihapitiya为其AI编程初创公司融资1.35亿美元并出任CEO",
+      "summary_zh": "知名投资人Chamath Palihapitiya为其AI编程初创公司完成1.35亿美元A轮融资，并亲自出任CEO。在AI编程赛道持续火热的背景下，此轮融资再次印证了资本对该领域的高度热情，同时也凸显了AI辅助编程工具市场的激烈竞争。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
+      "url": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
       "score": 4
     },
     {
-      "title": "议员提案禁止AI公司出售用户健康数据",
-      "summary_zh": "美国参议员沃伦和众议员斯坎伦计划提出新法案，禁止出售美国人的健康和位置信息给数据经纪商，包括用户向ChatGPT或Claude等AI聊天机器人透露的信息。此举旨在加强对AI时代个人隐私的保护。",
+      "title": "DeepSeek发布DSpark：大模型推理加速框架",
+      "summary_zh": "DeepSeek联合北京大学发布大模型推理加速框架DSpark，旨在解决大模型‘挤牙膏’式的生成效率问题。该框架通过优化推理过程，显著提升模型响应速度，对于推动大模型在实时交互场景中的落地应用具有重要意义。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670249",
+      "score": 4
+    },
+    {
+      "title": "自变量机器人2个月完成4轮融资，估值突破200亿元",
+      "summary_zh": "具身智能公司自变量机器人在短短两个月内完成四轮融资，估值突破200亿元人民币，成为大湾区首家达到此估值水平的具身智能公司。投资方阵容豪华，显示出资本市场对具身智能赛道的极高热情和信心。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670322",
+      "score": 4
+    },
+    {
+      "title": "Cursor推出移动应用，可远程指导编码代理",
+      "summary_zh": "AI编程工具Cursor发布移动端应用，允许开发者通过手机远程监控和指导其AI编码代理。此功能极大增强了开发的灵活性和便利性，使开发者能随时随地对AI编程任务进行干预和调整，提升了人机协作效率。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+      "score": 4
+    },
+    {
+      "title": "Arena AI排行榜业务估值达1亿美元",
+      "summary_zh": "广受欢迎的AI模型排行榜平台Arena宣布其商业服务业务估值已达1亿美元。该平台自去年9月推出商业服务后迅速增长，成为衡量各类AI模型性能的行业基准，其成功也反映了AI评估市场的巨大潜力和需求。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+      "score": 4
+    },
+    {
+      "title": "美国议员提案禁止AI公司出售用户健康数据",
+      "summary_zh": "美国参议员Elizabeth Warren和众议员Mary Gay Scanlon计划提出新法案，禁止AI公司（如ChatGPT、Claude的运营商）向数据经纪商出售用户的健康和位置信息。此举旨在加强对AI时代个人隐私的保护，尤其是在医疗健康等敏感领域。",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
       "score": 4
-    },
-    {
-      "title": "TIDAL打击AI音乐，切断AI生成音乐的变现渠道",
-      "summary_zh": "流媒体平台TIDAL宣布新政策，从7月15日起将标记完全由AI生成的音乐，并停止向其支付版税。同时，TIDAL将使用自动化工具移除试图模仿艺术家风格的AI音乐。此举是音乐平台应对AI生成内容的重要举措。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
-      "score": 3
     }
   ],
   "stories": [
     {
-      "title": "晋文公退避三舍：守信与谋略的双重智慧",
+      "title": "鲁班造木鸢：古代‘无人机’的传说",
       "dynasty": "春秋",
       "category": "历史趣考",
-      "source": "《左传·僖公二十三年》"
+      "source": "《墨子·鲁问》《论衡·儒增》"
     },
     {
-      "title": "荆轲刺秦王：图穷匕见背后的政治博弈",
-      "dynasty": "战国",
-      "category": "历史趣考",
-      "source": "《史记·刺客列传》"
-    },
-    {
-      "title": "韩信胯下之辱：忍辱负重的成功密码",
+      "title": "汉武帝‘金屋藏娇’：童话背后的政治悲剧",
       "dynasty": "西汉",
       "category": "历史趣考",
-      "source": "《史记·淮阴侯列传》"
+      "source": "《汉武故事》"
     },
     {
-      "title": "张良拾履：圯上老人的考验",
-      "dynasty": "秦末",
+      "title": "晋武帝‘羊车望幸’：后宫三千的荒诞选妃",
+      "dynasty": "西晋",
       "category": "历史趣考",
-      "source": "《史记·留侯世家》"
+      "source": "《晋书·后妃传》"
     },
     {
-      "title": "赵氏孤儿：程婴杵臼的忠义传奇",
-      "dynasty": "春秋",
-      "category": "历史趣考",
-      "source": "《史记·赵世家》"
-    },
-    {
-      "title": "王羲之东床坦腹：率真成就书圣佳话",
-      "dynasty": "东晋",
-      "category": "历史趣考",
-      "source": "《世说新语·雅量》"
-    },
-    {
-      "title": "陶渊明不为五斗米折腰：文人的精神脊梁",
-      "dynasty": "东晋",
-      "category": "历史趣考",
-      "source": "《晋书·陶潜传》"
-    },
-    {
-      "title": "狄仁杰焚毁诬告信：以德报怨的宰相胸怀",
+      "title": "唐代‘昆仑奴’：来自非洲的黑人奴隶",
       "dynasty": "唐",
       "category": "历史趣考",
-      "source": "《旧唐书·狄仁杰传》"
+      "source": "《旧唐书》《太平广记》"
     },
     {
-      "title": "包拯巧断牛舌案：智破无头案的神探",
-      "dynasty": "北宋",
-      "category": "历史趣考",
-      "source": "《宋史·包拯传》"
-    },
-    {
-      "title": "海瑞抬棺上疏：直言敢谏的千古诤臣",
+      "title": "明代‘倭寇’真相：七成是中国人",
       "dynasty": "明",
       "category": "历史趣考",
-      "source": "《明史·海瑞传》"
+      "source": "《明史·日本传》《筹海图编》"
     },
     {
-      "title": "郭璞与风水鼻祖：青囊书的神秘传说",
-      "dynasty": "东晋",
+      "title": "张骞通西域：带回的不仅是葡萄",
+      "dynasty": "西汉",
       "category": "古代天文地理",
-      "source": "《晋书·郭璞传》"
+      "source": "《史记·大宛列传》"
     },
     {
-      "title": "浑天说与张衡的宇宙观：古代天文学的巅峰",
-      "dynasty": "东汉",
+      "title": "郭守敬与《授时历》：领先世界三百年的历法",
+      "dynasty": "元",
       "category": "古代天文地理",
-      "source": "《后汉书·张衡传》"
+      "source": "《元史·郭守敬传》"
     },
     {
-      "title": "二十八星宿与四象：中国古代的星空分区",
-      "dynasty": "战国",
+      "title": "郑和下西洋：宝船真的能装上千人吗？",
+      "dynasty": "明",
       "category": "古代天文地理",
-      "source": "《史记·天官书》"
+      "source": "《明史·郑和传》《瀛涯胜览》"
     },
     {
-      "title": "范蠡泛舟五湖：功成身退的商圣智慧",
-      "dynasty": "春秋",
+      "title": "岳飞‘拐子马’：被误解的古代骑兵战术",
+      "dynasty": "南宋",
       "category": "兵法谋略故事",
-      "source": "《史记·越王勾践世家》"
+      "source": "《宋史·岳飞传》"
     },
     {
-      "title": "李靖夜袭定襄：三千骑兵灭东突厥",
+      "title": "李靖‘阴山破敌’：三千骑兵灭东突厥",
       "dynasty": "唐",
       "category": "兵法谋略故事",
       "source": "《旧唐书·李靖传》"
     },
     {
-      "title": "戚继光鸳鸯阵：以阵法破倭寇的军事创新",
-      "dynasty": "明",
-      "category": "兵法谋略故事",
-      "source": "《明史·戚继光传》"
-    },
-    {
-      "title": "寒食节：介子推与忠义的烈火考验",
-      "dynasty": "春秋",
+      "title": "除夕的传说：‘年兽’其实是‘夕兽’？",
+      "dynasty": "先秦（传说）",
       "category": "传统节日传说",
-      "source": "《左传·僖公二十四年》"
+      "source": "《荆楚岁时记》及民间传说"
     },
     {
-      "title": "腊八节：朱元璋与五谷粥的传说",
+      "title": "元宵节：东方‘情人节’的灯会奇缘",
+      "dynasty": "唐",
+      "category": "传统节日传说",
+      "source": "《大唐新语》《东京梦华录》"
+    },
+    {
+      "title": "端午节的‘龙舟’：最早是送瘟神的仪式",
+      "dynasty": "先秦",
+      "category": "传统节日传说",
+      "source": "《续齐谐记》《武陵竞渡略》"
+    },
+    {
+      "title": "中秋节的‘月饼’：朱元璋的起义暗号",
       "dynasty": "明",
       "category": "传统节日传说",
-      "source": "《明史·太祖本纪》及民间传说"
+      "source": "《明史》及民间传说"
     },
     {
-      "title": "《水经注》与郦道元：古代地理学的集大成者",
+      "title": "重阳节登高：桓景避灾的‘防疫’传说",
+      "dynasty": "东汉",
+      "category": "传统节日传说",
+      "source": "《续齐谐记》"
+    },
+    {
+      "title": "《山海经》中的‘四大神兽’：青龙白虎的星象起源",
+      "dynasty": "先秦",
+      "category": "古代天文地理",
+      "source": "《山海经》《尚书·尧典》"
+    },
+    {
+      "title": "《水经注》中的‘三峡’：郦道元的纸上考察",
       "dynasty": "北魏",
       "category": "古代天文地理",
-      "source": "《水经注·序》"
+      "source": "《水经注》"
     },
     {
-      "title": "沈括与《梦溪笔谈》：古代科学的百科全书",
+      "title": "《梦溪笔谈》中的‘活字印刷’：沈括的科技预言",
       "dynasty": "北宋",
-      "category": "古代天文地理",
+      "category": "历史趣考",
       "source": "《梦溪笔谈》"
+    },
+    {
+      "title": "《天工开物》中的‘水碓’：古代自动加工机",
+      "dynasty": "明",
+      "category": "历史趣考",
+      "source": "《天工开物》"
+    },
+    {
+      "title": "《徐霞客游记》中的‘喀斯特’：世界最早的岩溶研究",
+      "dynasty": "明",
+      "category": "古代天文地理",
+      "source": "《徐霞客游记》"
     }
   ]
 }
