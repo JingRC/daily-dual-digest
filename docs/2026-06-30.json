@@ -1,199 +1,193 @@
 {
   "date": "2026-06-30",
   "ai_news_count": 10,
-  "stories_count": 20,
+  "stories_count": 19,
   "ai_news": [
     {
       "title": "GPT-5.6正式发布，史上最强但被自己坑惨了",
-      "summary_zh": "OpenAI正式发布GPT-5.6，该模型在多项基准测试中创下纪录，被描述为史上最强。然而，由于模型能力逼近关键安全阈值，OpenAI被迫实施严格的使用限制，导致大部分用户无法直接访问其全部功能，引发了关于AI安全与可用性平衡的广泛讨论。",
+      "summary_zh": "OpenAI发布GPT-5.6，被誉为史上最强模型，但因其强大的能力逼近关键阈值，导致使用资格和方式受到严格限制，许多用户可能无法使用。这一发布凸显了AI能力提升带来的安全与监管挑战。",
       "source": "爱范儿",
-      "url": "https://www.ifanr.com/1670225",
+      "url": "https://www.ifanr.com/1670225?utm_source=rss&utm_medium=rss&utm_campaign=",
       "score": 5
     },
     {
-      "title": "Anthropic与加州州长达成协议，政府半价使用Claude",
-      "summary_zh": "Anthropic与加州州长纽森达成协议，允许加州政府以半价使用其AI模型Claude。此举深化了Anthropic与加州的关系，同时凸显了该公司与联邦政府之间的紧张关系。该协议可能为其他州政府与AI公司的合作树立先例，对AI政策的制定产生重大影响。",
+      "title": "OpenAI为Codex推出首款硬件设备",
+      "summary_zh": "OpenAI宣布将于7月15日发布一款与AI编程工具Codex相关的硬件设备，视频显示为方形带按钮装置。此举标志着OpenAI从纯软件向硬件领域拓展，可能重塑AI编程体验。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+      "score": 5
+    },
+    {
+      "title": "Anthropic与加州政府达成协议，以半价提供Claude服务",
+      "summary_zh": "Anthropic与加州州长纽森达成协议，允许加州政府以半价使用Claude AI模型。此举加强了Anthropic与州政府的合作关系，同时凸显了其与联邦政府的紧张关系。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
       "score": 5
     },
     {
-      "title": "韩国科技巨头承诺投资超5500亿美元缓解‘RAMageddon’",
-      "summary_zh": "全球最大的两家内存芯片公司——三星和SK海力士，承诺投资超过5500亿美元建设新的内存实验室和晶圆厂，以应对人工智能带来的内存需求激增。此举旨在将韩国定位为AI技术强国，并缓解全球范围内因AI计算需求导致的‘内存危机’（RAMageddon）。",
+      "title": "韩国科技巨头承诺投资超5500亿美元缓解‘内存危机’",
+      "summary_zh": "三星和SK海力士两大内存芯片巨头承诺投资超过5500亿美元建设新内存实验室和晶圆厂，以应对全球AI需求驱动的内存短缺。韩国正借此机遇定位为AI技术强国。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
       "score": 5
     },
     {
-      "title": "ChatGPT的AI排行榜Arena成为估值1亿美元的业务",
-      "summary_zh": "运营着广受欢迎的免费AI模型排行榜的初创公司Arena，在去年9月推出商业服务后，已发展成为一项价值1亿美元的业务。该平台已成为社区评估和比较不同AI模型性能的关键参考，其商业化成功标志着AI评估领域的重要里程碑。",
+      "title": "DeepSeek发布DSpark推理加速框架",
+      "summary_zh": "北京大学与DeepSeek联合发布大模型推理加速框架DSpark，旨在解决AI回答的延迟问题，提升模型响应速度。这一技术突破有望推动大模型在实时应用中的部署。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670249?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 4
+    },
+    {
+      "title": "AI编码初创公司Base44推出自有模型",
+      "summary_zh": "Wix旗下的vibe编码平台Base44开始推出自有AI模型，旨在最终超越前沿模型。此举反映了AI初创公司通过自研模型寻求差异化防御能力的趋势。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+      "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
       "score": 4
     },
     {
-      "title": "OpenAI为Codex预告新硬件设备",
-      "summary_zh": "OpenAI发布了一段预告视频，展示了一款与AI编程工具Codex相关的方形设备，并宣布将于7月15日发布。该设备被描述为Codex快捷方式的升级版，可能是一款专用硬件，旨在提升AI辅助编程的效率和体验，标志着OpenAI从软件向硬件领域的拓展。",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
-      "score": 4
-    },
-    {
-      "title": "Cursor推出移动应用，可远程指导编码智能体",
-      "summary_zh": "AI编码工具Cursor发布了一款新的移动应用，允许用户远程指导和监控其编码智能体（Coding Agent）。这一功能使开发者能够在移动设备上管理后台运行的AI编程任务，极大地提升了AI辅助开发的灵活性和便利性，是AI编程工具向移动端延伸的重要一步。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
-      "score": 4
-    },
-    {
-      "title": "Chamath Palihapitiya为其AI编码初创公司融资1.35亿美元并出任CEO",
-      "summary_zh": "知名投资人Chamath Palihapitiya为其AI编码初创公司完成了1.35亿美元的A轮融资，并亲自出任CEO。这笔巨额融资反映了风险投资界对AI编码领域的持续狂热，也彰显了Palihapitiya对该赛道的深度押注，预计将加剧AI编码工具市场的竞争。",
+      "title": "AI编码初创公司Chamath Palihapitiya获1.35亿美元A轮融资",
+      "summary_zh": "知名投资人Chamath Palihapitiya为其AI编码初创公司筹集1.35亿美元A轮融资，并亲自担任CEO。这显示VC对AI编码领域的持续热情，尽管市场竞争激烈。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
       "score": 4
     },
     {
-      "title": "DeepSeek发布DSpark大模型推理加速框架",
-      "summary_zh": "中国AI公司DeepSeek发布了名为DSpark的大模型推理加速框架，旨在解决AI模型回答时的‘挤牙膏’问题，即提升推理速度和效率。该框架的推出，有望降低大模型部署成本，并推动更流畅、更实时的AI交互体验，是AI工程化领域的重要技术突破。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1670249",
-      "score": 4
-    },
-    {
       "title": "自变量机器人2个月完成4轮融资，估值突破200亿元",
-      "summary_zh": "具身智能公司自变量机器人（Zibianliang）在短短两个月内完成了4轮融资，估值突破200亿元人民币，成为大湾区首家估值超过200亿的具身智能公司。这一系列快速融资表明资本对具身智能赛道的高度看好，也反映了中国在机器人领域的研发和商业化进程正在加速。",
+      "summary_zh": "具身智能公司自变量机器人在两个月内完成四轮融资，估值突破200亿元，成为大湾区首家估值超200亿的具身智能公司。投资方群星闪耀，显示资本对人形机器人赛道的狂热。",
       "source": "爱范儿",
-      "url": "https://www.ifanr.com/1670322",
+      "url": "https://www.ifanr.com/1670322?utm_source=rss&utm_medium=rss&utm_campaign=",
       "score": 4
     },
     {
-      "title": "Tidal打击AI音乐，切断AI生成音乐的变现渠道",
-      "summary_zh": "音乐流媒体平台Tidal宣布新政策，将从7月15日起对完全由AI生成的音乐进行标记，并立即停止向其支付版税。此外，Tidal还将使用自动化工具移除试图模仿艺术家或乐队的AI音乐。此举是主流平台对AI生成内容采取的最严厉措施之一，旨在保护艺术家权益。",
+      "title": "Arena AI排行榜业务估值达1亿美元",
+      "summary_zh": "运营热门免费AI排行榜的初创公司Arena，其商业服务推出仅9个月后，业务估值已达1亿美元。这反映了AI基准测试和评估领域的巨大商业潜力。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
-      "score": 3
+      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+      "score": 4
+    },
+    {
+      "title": "Cursor推出用于远程指导编码代理的移动应用",
+      "summary_zh": "AI编码工具Cursor发布移动应用，允许用户远程监督和指导编码代理。这一创新提升了AI编程的灵活性和可及性，标志着AI辅助开发进入移动时代。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+      "score": 4
     }
   ],
   "stories": [
     {
-      "title": "曹冲称象：大象从何而来",
-      "dynasty": "东汉",
+      "title": "郑国渠：韩国的‘疲秦计’反成强秦之基",
+      "dynasty": "战国·秦",
       "category": "历史趣考",
-      "source": "《三国志·魏书·邓哀王冲传》"
+      "source": "《史记·河渠书》"
     },
     {
-      "title": "司马光砸缸：宋代真能烧制大缸吗",
-      "dynasty": "北宋",
-      "category": "历史趣考",
-      "source": "《宋史·司马光传》"
-    },
-    {
-      "title": "草船借箭：真实主角是孙权",
-      "dynasty": "东汉",
-      "category": "历史趣考",
-      "source": "《三国志·吴书·吴主传》注引《魏略》"
-    },
-    {
-      "title": "焚书坑儒的真相：被误读的秦始皇",
-      "dynasty": "秦",
-      "category": "历史趣考",
-      "source": "《史记·秦始皇本纪》"
-    },
-    {
-      "title": "古代奇葩法律：汉代的‘腹诽罪’",
+      "title": "汉武帝的‘腹诽’之罪：沉默也是罪",
       "dynasty": "西汉",
       "category": "历史趣考",
-      "source": "《汉书·食货志》"
+      "source": "《史记·平准书》"
     },
     {
-      "title": "古代黑科技：曾侯乙编钟的声学奇迹",
-      "dynasty": "战国",
-      "category": "历史趣考",
-      "source": "《考古》1979年曾侯乙墓发掘报告"
-    },
-    {
-      "title": "二十八星宿的由来：东方苍龙七宿",
-      "dynasty": "先秦",
+      "title": "最早的地震记录：周幽王二年三川震",
+      "dynasty": "西周",
       "category": "古代天文地理",
-      "source": "《史记·天官书》《尚书·尧典》"
+      "source": "《国语·周语上》"
     },
     {
-      "title": "二十四节气：从太阳历到农耕指南",
-      "dynasty": "西汉",
-      "category": "古代天文地理",
-      "source": "《淮南子·天文训》"
-    },
-    {
-      "title": "都江堰的岁修制度：李冰的千年智慧",
-      "dynasty": "战国",
-      "category": "古代天文地理",
-      "source": "《水经注·江水》"
-    },
-    {
-      "title": "《禹贡地域图》：中国最早的地图集",
-      "dynasty": "西晋",
-      "category": "古代天文地理",
-      "source": "《晋书·裴秀传》"
-    },
-    {
-      "title": "田单火牛阵：以弱胜强的兵法奇迹",
-      "dynasty": "战国",
-      "category": "兵法谋略故事",
-      "source": "《史记·田单列传》"
-    },
-    {
-      "title": "围魏救赵：孙膑的避实击虚",
-      "dynasty": "战国",
-      "category": "兵法谋略故事",
-      "source": "《史记·孙子吴起列传》"
-    },
-    {
-      "title": "背水一战：韩信的绝地求生",
+      "title": "韩信‘暗度陈仓’：明修栈道的障眼法",
       "dynasty": "西汉",
       "category": "兵法谋略故事",
       "source": "《史记·淮阴侯列传》"
     },
     {
-      "title": "七夕节的由来：牛郎织女与星宿崇拜",
-      "dynasty": "先秦至汉",
+      "title": "元宵节：汉文帝的‘平吕’纪念日",
+      "dynasty": "西汉",
       "category": "传统节日传说",
-      "source": "《诗经·小雅·大东》《古诗十九首》"
+      "source": "《史记·吕太后本纪》"
     },
     {
-      "title": "清明节的寒食传说：介子推的故事",
-      "dynasty": "春秋",
-      "category": "传统节日传说",
-      "source": "《左传·僖公二十四年》《史记·晋世家》"
+      "title": "马谡失街亭：诸葛亮的用人失误",
+      "dynasty": "三国·蜀汉",
+      "category": "历史趣考",
+      "source": "《三国志·蜀书·马谡传》"
     },
     {
-      "title": "端午节：屈原投江与龙舟竞渡",
-      "dynasty": "战国",
+      "title": "宋太祖‘杯酒释兵权’：和平解决权力危机",
+      "dynasty": "北宋",
+      "category": "历史趣考",
+      "source": "《续资治通鉴长编》卷二"
+    },
+    {
+      "title": "徐霞客探长江源：推翻千年‘岷山导江’说",
+      "dynasty": "明",
+      "category": "古代天文地理",
+      "source": "《徐霞客游记·溯江纪源》"
+    },
+    {
+      "title": "赵括‘纸上谈兵’：长平之战的致命空谈",
+      "dynasty": "战国·赵",
+      "category": "兵法谋略故事",
+      "source": "《史记·廉颇蔺相如列传》"
+    },
+    {
+      "title": "古代‘快递’有多快？唐代‘一骑红尘妃子笑’",
+      "dynasty": "唐",
+      "category": "历史趣考",
+      "source": "《新唐书·杨贵妃传》《唐会要》"
+    },
+    {
+      "title": "张衡与地动仪：千年争议的科学之谜",
+      "dynasty": "东汉",
+      "category": "古代天文地理",
+      "source": "《后汉书·张衡传》"
+    },
+    {
+      "title": "王莽‘新政’：穿越般的古代改革",
+      "dynasty": "新朝",
+      "category": "历史趣考",
+      "source": "《汉书·王莽传》"
+    },
+    {
+      "title": "《山海经》中的‘地理大发现’：夸父逐日与精卫填海",
+      "dynasty": "先秦",
+      "category": "古代天文地理",
+      "source": "《山海经·海外北经》《山海经·北山经》"
+    },
+    {
+      "title": "商鞅‘立木取信’：秦国的信用建设",
+      "dynasty": "战国·秦",
+      "category": "兵法谋略故事",
+      "source": "《史记·商君列传》"
+    },
+    {
+      "title": "端午节的真相：屈原投江与龙舟竞渡",
+      "dynasty": "战国·楚",
       "category": "传统节日传说",
       "source": "《史记·屈原贾生列传》《续齐谐记》"
     },
     {
-      "title": "中秋节的起源：嫦娥奔月与月宫传说",
-      "dynasty": "先秦至唐",
-      "category": "传统节日传说",
-      "source": "《淮南子·览冥训》《酉阳杂俎》"
+      "title": "赤壁之战：东风真的是‘借’来的吗？",
+      "dynasty": "三国",
+      "category": "历史趣考",
+      "source": "《三国志·吴书·周瑜传》《资治通鉴》"
     },
     {
-      "title": "重阳节的登高：桓景避灾的传说",
-      "dynasty": "东汉",
-      "category": "传统节日传说",
-      "source": "《续齐谐记》"
+      "title": "灵渠：秦始皇的‘水利高速公路’",
+      "dynasty": "秦",
+      "category": "古代天文地理",
+      "source": "《史记·平津侯主父列传》《水经注》"
     },
     {
-      "title": "元宵节的起源：汉文帝与‘平吕’纪念",
+      "title": "李广‘飞将军’：一生未封侯的悲剧",
       "dynasty": "西汉",
-      "category": "传统节日传说",
-      "source": "《史记·吕太后本纪》《汉书·文帝纪》"
+      "category": "历史趣考",
+      "source": "《史记·李将军列传》"
     },
     {
-      "title": "除夕的由来：年兽传说与岁末驱邪",
-      "dynasty": "先秦至汉",
-      "category": "传统节日传说",
-      "source": "《荆楚岁时记》《吕氏春秋·季冬纪》"
+      "title": "郑成功收复台湾：海上丝绸之路的保卫战",
+      "dynasty": "明末清初",
+      "category": "古代天文地理",
+      "source": "《清史稿·郑成功传》《台湾外记》"
     }
   ]
 }
