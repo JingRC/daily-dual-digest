@@ -4,196 +4,196 @@
   "stories_count": 20,
   "ai_news": [
     {
-      "title": "ChatGPT开发商Anthropic与加州政府达成协议，以半价提供Claude服务",
-      "summary_zh": "Anthropic与加州州长纽森达成协议，允许加州政府以半价使用其AI助手Claude。此举深化了Anthropic与加州的关系，同时也凸显了该公司与联邦政府之间的紧张关系。该交易可能成为AI企业与政府合作的标杆案例。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+      "title": "GPT-5.6正式发布，史上最强但被自己坑惨了",
+      "summary_zh": "OpenAI正式发布GPT-5.6，声称是史上最强模型，但因能力逼近关键阈值，使用资格和方式成为更受关注的事项。该模型可能限制部分用户访问，引发对AI安全与普及的广泛讨论。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670225",
       "score": 5
     },
     {
-      "title": "OpenAI预告Codex硬件设备，将于7月15日发布",
-      "summary_zh": "OpenAI发布预告视频，展示一款用于AI编程工具Codex的方形硬件设备，配备多个按钮，定于7月15日发布。这标志着OpenAI首次涉足专用硬件领域，旨在为开发者提供更高效的AI编程交互体验。",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+      "title": "自变量机器人2个月完成4轮融资，估值突破200亿元",
+      "summary_zh": "自变量机器人在两个月内完成4轮融资，估值突破200亿元，成为大湾区首家估值超200亿的具身智能公司。投资方群星闪耀，显示出资本市场对具身智能赛道的高度热情。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670322",
       "score": 5
     },
     {
-      "title": "韩国科技巨头承诺投资超5500亿美元缓解‘内存危机’",
-      "summary_zh": "全球两大内存芯片巨头三星和SK海力士宣布将建设更多内存芯片晶圆厂，总投资额超过5500亿美元，以应对AI算力需求激增导致的内存短缺危机。此举旨在巩固韩国作为AI技术强国的地位。",
+      "title": "南韩科技巨头承诺投资超5500亿美元缓解‘内存危机’",
+      "summary_zh": "三星和SK海力士等南韩科技巨头承诺投资超过5500亿美元建设新的内存芯片工厂，以应对全球AI芯片需求激增导致的‘内存危机’。此举将巩固韩国作为AI科技强国的地位。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
       "score": 5
     },
     {
-      "title": "GPT-5.6正式发布，史上最强但使用受限",
-      "summary_zh": "OpenAI发布GPT-5.6模型，号称史上最强，但因其能力逼近关键安全阈值，使用资格和方式受到严格限制。该发布引发业界对AI安全与性能平衡的广泛讨论，预示着大模型部署将进入新阶段。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1670225?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "score": 5
-    },
-    {
-      "title": "AI编码初创公司获Chamath Palihapitiya 1.35亿美元A轮融资",
-      "summary_zh": "知名投资人Chamath Palihapitiya为其AI编码初创公司完成1.35亿美元A轮融资，并亲自担任CEO。此举反映了风投对AI编程赛道的高度热情，也凸显了该领域竞争的激烈程度。",
+      "title": "Chamath Palihapitiya为AI编码初创公司融资1.35亿美元并担任CEO",
+      "summary_zh": "知名投资者Chamath Palihapitiya为其AI编码初创公司完成1.35亿美元A轮融资，并亲自担任CEO。这反映了风投市场对AI编码工具赛道的持续狂热。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
       "score": 4
     },
     {
-      "title": "AI领导者平台Arena估值达1亿美元",
-      "summary_zh": "运营热门AI模型排行榜的初创公司Arena，其商业服务自去年9月上线后快速增长，现已发展成为估值1亿美元的业务。这显示了AI基准测试和评估领域的巨大商业潜力。",
+      "title": "Anthropic与加州州长达成协议，加州政府半价使用Claude",
+      "summary_zh": "Anthropic与加州州长纽森达成协议，允许加州政府以半价使用其AI模型Claude。此举加强了Anthropic与州政府的关系，同时与联邦政府形成对立。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
+      "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
       "score": 4
     },
     {
-      "title": "Cursor推出移动应用，可远程指导编码Agent",
-      "summary_zh": "AI编程工具Cursor发布移动应用，允许开发者通过手机远程监督和指导其编码Agent。该功能提升了AI辅助编程的灵活性和协作效率，标志着AI开发工具向移动端延伸。",
+      "title": "AI就业辩论再起波澜：高采纳率企业员工数增长10.2%",
+      "summary_zh": "最新报告显示，高AI采纳率企业的员工数增长10.2%，其中初级岗位增长12%。这一数据反驳了AI会消灭初级工作的说法，使AI就业影响辩论更加复杂。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/",
+      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
       "score": 4
     },
     {
-      "title": "自变量机器人两个月完成4轮融资，估值突破200亿元",
-      "summary_zh": "具身智能公司自变量机器人在两个月内连续完成四轮融资，估值突破200亿元人民币，成为大湾区首家估值超200亿的具身智能企业。该事件反映了资本市场对具身智能赛道的强烈信心。",
+      "title": "OpenAI预告Codex硬件设备，将于7月15日发布",
+      "summary_zh": "OpenAI在社交媒体上发布视频，预告一款与AI编程工具Codex相关的方形硬件设备，配备多个按钮，将于7月15日发布。这标志着OpenAI进军硬件领域的新尝试。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+      "score": 4
+    },
+    {
+      "title": "DeepSeek发布DSpark，加速大模型推理",
+      "summary_zh": "DeepSeek与北京大学联合发布大模型推理加速框架DSpark，旨在解决AI回答的延迟问题，提升用户体验。这标志着在模型效率优化方面的重要技术突破。",
       "source": "爱范儿",
-      "url": "https://www.ifanr.com/1670322?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "url": "https://www.ifanr.com/1670249",
       "score": 4
     },
     {
-      "title": "DeepSeek发布大模型推理加速框架DSpark",
-      "summary_zh": "DeepSeek联合北京大学发布DSpark大模型推理加速框架，旨在解决大模型推理效率问题，使AI回答更流畅。该框架的发布有望降低大模型部署成本，推动AI应用的广泛落地。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1670249?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "score": 4
-    },
-    {
-      "title": "美国议员提议禁止AI公司出售用户健康数据",
-      "summary_zh": "美国参议员沃伦和众议员斯坎伦计划提出新法案，禁止AI公司（如ChatGPT、Claude）向数据经纪商出售用户的健康和位置信息。此举旨在加强AI时代的隐私保护，可能对AI行业的数据商业模式产生重大影响。",
+      "title": "议员提议禁止AI公司出售用户健康数据",
+      "summary_zh": "美国参议员沃伦和众议员斯坎伦计划提出新法案，禁止AI公司（如ChatGPT和Claude）出售美国人的健康和位置信息给数据经纪商，旨在加强隐私保护。",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
       "score": 4
+    },
+    {
+      "title": "TIDAL打击AI音乐，切断AI生成内容的变现渠道",
+      "summary_zh": "音乐平台TIDAL宣布新政策，从7月15日起对AI生成音乐进行标记，并立即切断其变现渠道。此举旨在保护艺术家权益，但也引发了关于AI音乐监管的讨论。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+      "score": 3
     }
   ],
   "stories": [
     {
-      "title": "大禹导河积石：黄河改道的远古智慧",
-      "dynasty": "传说时代/夏",
-      "category": "古代天文地理",
-      "source": "《尚书·禹贡》《山海经·海内经》"
-    },
-    {
-      "title": "百里奚饲牛拜相：从奴隶到国相的逆袭",
-      "dynasty": "春秋",
-      "category": "历史趣考",
-      "source": "《史记·秦本纪》《孟子·万章上》"
-    },
-    {
-      "title": "赵氏孤儿：程婴杵臼的忠义抉择",
-      "dynasty": "春秋",
-      "category": "历史趣考",
-      "source": "《史记·赵世家》《左传》"
-    },
-    {
-      "title": "墨子救宋：九拒公输般的智慧较量",
-      "dynasty": "战国",
-      "category": "兵法谋略故事",
-      "source": "《墨子·公输》《战国策·宋策》"
-    },
-    {
-      "title": "张仪戏楚：六里地骗得六百里的外交骗局",
+      "title": "古代‘冰箱’：曾侯乙铜鉴缶的冰酒秘术",
       "dynasty": "战国",
       "category": "历史趣考",
-      "source": "《史记·张仪列传》《战国策·秦策》"
+      "source": "《周礼》《随县曾侯乙墓》"
     },
     {
-      "title": "汉武帝轮台罪己：一代雄主的晚年反思",
+      "title": "汉代的‘环保路灯’：长信宫灯的烟道设计",
       "dynasty": "西汉",
       "category": "历史趣考",
-      "source": "《汉书·西域传》《资治通鉴·汉纪》"
+      "source": "《满城汉墓发掘报告》"
     },
     {
-      "title": "昭君出塞：画工毛延寿的‘丑画’风波",
-      "dynasty": "西汉",
-      "category": "历史趣考",
-      "source": "《后汉书·南匈奴列传》《西京杂记》"
-    },
-    {
-      "title": "光武帝昆阳之战：刘秀的‘陨石召唤术’",
-      "dynasty": "新莽/东汉",
-      "category": "兵法谋略故事",
-      "source": "《后汉书·光武帝纪》《资治通鉴·汉纪》"
-    },
-    {
-      "title": "蔡伦造纸：从‘鱼网树皮’到文明载体",
-      "dynasty": "东汉",
-      "category": "历史趣考",
-      "source": "《后汉书·蔡伦传》《东观汉记》"
-    },
-    {
-      "title": "三顾茅庐：诸葛亮出山的真实动机",
-      "dynasty": "东汉末",
-      "category": "历史趣考",
-      "source": "《三国志·蜀书·诸葛亮传》《资治通鉴·汉纪》"
-    },
-    {
-      "title": "王羲之东床坦腹：不修边幅的东床快婿",
-      "dynasty": "东晋",
-      "category": "历史趣考",
-      "source": "《晋书·王羲之传》《世说新语·雅量》"
-    },
-    {
-      "title": "陶渊明不为五斗米折腰：隐士的生存经济学",
-      "dynasty": "东晋",
-      "category": "历史趣考",
-      "source": "《晋书·陶潜传》《宋书·隐逸传》"
-    },
-    {
-      "title": "北魏孝文帝迁都：一场‘雨夜南征’的政治表演",
-      "dynasty": "南北朝",
-      "category": "历史趣考",
-      "source": "《魏书·高祖纪》《资治通鉴·齐纪》"
-    },
-    {
-      "title": "隋炀帝三下江都：大运河上的奢华之旅",
-      "dynasty": "隋",
-      "category": "传统节日传说",
-      "source": "《隋书·炀帝纪》《资治通鉴·隋纪》"
-    },
-    {
-      "title": "玄武门之变：李世民的政治赌博",
+      "title": "古代‘身份证’：唐代鱼符与官员的‘打卡’制度",
       "dynasty": "唐",
       "category": "历史趣考",
-      "source": "《旧唐书·太宗本纪》《资治通鉴·唐纪》"
+      "source": "《新唐书·车服志》《唐六典》"
     },
     {
-      "title": "狄仁杰‘白云亲舍’：大唐神探的孝心典故",
-      "dynasty": "唐",
+      "title": "秦代‘高速公路’：秦直道的军事奇迹",
+      "dynasty": "秦",
       "category": "历史趣考",
-      "source": "《旧唐书·狄仁杰传》《新唐书·狄仁杰传》"
+      "source": "《史记·秦始皇本纪》《汉书·贾山传》"
     },
     {
-      "title": "黄巢‘冲天香阵’：落第书生的菊花之志",
-      "dynasty": "唐",
-      "category": "传统节日传说",
-      "source": "《全唐诗》《旧唐书·黄巢传》"
-    },
-    {
-      "title": "王安石‘三不足’：改革家的无畏宣言",
+      "title": "宋代‘自来水’：苏轼设计的广州引水工程",
       "dynasty": "北宋",
       "category": "历史趣考",
-      "source": "《宋史·王安石传》《续资治通鉴长编》"
+      "source": "《宋史·苏轼传》《东坡志林》"
     },
     {
-      "title": "岳飞‘岳母刺字’：精忠报国的千年传说",
-      "dynasty": "南宋",
+      "title": "张衡的‘浑天说’与漏水转浑天仪",
+      "dynasty": "东汉",
+      "category": "古代天文地理",
+      "source": "《后汉书·张衡传》"
+    },
+    {
+      "title": "《山海经》中的‘昆仑山’：古代地理神话的密码",
+      "dynasty": "先秦",
+      "category": "古代天文地理",
+      "source": "《山海经·西山经》《史记·大宛列传》"
+    },
+    {
+      "title": "郭守敬的‘四海测验’：元朝的天文大普查",
+      "dynasty": "元",
+      "category": "古代天文地理",
+      "source": "《元史·郭守敬传》《授时历》"
+    },
+    {
+      "title": "孙武‘三令五申’：吴宫教战的兵法智慧",
+      "dynasty": "春秋",
+      "category": "兵法谋略故事",
+      "source": "《史记·孙子吴起列传》"
+    },
+    {
+      "title": "李愬‘雪夜袭蔡州’：出其不意的奇袭战例",
+      "dynasty": "唐",
+      "category": "兵法谋略故事",
+      "source": "《资治通鉴·唐纪》《旧唐书·李愬传》"
+    },
+    {
+      "title": "元宵节的‘灯谜’起源：汉武帝与东方朔的智慧游戏",
+      "dynasty": "西汉",
       "category": "传统节日传说",
-      "source": "《宋史·岳飞传》《岳飞庙志》"
+      "source": "《汉书·东方朔传》《文心雕龙·谐隐》"
     },
     {
-      "title": "朱棣‘靖难之役’：从藩王到皇帝的逆袭之路",
-      "dynasty": "明",
+      "title": "寒食节的‘禁火’传统：介子推的忠义与遗憾",
+      "dynasty": "春秋",
+      "category": "传统节日传说",
+      "source": "《左传·僖公二十四年》《史记·晋世家》"
+    },
+    {
+      "title": "重阳节的‘登高避祸’：桓景斩妖的传说",
+      "dynasty": "东汉",
+      "category": "传统节日传说",
+      "source": "《续齐谐记》"
+    },
+    {
+      "title": "中国古代‘水密舱壁’：福船的抗沉黑科技",
+      "dynasty": "唐宋",
       "category": "历史趣考",
-      "source": "《明史·成祖本纪》《明史纪事本末》"
+      "source": "《宋史·食货志》《天工开物》"
+    },
+    {
+      "title": "诸葛亮‘木牛流马’：是机械牛还是独轮车？",
+      "dynasty": "三国",
+      "category": "历史趣考",
+      "source": "《三国志·诸葛亮传》《宋史·舆服志》"
+    },
+    {
+      "title": "古代‘消防队’：唐代的‘武侯铺’与宋代‘潜火军’",
+      "dynasty": "唐/宋",
+      "category": "历史趣考",
+      "source": "《唐六典》《东京梦华录》《宋史·职官志》"
+    },
+    {
+      "title": "《诗经》中的‘七月流火’：不是天气热，而是天文历法",
+      "dynasty": "西周",
+      "category": "古代天文地理",
+      "source": "《诗经·豳风·七月》"
+    },
+    {
+      "title": "《清明上河图》中的‘外卖小哥’：宋代餐饮业的繁荣",
+      "dynasty": "北宋",
+      "category": "历史趣考",
+      "source": "《清明上河图》《东京梦华录》"
+    },
+    {
+      "title": "明代‘抗倭神器’：戚继光的‘鸳鸯阵’与狼筅",
+      "dynasty": "明",
+      "category": "兵法谋略故事",
+      "source": "《明史·戚继光传》《纪效新书》"
+    },
+    {
+      "title": "《徐霞客游记》中的‘喀斯特地貌’：世界最早的岩溶研究",
+      "dynasty": "明",
+      "category": "古代天文地理",
+      "source": "《徐霞客游记》"
     }
   ]
 }
