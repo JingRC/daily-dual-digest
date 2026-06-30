@@ -5,195 +5,195 @@
   "ai_news": [
     {
       "title": "GPT-5.6正式发布，史上最强但被自己坑惨了",
-      "summary_zh": "OpenAI正式发布GPT-5.6，声称是史上最强模型，但因能力逼近关键阈值，使用资格和方式成为更受关注的事项。该模型可能限制部分用户访问，引发对AI安全与普及的广泛讨论。",
+      "summary_zh": "OpenAI正式发布GPT-5.6，号称史上最强模型，但因其能力逼近关键安全阈值，导致使用资格和方式受限，部分用户可能无法使用。这一矛盾凸显了AI能力增长与安全可控性之间的核心张力。",
       "source": "爱范儿",
       "url": "https://www.ifanr.com/1670225",
       "score": 5
     },
     {
-      "title": "自变量机器人2个月完成4轮融资，估值突破200亿元",
-      "summary_zh": "自变量机器人在两个月内完成4轮融资，估值突破200亿元，成为大湾区首家估值超200亿的具身智能公司。投资方群星闪耀，显示出资本市场对具身智能赛道的高度热情。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1670322",
-      "score": 5
-    },
-    {
-      "title": "南韩科技巨头承诺投资超5500亿美元缓解‘内存危机’",
-      "summary_zh": "三星和SK海力士等南韩科技巨头承诺投资超过5500亿美元建设新的内存芯片工厂，以应对全球AI芯片需求激增导致的‘内存危机’。此举将巩固韩国作为AI科技强国的地位。",
+      "title": "韩国科技巨头承诺投资超5500亿美元缓解‘内存危机’",
+      "summary_zh": "三星和SK海力士宣布将投资超过5500亿美元建设更多内存芯片工厂，以缓解全球AI算力需求激增导致的‘内存危机’。此举将巩固韩国作为AI技术强国的地位，并可能重塑全球存储芯片供应链格局。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/south-korean-tech-giants-commit-over-550b-to-ease-ramageddon/",
       "score": 5
     },
     {
-      "title": "Chamath Palihapitiya为AI编码初创公司融资1.35亿美元并担任CEO",
-      "summary_zh": "知名投资者Chamath Palihapitiya为其AI编码初创公司完成1.35亿美元A轮融资，并亲自担任CEO。这反映了风投市场对AI编码工具赛道的持续狂热。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
-      "score": 4
-    },
-    {
-      "title": "Anthropic与加州州长达成协议，加州政府半价使用Claude",
-      "summary_zh": "Anthropic与加州州长纽森达成协议，允许加州政府以半价使用其AI模型Claude。此举加强了Anthropic与州政府的关系，同时与联邦政府形成对立。",
+      "title": "Anthropic与加州州长达成协议，政府可半价使用Claude",
+      "summary_zh": "Anthropic与加州州长纽森达成协议，允许加州政府以半价使用其AI模型Claude。此举标志着AI公司与地方政府合作的深化，同时也引发了对联邦政府与科技巨头关系的关注。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
-      "score": 4
+      "score": 5
     },
     {
-      "title": "AI就业辩论再起波澜：高采纳率企业员工数增长10.2%",
-      "summary_zh": "最新报告显示，高AI采纳率企业的员工数增长10.2%，其中初级岗位增长12%。这一数据反驳了AI会消灭初级工作的说法，使AI就业影响辩论更加复杂。",
+      "title": "AI就业辩论再起波澜：采用AI的企业反而增加了初级岗位",
+      "summary_zh": "一项新报告显示，高密度采用AI的企业员工总数增长了10.2%，其中初级岗位增长了12%，反驳了AI会消灭初级工作的论调。这为AI与就业关系的辩论提供了新的实证数据。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/",
       "score": 4
     },
     {
-      "title": "OpenAI预告Codex硬件设备，将于7月15日发布",
-      "summary_zh": "OpenAI在社交媒体上发布视频，预告一款与AI编程工具Codex相关的方形硬件设备，配备多个按钮，将于7月15日发布。这标志着OpenAI进军硬件领域的新尝试。",
+      "title": "OpenAI为Codex发布新硬件设备",
+      "summary_zh": "OpenAI发布了一段视频，展示了一款与AI编程工具Codex相关的新硬件设备，计划于7月15日推出。该设备带有多个按钮，旨在为Codex快捷键提供升级体验，标志着OpenAI向硬件领域的进一步拓展。",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
       "score": 4
     },
     {
-      "title": "DeepSeek发布DSpark，加速大模型推理",
-      "summary_zh": "DeepSeek与北京大学联合发布大模型推理加速框架DSpark，旨在解决AI回答的延迟问题，提升用户体验。这标志着在模型效率优化方面的重要技术突破。",
+      "title": "DeepSeek发布DSpark大模型推理加速框架",
+      "summary_zh": "DeepSeek联合北京大学发布DSpark推理加速框架，旨在解决大模型回答‘挤牙膏’式缓慢的问题。该技术突破有望显著提升AI推理效率，降低延迟，对实时AI应用具有重要价值。",
       "source": "爱范儿",
       "url": "https://www.ifanr.com/1670249",
       "score": 4
     },
     {
-      "title": "议员提议禁止AI公司出售用户健康数据",
-      "summary_zh": "美国参议员沃伦和众议员斯坎伦计划提出新法案，禁止AI公司（如ChatGPT和Claude）出售美国人的健康和位置信息给数据经纪商，旨在加强隐私保护。",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
+      "title": "AI领导者Arena估值达1亿美元，商业化加速",
+      "summary_zh": "运营知名AI排行榜的初创公司Arena现已成长为价值1亿美元的业务，其商业服务于去年9月才推出。这反映了AI基准测试和评估工具的巨大商业潜力，以及行业对模型性能透明度的需求。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/",
       "score": 4
     },
     {
-      "title": "TIDAL打击AI音乐，切断AI生成内容的变现渠道",
-      "summary_zh": "音乐平台TIDAL宣布新政策，从7月15日起对AI生成音乐进行标记，并立即切断其变现渠道。此举旨在保护艺术家权益，但也引发了关于AI音乐监管的讨论。",
+      "title": "自变量机器人2个月完成4轮融资，估值突破200亿元",
+      "summary_zh": "具身智能初创公司自变量机器人在两个月内完成四轮融资，估值突破200亿元人民币，成为大湾区首家估值超200亿的具身智能公司。这显示了资本对具身智能赛道的高度热情。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670322",
+      "score": 4
+    },
+    {
+      "title": "Tidal打击AI音乐：不再支付版税，但非全面封禁",
+      "summary_zh": "音乐流媒体平台Tidal宣布新政策，自7月15日起对完全由AI生成的音乐进行标记，并停止支付版税。同时将用自动工具移除冒充艺术家的AI音乐。此举在保护艺术家与应对AI内容之间寻求平衡。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+      "score": 3
+    },
+    {
+      "title": "谷歌Gemini个性化AI图像生成向美国免费用户开放",
+      "summary_zh": "谷歌宣布将Gemini的个性化AI图像生成功能扩展至美国免费用户，允许聊天机器人根据用户兴趣和关联谷歌应用的数据创建图像。此举进一步降低了AI创作工具的使用门槛，但引发了隐私担忧。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
       "score": 3
     }
   ],
   "stories": [
     {
-      "title": "古代‘冰箱’：曾侯乙铜鉴缶的冰酒秘术",
+      "title": "古代‘冰箱’：曾侯乙铜鉴缶的冰镇智慧",
       "dynasty": "战国",
       "category": "历史趣考",
-      "source": "《周礼》《随县曾侯乙墓》"
+      "source": "《周礼·天官·凌人》与曾侯乙墓考古报告"
     },
     {
-      "title": "汉代的‘环保路灯’：长信宫灯的烟道设计",
-      "dynasty": "西汉",
+      "title": "最早的‘消防队’：南宋临安的‘潜火军’",
+      "dynasty": "南宋",
       "category": "历史趣考",
-      "source": "《满城汉墓发掘报告》"
+      "source": "《东京梦华录》《梦粱录》"
     },
     {
-      "title": "古代‘身份证’：唐代鱼符与官员的‘打卡’制度",
-      "dynasty": "唐",
-      "category": "历史趣考",
-      "source": "《新唐书·车服志》《唐六典》"
-    },
-    {
-      "title": "秦代‘高速公路’：秦直道的军事奇迹",
-      "dynasty": "秦",
-      "category": "历史趣考",
-      "source": "《史记·秦始皇本纪》《汉书·贾山传》"
-    },
-    {
-      "title": "宋代‘自来水’：苏轼设计的广州引水工程",
-      "dynasty": "北宋",
-      "category": "历史趣考",
-      "source": "《宋史·苏轼传》《东坡志林》"
-    },
-    {
-      "title": "张衡的‘浑天说’与漏水转浑天仪",
-      "dynasty": "东汉",
-      "category": "古代天文地理",
-      "source": "《后汉书·张衡传》"
-    },
-    {
-      "title": "《山海经》中的‘昆仑山’：古代地理神话的密码",
+      "title": "《山海经》里的‘外星人’：贯胸国与羽民国",
       "dynasty": "先秦",
       "category": "古代天文地理",
-      "source": "《山海经·西山经》《史记·大宛列传》"
+      "source": "《山海经·海外南经》"
     },
     {
-      "title": "郭守敬的‘四海测验’：元朝的天文大普查",
+      "title": "郑国渠：阴谋变福祉的‘疲秦计’",
+      "dynasty": "战国（秦）",
+      "category": "历史趣考",
+      "source": "《史记·河渠书》"
+    },
+    {
+      "title": "古代‘高考’：科举中的‘糊名’与‘誊录’",
+      "dynasty": "宋",
+      "category": "历史趣考",
+      "source": "《宋史·选举志》"
+    },
+    {
+      "title": "最早的‘纸币’：交子如何诞生于四川",
+      "dynasty": "北宋",
+      "category": "历史趣考",
+      "source": "《宋史·食货志》"
+    },
+    {
+      "title": "马可·波罗的‘东方见闻’：元大都的真实记录",
       "dynasty": "元",
       "category": "古代天文地理",
-      "source": "《元史·郭守敬传》《授时历》"
+      "source": "《马可·波罗游记》"
     },
     {
-      "title": "孙武‘三令五申’：吴宫教战的兵法智慧",
+      "title": "‘田忌赛马’的另一面：孙膑的兵法谋略",
+      "dynasty": "战国",
+      "category": "兵法谋略故事",
+      "source": "《史记·孙子吴起列传》"
+    },
+    {
+      "title": "空城计：并非诸葛亮的专利",
+      "dynasty": "春秋",
+      "category": "兵法谋略故事",
+      "source": "《左传·庄公二十八年》"
+    },
+    {
+      "title": "除夕‘守岁’的起源：驱赶‘年兽’与祭祖",
+      "dynasty": "先秦",
+      "category": "传统节日传说",
+      "source": "《诗经·豳风·七月》及《荆楚岁时记》"
+    },
+    {
+      "title": "腊八节的由来：释迦牟尼成道与‘赤豆打鬼’",
+      "dynasty": "南北朝",
+      "category": "传统节日传说",
+      "source": "《荆楚岁时记》《梦粱录》"
+    },
+    {
+      "title": "古代‘天文台’：登封观星台的圭表测影",
+      "dynasty": "元",
+      "category": "古代天文地理",
+      "source": "《元史·天文志》"
+    },
+    {
+      "title": "《水经注》：郦道元的‘地理百科全书’",
+      "dynasty": "北魏",
+      "category": "古代天文地理",
+      "source": "《水经注》"
+    },
+    {
+      "title": "古代‘法律顾问’：商鞅的‘徙木立信’",
+      "dynasty": "战国（秦）",
+      "category": "历史趣考",
+      "source": "《史记·商君列传》"
+    },
+    {
+      "title": "古代‘高速公路’：秦直道的军事奇迹",
+      "dynasty": "秦",
+      "category": "古代天文地理",
+      "source": "《史记·秦始皇本纪》"
+    },
+    {
+      "title": "古代‘广告’：宋代的‘叫卖’与‘招牌’",
+      "dynasty": "宋",
+      "category": "历史趣考",
+      "source": "《东京梦华录》《清明上河图》"
+    },
+    {
+      "title": "古代‘间谍’：孙武的‘女兵训练’与纪律",
       "dynasty": "春秋",
       "category": "兵法谋略故事",
       "source": "《史记·孙子吴起列传》"
     },
     {
-      "title": "李愬‘雪夜袭蔡州’：出其不意的奇袭战例",
+      "title": "古代‘环保法’：《吕氏春秋》中的‘四时之禁’",
+      "dynasty": "战国（秦）",
+      "category": "历史趣考",
+      "source": "《吕氏春秋·十二纪》"
+    },
+    {
+      "title": "古代‘快递’：唐代的‘驿传’系统",
       "dynasty": "唐",
-      "category": "兵法谋略故事",
-      "source": "《资治通鉴·唐纪》《旧唐书·李愬传》"
-    },
-    {
-      "title": "元宵节的‘灯谜’起源：汉武帝与东方朔的智慧游戏",
-      "dynasty": "西汉",
-      "category": "传统节日传说",
-      "source": "《汉书·东方朔传》《文心雕龙·谐隐》"
-    },
-    {
-      "title": "寒食节的‘禁火’传统：介子推的忠义与遗憾",
-      "dynasty": "春秋",
-      "category": "传统节日传说",
-      "source": "《左传·僖公二十四年》《史记·晋世家》"
-    },
-    {
-      "title": "重阳节的‘登高避祸’：桓景斩妖的传说",
-      "dynasty": "东汉",
-      "category": "传统节日传说",
-      "source": "《续齐谐记》"
-    },
-    {
-      "title": "中国古代‘水密舱壁’：福船的抗沉黑科技",
-      "dynasty": "唐宋",
       "category": "历史趣考",
-      "source": "《宋史·食货志》《天工开物》"
+      "source": "《唐六典》《资治通鉴》"
     },
     {
-      "title": "诸葛亮‘木牛流马’：是机械牛还是独轮车？",
-      "dynasty": "三国",
-      "category": "历史趣考",
-      "source": "《三国志·诸葛亮传》《宋史·舆服志》"
-    },
-    {
-      "title": "古代‘消防队’：唐代的‘武侯铺’与宋代‘潜火军’",
-      "dynasty": "唐/宋",
-      "category": "历史趣考",
-      "source": "《唐六典》《东京梦华录》《宋史·职官志》"
-    },
-    {
-      "title": "《诗经》中的‘七月流火’：不是天气热，而是天文历法",
-      "dynasty": "西周",
+      "title": "古代‘水利工程师’：西门豹治邺与引漳灌溉",
+      "dynasty": "战国（魏）",
       "category": "古代天文地理",
-      "source": "《诗经·豳风·七月》"
-    },
-    {
-      "title": "《清明上河图》中的‘外卖小哥’：宋代餐饮业的繁荣",
-      "dynasty": "北宋",
-      "category": "历史趣考",
-      "source": "《清明上河图》《东京梦华录》"
-    },
-    {
-      "title": "明代‘抗倭神器’：戚继光的‘鸳鸯阵’与狼筅",
-      "dynasty": "明",
-      "category": "兵法谋略故事",
-      "source": "《明史·戚继光传》《纪效新书》"
-    },
-    {
-      "title": "《徐霞客游记》中的‘喀斯特地貌’：世界最早的岩溶研究",
-      "dynasty": "明",
-      "category": "古代天文地理",
-      "source": "《徐霞客游记》"
+      "source": "《史记·滑稽列传》"
     }
   ]
 }
