@@ -1,19 +1,19 @@
-name: 每日双拼日报
+name: Daily Dual Digest
 
 on:
   schedule:
-    # 北京时间每天早上 8:00 (UTC 0:00)
-    - cron: '0 0 * * *'
-  workflow_dispatch:      # 允许手动触发
+    # Beijing 8:07 AM daily (UTC 0:07, odd minute avoids peak congestion)
+    - cron: '7 0 * * *'
+  workflow_dispatch:
   push:
     branches:
       - master
     paths:
-      - 'config.yml'       # 配置变更时触发
+      - 'config.yml'
 
 permissions:
-  contents: write          # 用于写入 docs/ 目录和提交
-  pages: write             # 用于部署 GitHub Pages
+  contents: write
+  pages: write
 
 jobs:
   generate:
@@ -21,21 +21,19 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: 设置 Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
 
-      - name: 安装依赖
+      - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: 生成每日双拼日报
+      - name: Generate daily digest
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
@@ -43,10 +41,9 @@ jobs:
           RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_PAGE_ID: ${{ secrets.NOTION_PAGE_ID }}
-        run: |
-          python main.py
+        run: python main.py
 
-      - name: 部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
