@@ -2,8 +2,8 @@ name: Daily Dual Digest
 
 on:
   schedule:
-    # Beijing 8:07 AM daily (UTC 0:07, odd minute avoids peak congestion)
-    - cron: '7 0 * * *'
+    # Beijing 8:13 AM daily (UTC 0:13, odd minute avoids peak congestion)
+    - cron: '13 0 * * *'
   workflow_dispatch:
   push:
     branches:
