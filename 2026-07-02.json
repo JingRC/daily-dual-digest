@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-02",
+  "ai_news_count": 10,
+  "stories_count": 20,
+  "ai_news": [
+    {
+      "title": "Together AI完成8亿美元融资，估值飙升至83亿美元",
+      "summary_zh": "专注于托管开源模型的AI云服务商Together AI在最新一轮融资中筹集了8亿美元，估值从2025年初的33亿美元跃升至83亿美元。此次大规模融资凸显了市场对AI基础设施和开源模型部署服务的强劲需求。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+      "score": 5
+    },
+    {
+      "title": "Cloudflare新政策：迫使AI公司为出版商内容付费",
+      "summary_zh": "Cloudflare给AI公司设定9月15日截止日期，要求其将搜索爬虫与AI训练和代理爬虫分离，否则将在众多出版商网站上默认被屏蔽。此举旨在保护出版商权益，推动AI公司为其训练数据付费。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "score": 5
+    },
+    {
+      "title": "Venice AI获6500万美元A轮融资，成为独角兽",
+      "summary_zh": "主打隐私优先的AI平台Venice AI完成6500万美元A轮融资，跻身独角兽行列。该公司已实现盈利，年化收入超7000万美元，表明用户对注重隐私的AI服务需求旺盛，商业模式可行。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "score": 5
+    },
+    {
+      "title": "谷歌Gemini Spark代理助手登陆Mac",
+      "summary_zh": "谷歌将其全天候代理助手Gemini Spark引入Mac平台，同时带来实时追踪和对更多应用的支持等改进。此举标志着谷歌在AI助手领域的战略推进，增强了其在桌面端的竞争力。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "score": 4
+    },
+    {
+      "title": "Hugging Face与Cerebras合作，将Gemma 4引入实时语音AI",
+      "summary_zh": "Hugging Face与Cerebras Systems合作，将谷歌的Gemma 4模型部署于实时语音AI应用。这一合作结合了Cerebras的高性能计算能力与Hugging Face的模型生态，为低延迟语音交互场景提供了新解决方案。",
+      "source": "Hugging Face - Blog",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "score": 4
+    },
+    {
+      "title": "Anthropic发布更便宜的Claude新模型",
+      "summary_zh": "在经历大规模封号事件后，Anthropic突然发布了一款更便宜的Claude新模型。此举旨在降低开发者使用门槛，扩大用户基础，同时应对来自OpenAI和谷歌等竞争对手的定价压力。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670577?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 4
+    },
+    {
+      "title": "ScarfBench：评估AI代理迁移企业Java框架的基准",
+      "summary_zh": "IBM研究团队在Hugging Face上发布ScarfBench，这是一个专门评估AI代理在复杂企业Java框架迁移任务中表现的新基准。该基准填补了评估AI代理处理遗留系统现代化能力的空白，对企业AI应用具有重要参考价值。",
+      "source": "Hugging Face - Blog",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "score": 4
+    },
+    {
+      "title": "SpaceX被曝研发AI设备原型，马斯克否认",
+      "summary_zh": "据报道，SpaceX在上市前向投资者展示了一款类似手机的AI设备原型，暗示其可能进军无线通信领域。但埃隆·马斯克随后公开否认该报道，称其“完全不实”。此事仍引发业界对SpaceX AI战略的猜测。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+      "score": 3
+    },
+    {
+      "title": "Codex首款硬件曝光：AI务实与祛魅",
+      "summary_zh": "AI编程工具Codex发布了其首款硬件产品，标志着从纯软件向硬件的战略延伸。该设备旨在提供更高效的本地化AI开发体验，体现了AI行业从云端向边缘设备延伸的务实趋势。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670396?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 3
+    },
+    {
+      "title": "OpenAI开源AI渗透测试工具Strix",
+      "summary_zh": "GitHub上开源了名为Strix的AI渗透测试工具，旨在帮助开发人员自动发现和修复应用中的安全漏洞。该工具利用AI技术进行安全测试，有望降低安全门槛，提升应用安全性。",
+      "source": "GitHub Trending",
+      "url": "https://github.com/usestrix/strix",
+      "score": 3
+    }
+  ],
+  "stories": [
+    {
+      "title": "韩愈谏迎佛骨",
+      "dynasty": "唐",
+      "category": "历史故事",
+      "source": "《旧唐书·韩愈传》"
+    },
+    {
+      "title": "范雎远交近攻",
+      "dynasty": "战国",
+      "category": "兵法谋略故事",
+      "source": "《史记·范雎蔡泽列传》"
+    },
+    {
+      "title": "甘德与石申的天文观测",
+      "dynasty": "战国",
+      "category": "古代天文地理",
+      "source": "《史记·天官书》《开元占经》"
+    },
+    {
+      "title": "端午节的另一种传说：伍子胥",
+      "dynasty": "春秋",
+      "category": "传统节日传说",
+      "source": "《吴越春秋》《荆楚岁时记》"
+    },
+    {
+      "title": "陈平六出奇计",
+      "dynasty": "西汉",
+      "category": "历史故事",
+      "source": "《史记·陈丞相世家》"
+    },
+    {
+      "title": "郭橐驼种树",
+      "dynasty": "唐",
+      "category": "历史故事",
+      "source": "《柳宗元集·种树郭橐驼传》"
+    },
+    {
+      "title": "曹操割发代首",
+      "dynasty": "东汉末",
+      "category": "历史故事",
+      "source": "《三国志·武帝纪》注引《曹瞒传》"
+    },
+    {
+      "title": "祖逖闻鸡起舞",
+      "dynasty": "东晋",
+      "category": "历史故事",
+      "source": "《晋书·祖逖传》"
+    },
+    {
+      "title": "张巡守睢阳",
+      "dynasty": "唐",
+      "category": "历史故事",
+      "source": "《旧唐书·张巡传》《新唐书·忠义传》"
+    },
+    {
+      "title": "狄青夜袭昆仑关",
+      "dynasty": "北宋",
+      "category": "兵法谋略故事",
+      "source": "《宋史·狄青传》《续资治通鉴长编》"
+    },
+    {
+      "title": "沈括与《梦溪笔谈》",
+      "dynasty": "北宋",
+      "category": "古代天文地理",
+      "source": "《梦溪笔谈》"
+    },
+    {
+      "title": "中秋节传说：玄宗游月宫",
+      "dynasty": "唐",
+      "category": "传统节日传说",
+      "source": "《明皇杂录》《唐逸史》"
+    },
+    {
+      "title": "管宁割席断交",
+      "dynasty": "东汉末",
+      "category": "历史故事",
+      "source": "《世说新语·德行》"
+    },
+    {
+      "title": "李愬雪夜入蔡州",
+      "dynasty": "唐",
+      "category": "兵法谋略故事",
+      "source": "《旧唐书·李愬传》《资治通鉴》"
+    },
+    {
+      "title": "大禹治水与《山海经》",
+      "dynasty": "上古",
+      "category": "古代天文地理",
+      "source": "《山海经·海内经》《史记·夏本纪》"
+    },
+    {
+      "title": "海瑞抬棺谏嘉靖",
+      "dynasty": "明",
+      "category": "历史故事",
+      "source": "《明史·海瑞传》"
+    },
+    {
+      "title": "郑国渠的阴谋与功绩",
+      "dynasty": "战国",
+      "category": "古代天文地理",
+      "source": "《史记·河渠书》《资治通鉴》"
+    },
+    {
+      "title": "王阳明龙场悟道",
+      "dynasty": "明",
+      "category": "历史故事",
+      "source": "《明史·王守仁传》《王阳明全集》"
+    },
+    {
+      "title": "张骞通西域与葡萄传入",
+      "dynasty": "西汉",
+      "category": "古代天文地理",
+      "source": "《史记·大宛列传》《汉书·西域传》"
+    },
+    {
+      "title": "朱棣迁都北京",
+      "dynasty": "明",
+      "category": "历史故事",
+      "source": "《明史·成祖本纪》《明实录》"
+    }
+  ]
+}
