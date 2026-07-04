@@ -1,193 +1,199 @@
 {
   "date": "2026-07-04",
   "ai_news_count": 10,
-  "stories_count": 19,
+  "stories_count": 20,
   "ai_news": [
     {
-      "title": "Anthropic与三星商讨定制AI芯片",
-      "summary_zh": "Anthropic正与三星商讨开发定制AI芯片，此举紧随OpenAI与博通合作发布自有AI芯片之后。这标志着顶级AI公司加速自研硬件以降低对英伟达依赖，定制芯片将成为AI军备竞赛的关键战场。",
+      "title": "阿里内部全面禁用Claude Code，列为高风险软件",
+      "summary_zh": "阿里巴巴将Anthropic的AI编码工具Claude Code列为高风险软件，内部全面禁止使用。此举引发业界对AI编程工具安全性和合规性的广泛讨论，凸显大型科技企业在引入外部AI工具时的谨慎态度，可能影响其他企业的AI工具使用政策。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
-      "score": 5
-    },
-    {
-      "title": "Anthropic发布Claude Science进军药物研发",
-      "summary_zh": "Anthropic在'AI for Science'活动上推出Claude Science，这是一个将分散工具和数据整合的AI工作台，可生成科学图表和可视化内容。该产品标志着AI公司从编程领域向药物研发等硬科学应用的战略扩张。",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development",
-      "score": 5
-    },
-    {
-      "title": "Meta低调发布AI游戏应用Pocket",
-      "summary_zh": "Meta悄然推出实验性AI应用Pocket，用户可通过文本提示生成并分享交互式迷你游戏。这是Meta在'vibe coding'趋势下的最新尝试，进一步拓展其AI应用生态，从社交向创意娱乐领域延伸。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
       "score": 4
     },
     {
-      "title": "扎克伯格承认AI代理进展慢于预期",
-      "summary_zh": "在Meta内部会议上，扎克伯格对员工表示AI代理开发进展未达预期。这一罕见坦诚反映了当前AI行业面临的现实挑战：尽管投入巨大，但自主智能体的能力提升和实际落地仍面临技术瓶颈。",
+      "title": "Mark Zuckerberg承认AI代理进展不及预期",
+      "summary_zh": "Meta CEO马克·扎克伯格在内部会议上表示，AI代理开发进展未达预期。这一坦诚表态揭示了AI行业在实现自主代理技术上面临的挑战，包括推理能力、可靠性和实际部署障碍，对行业预期管理有重要影响。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
-      "score": 4
+      "score": 5
     },
     {
-      "title": "AI能耗威胁科技公司净零承诺",
-      "summary_zh": "谷歌和亚马逊等科技巨头的AI扩张导致能耗激增，严重威胁其净零排放承诺。文章揭示AI的真实成本不仅体现在算力投资，更体现在环境代价上，为行业可持续发展敲响警钟。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/",
-      "score": 4
-    },
-    {
-      "title": "Hugging Face与Cerebras推出实时语音AI",
-      "summary_zh": "Hugging Face与Cerebras合作，基于Gemma 4模型推出实时语音AI解决方案。该技术将大语言模型与高效推理硬件结合，实现低延迟语音交互，为语音助手和实时翻译等应用开辟新可能。",
-      "source": "Hugging Face - Blog",
-      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "score": 4
-    },
-    {
-      "title": "阿里内部全面禁用Claude Code",
-      "summary_zh": "阿里巴巴内部全面禁用Anthropic的Claude Code编程工具，反映中国科技巨头对AI工具数据安全的担忧。此举可能引发国内企业效仿，推动国产AI编程工具替代，加剧中美AI生态分化。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1670957?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "score": 4
-    },
-    {
-      "title": "Anthropic发布更便宜的新模型",
-      "summary_zh": "大规模封号事件后，Anthropic突然发布更便宜的新模型，试图扩大用户覆盖。此举表明AI公司正通过价格战争夺市场，同时通过模型分层策略平衡性能与成本，推动AI服务普及化。",
+      "title": "Anthropic发布更便宜的Claude新模型",
+      "summary_zh": "在经历大规模封号事件后，Anthropic突然发布价格更低的新Claude模型，旨在扩大市场覆盖和开发者生态。此举反映了AI模型价格战持续升级，OpenAI、Google等竞争对手已多次降价，Anthropic正通过性价比策略争夺市场份额。",
       "source": "爱范儿",
       "url": "https://www.ifanr.com/1670577?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "score": 3
+      "score": 4
     },
     {
-      "title": "OpenAI发布Codex插件支持Claude Code",
-      "summary_zh": "OpenAI发布codex-plugin-cc，允许从Claude Code中调用Codex进行代码审查或任务委托。这一跨平台合作工具打破了AI编程领域的壁垒，展示了不同AI模型协同工作的潜力，推动开发效率提升。",
+      "title": "阿里巴巴开源Page-Agent：自然语言控制网页的GUI代理",
+      "summary_zh": "阿里巴巴开源Page-Agent，一个基于JavaScript的页面内GUI代理，用户可通过自然语言控制网页界面。该项目展示了AI代理在浏览器自动化领域的突破，对自动化测试、数据采集和无障碍访问有重要意义，也反映了国内大厂在AI Agent领域的积极布局。",
+      "source": "GitHub Trending",
+      "url": "https://github.com/alibaba/page-agent",
+      "score": 4
+    },
+    {
+      "title": "OpenAI发布Codex插件，支持从Claude Code调用",
+      "summary_zh": "OpenAI推出Codex插件，允许开发者从Claude Code中调用Codex进行代码审查或任务委派。这一跨平台合作打破了AI编码工具之间的壁垒，展现了AI生态开放化的趋势，可能推动更多模型间的互操作性和协作模式创新。",
       "source": "GitHub Trending",
       "url": "https://github.com/openai/codex-plugin-cc",
+      "score": 4
+    },
+    {
+      "title": "Hugging Face与Cerebras推出Gemma 4实时语音AI",
+      "summary_zh": "Hugging Face与Cerebras合作推出基于Gemma 4的实时语音AI解决方案，旨在提升语音交互的响应速度和准确性。该合作结合了Cerebras的硬件加速能力与Hugging Face的平台生态，为实时语音应用场景提供了新选择，对智能助手和客服领域有重要影响。",
+      "source": "Hugging Face - Blog",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
       "score": 3
     },
     {
-      "title": "Midjourney医疗扫描仪视频引发质疑",
-      "summary_zh": "Midjourney发布其医疗超声波扫描仪的幕后视频，但未提供有效证据。这款计划部署在SPA的设备声称能通过AI改变医疗，却因缺乏临床验证而备受质疑，凸显AI医疗产品从概念到落地的巨大鸿沟。",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video",
+      "title": "Meta被曝外包安全测试，制造ChatGPT翻车回答",
+      "summary_zh": "Meta被曝通过外包方式进行安全测试，制造ChatGPT的翻车回答。这一做法名为“红队测试”，旨在发现AI模型的漏洞和偏见，但引发了关于测试伦理和透明度的争议。事件凸显了AI安全评估中第三方参与的风险与必要性。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670735?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 3
+    },
+    {
+      "title": "Midjourney要求好莱坞披露AI使用细节",
+      "summary_zh": "在与三家好莱坞工作室的持续法律纠纷中，Midjourney要求对方披露其自身如何使用AI技术。此案可能成为AI版权和公平使用的重要判例，影响影视行业AI工具的合规边界，以及AI公司对用户数据使用情况的透明度要求。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "score": 3
+    },
+    {
+      "title": "Anthropic系统提示词大规模泄露，涉及Claude Fable 5等",
+      "summary_zh": "GitHub上出现大规模系统提示词泄露仓库，包含了Anthropic的Claude Fable 5、Opus 4.8、Claude Code等模型的内部提示词，以及OpenAI、Google、xAI等多家公司的提示词。这一泄露事件对AI安全、知识产权和模型行为控制构成严重威胁。",
+      "source": "GitHub Trending",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "score": 3
+    },
+    {
+      "title": "Strix开源AI渗透测试工具，可自动发现应用漏洞",
+      "summary_zh": "开源AI渗透测试工具Strix发布，能够自动发现和修复应用安全漏洞。该项目将AI能力引入网络安全领域，降低了渗透测试的门槛，可能改变安全行业的工具生态，同时也引发了对AI驱动攻击能力滥用的担忧。",
+      "source": "GitHub Trending",
+      "url": "https://github.com/usestrix/strix",
       "score": 3
     }
   ],
   "stories": [
     {
-      "title": "韩信胯下之辱：忍辱负重的智慧",
-      "dynasty": "西汉",
+      "title": "管仲的‘买鹿之谋’：经济战灭楚",
+      "dynasty": "春秋",
       "category": "历史趣考",
-      "source": "《史记·淮阴侯列传》"
+      "source": "《管子·轻重戊》"
     },
     {
-      "title": "商鞅徙木立信：一木定秦法",
-      "dynasty": "战国·秦",
-      "category": "历史趣考",
-      "source": "《史记·商君列传》"
-    },
-    {
-      "title": "郑和宝船：明代黑科技‘水密隔舱’",
+      "title": "郑和宝船：当时世界最大的木帆船",
       "dynasty": "明",
       "category": "古代科技发明故事",
-      "source": "《明史·郑和传》《天工开物》"
+      "source": "《明史·郑和传》《瀛涯胜览》"
     },
     {
-      "title": "墨子救宋：九拒公输班的攻城术",
+      "title": "墨子救宋：九拒公输般的攻防战",
       "dynasty": "战国",
       "category": "诸子百家寓言",
       "source": "《墨子·公输》"
     },
     {
-      "title": "李广射石：飞将军的神力与心理战",
-      "dynasty": "西汉",
-      "category": "历史趣考",
-      "source": "《史记·李将军列传》"
-    },
-    {
-      "title": "赵氏孤儿：程婴杵臼的忠义传奇",
-      "dynasty": "春秋",
-      "category": "历史趣考",
-      "source": "《史记·赵世家》"
-    },
-    {
-      "title": "张骞通西域：凿空之旅的意外收获",
-      "dynasty": "西汉",
-      "category": "历史趣考",
-      "source": "《史记·大宛列传》《汉书·西域传》"
-    },
-    {
-      "title": "鲁班造木鸢：古代‘飞机’的传说",
-      "dynasty": "春秋",
-      "category": "古代科技发明故事",
-      "source": "《墨子·鲁问》《论衡·儒增》"
-    },
-    {
-      "title": "庄子鼓盆而歌：生死观的超脱",
-      "dynasty": "战国",
-      "category": "诸子百家寓言",
-      "source": "《庄子·至乐》"
-    },
-    {
-      "title": "田忌赛马：孙膑的博弈智慧",
-      "dynasty": "战国·齐",
-      "category": "兵法谋略故事",
-      "source": "《史记·孙子吴起列传》"
-    },
-    {
-      "title": "岳飞精忠报国：背上四字背后的真相",
-      "dynasty": "南宋",
-      "category": "历史趣考",
-      "source": "《宋史·岳飞传》"
-    },
-    {
-      "title": "郑国渠：韩国‘疲秦计’反成强秦之基",
-      "dynasty": "战国·秦",
-      "category": "古代科技发明故事",
-      "source": "《史记·河渠书》"
-    },
-    {
-      "title": "管仲三战三走：孝道与智慧的抉择",
-      "dynasty": "春秋",
-      "category": "历史趣考",
-      "source": "《史记·管晏列传》"
-    },
-    {
-      "title": "诸葛亮空城计：真实历史还是小说虚构？",
-      "dynasty": "三国",
-      "category": "历史趣考",
-      "source": "《三国志·诸葛亮传》《三国演义》"
-    },
-    {
-      "title": "赵武灵王胡服骑射：一场服装革命引发的强国之道",
-      "dynasty": "战国·赵",
-      "category": "历史趣考",
-      "source": "《史记·赵世家》"
-    },
-    {
-      "title": "孙叔敖埋两头蛇：民间传说背后的道德教育",
-      "dynasty": "春秋",
-      "category": "诸子百家寓言",
-      "source": "《新序·杂事一》《贾谊集》"
-    },
-    {
-      "title": "李愬雪夜入蔡州：风雪中的奇袭",
+      "title": "李愬雪夜入蔡州：奇袭的经典",
       "dynasty": "唐",
       "category": "兵法谋略故事",
-      "source": "《旧唐书·李愬传》《资治通鉴》"
+      "source": "《资治通鉴·唐纪》《旧唐书·李愬传》"
     },
     {
-      "title": "汉武帝‘金屋藏娇’：爱情童话背后的政治悲剧",
+      "title": "汉武帝的‘算缗告缗’：古代财产税与举报制度",
       "dynasty": "西汉",
       "category": "历史趣考",
-      "source": "《汉武故事》《史记·外戚世家》"
+      "source": "《史记·平准书》《汉书·食货志》"
     },
     {
-      "title": "勾践卧薪尝胆：复仇背后的忍耐与算计",
+      "title": "郭橐驼种树：顺其自然的智慧",
+      "dynasty": "唐",
+      "category": "诸子百家寓言",
+      "source": "《柳宗元集·种树郭橐驼传》"
+    },
+    {
+      "title": "耿恭守疏勒：绝境中的忠诚与奇迹",
+      "dynasty": "东汉",
+      "category": "历史趣考",
+      "source": "《后汉书·耿恭传》"
+    },
+    {
+      "title": "张仲景与‘祛寒娇耳汤’：饺子的起源",
+      "dynasty": "东汉",
+      "category": "古代科技发明故事",
+      "source": "《伤寒杂病论》序言及民间传说"
+    },
+    {
+      "title": "赵匡胤‘杯酒释兵权’：和平的权力交接",
+      "dynasty": "北宋",
+      "category": "历史趣考",
+      "source": "《续资治通鉴长编·卷二》"
+    },
+    {
+      "title": "王羲之‘东床坦腹’：真名士自风流",
+      "dynasty": "东晋",
+      "category": "历史趣考",
+      "source": "《世说新语·雅量》"
+    },
+    {
+      "title": "汉文帝‘缇萦救父’：废除肉刑的契机",
+      "dynasty": "西汉",
+      "category": "历史趣考",
+      "source": "《史记·扁鹊仓公列传》《汉书·刑法志》"
+    },
+    {
+      "title": "马钧改进‘指南车’：机械大师的匠心",
+      "dynasty": "三国·魏",
+      "category": "古代科技发明故事",
+      "source": "《三国志·魏书·方技传》注引《傅玄》"
+    },
+    {
+      "title": "勾践‘尝粪问疾’：卧薪尝胆背后的隐忍",
       "dynasty": "春秋",
       "category": "历史趣考",
-      "source": "《史记·越王勾践世家》"
+      "source": "《史记·越王勾践世家》《吴越春秋》"
+    },
+    {
+      "title": "李贺‘锦囊觅句’：诗鬼的创作方式",
+      "dynasty": "唐",
+      "category": "历史趣考",
+      "source": "《新唐书·李贺传》《唐才子传》"
+    },
+    {
+      "title": "范雎‘远交近攻’：秦国统一天下的战略",
+      "dynasty": "战国",
+      "category": "兵法谋略故事",
+      "source": "《史记·范雎蔡泽列传》"
+    },
+    {
+      "title": "沈括与《梦溪笔谈》：百科全书式的科学笔记",
+      "dynasty": "北宋",
+      "category": "古代科技发明故事",
+      "source": "《梦溪笔谈》"
+    },
+    {
+      "title": "孟尝君‘鸡鸣狗盗’：门客的用处",
+      "dynasty": "战国",
+      "category": "诸子百家寓言",
+      "source": "《史记·孟尝君列传》"
+    },
+    {
+      "title": "刘晏‘漕运改革’：唐朝的经济命脉",
+      "dynasty": "唐",
+      "category": "历史趣考",
+      "source": "《旧唐书·刘晏传》《新唐书·刘晏传》"
+    },
+    {
+      "title": "祖逖‘闻鸡起舞’与中流击楫",
+      "dynasty": "东晋",
+      "category": "历史趣考",
+      "source": "《晋书·祖逖传》"
+    },
+    {
+      "title": "徐光启与《农政全书》：向西方学习的先驱",
+      "dynasty": "明",
+      "category": "古代科技发明故事",
+      "source": "《明史·徐光启传》《农政全书》"
     }
   ]
 }
