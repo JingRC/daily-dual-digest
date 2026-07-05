@@ -1,0 +1,193 @@
+{
+  "date": "2026-07-05",
+  "ai_news_count": 10,
+  "stories_count": 19,
+  "ai_news": [
+    {
+      "title": "Hugging Face与Cerebras联手将Gemma 4带入实时语音AI",
+      "summary_zh": "Hugging Face与Cerebras合作，将Google的Gemma 4模型部署于实时语音AI场景，利用Cerebras的晶圆级芯片实现低延迟推理。此举标志着开源模型在语音交互领域的重大突破，有望推动对话式AI的普及。",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "score": 5
+    },
+    {
+      "title": "Alibaba内部禁用Claude Code，引发AI工具安全争议",
+      "summary_zh": "据报道，阿里巴巴将Anthropic的Claude Code归类为高风险软件，全面禁止员工使用。此举反映中国科技巨头对AI工具数据安全与合规性的高度警惕，可能影响全球AI开发工具的市场格局。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "score": 5
+    },
+    {
+      "title": "Claude发布更便宜的新模型，Anthropic加速商业化",
+      "summary_zh": "在大规模封号事件后，Anthropic突然发布更便宜的Claude模型，旨在扩大用户基础并降低企业使用门槛。此举标志着AI模型价格战加剧，Anthropic试图通过性价比策略抢占市场份额。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670577?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 5
+    },
+    {
+      "title": "Midjourney要求好莱坞披露AI使用细节，法律战升级",
+      "summary_zh": "在与三家好莱坞工作室的持续法律纠纷中，Midjourney要求对方披露其AI使用细节。此案可能确立AI生成内容在影视行业的使用边界，对版权法和创意产业产生深远影响。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "score": 4
+    },
+    {
+      "title": "OpenAI发布Codex插件，从Claude Code调用代码审查",
+      "summary_zh": "OpenAI推出Codex插件，允许从Claude Code调用其模型进行代码审查或任务委派。此举展示了AI工具间的互操作性，可能推动开发工作流的标准化，并加剧代码助手市场的竞争。",
+      "source": "GitHub Trending",
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "score": 4
+    },
+    {
+      "title": "大规模系统提示泄露事件曝光，涉及Anthropic、OpenAI、Google等",
+      "summary_zh": "GitHub上出现大规模系统提示泄露仓库，提取了Anthropic的Claude Fable 5、OpenAI的ChatGPT 5.5、Google的Gemini 3.5等模型的内部提示。此事件可能暴露AI模型的底层逻辑，引发安全与隐私担忧。",
+      "source": "GitHub Trending",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "score": 4
+    },
+    {
+      "title": "Meta外包测试ChatGPT翻车回答，引发安全测试伦理争议",
+      "summary_zh": "据报道，Meta雇佣外包团队对ChatGPT进行安全测试，故意诱导其生成不当回答。此举被美其名曰安全测试，但引发了关于AI测试伦理和外包责任边界的广泛讨论。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670735?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 4
+    },
+    {
+      "title": "阿里整合三大AI智能体产品，92年钉钉CEO统领",
+      "summary_zh": "阿里巴巴整合三大AI智能体产品，由年轻的钉钉CEO陈宇森（1992年出生）统领。此举标志着阿里在AI Agent领域的战略重组，旨在统一产品线并加速企业级AI应用落地。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670957?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 4
+    },
+    {
+      "title": "ScarfBench：基准测试AI代理在企业Java框架迁移中的表现",
+      "summary_zh": "IBM Research发布ScarfBench基准，专门评估AI代理在企业Java框架迁移任务中的能力。该基准填补了企业级AI应用评估的空白，对推动AI在传统软件开发中的实用化具有重要意义。",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "score": 4
+    },
+    {
+      "title": "松下计划投入约5000亿日元转向AI基础设施业务",
+      "summary_zh": "松下宣布未来三年投入约5000亿日元，全面转向AI基础设施业务。此举反映传统电子巨头正加速布局AI硬件市场，可能对数据中心和边缘计算供应链产生重大影响。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1670732?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 4
+    }
+  ],
+  "stories": [
+    {
+      "title": "石申与《石氏星经》",
+      "dynasty": "战国",
+      "category": "古代天文地理",
+      "source": "《开元占经》引《石氏星经》"
+    },
+    {
+      "title": "落下闳与《太初历》",
+      "dynasty": "西汉",
+      "category": "古代天文地理",
+      "source": "《汉书·律历志》"
+    },
+    {
+      "title": "僧一行测量子午线",
+      "dynasty": "唐",
+      "category": "古代天文地理",
+      "source": "《旧唐书·天文志》"
+    },
+    {
+      "title": "《山海经》中的‘夸父逐日’与古人对太阳的观测",
+      "dynasty": "先秦",
+      "category": "古代天文地理",
+      "source": "《山海经·海外北经》"
+    },
+    {
+      "title": "裴秀与《禹贡地域图》",
+      "dynasty": "西晋",
+      "category": "古代天文地理",
+      "source": "《晋书·裴秀传》"
+    },
+    {
+      "title": "《水经注》：郦道元与古代水文地理",
+      "dynasty": "北魏",
+      "category": "古代天文地理",
+      "source": "《水经注·序》"
+    },
+    {
+      "title": "鲁班造木鸢：古代飞行器的梦想",
+      "dynasty": "春秋",
+      "category": "古代科技发明",
+      "source": "《墨子·鲁问》"
+    },
+    {
+      "title": "黄道婆与棉纺织革新",
+      "dynasty": "元",
+      "category": "古代科技发明",
+      "source": "《南村辍耕录》卷二十四"
+    },
+    {
+      "title": "蔡伦改进造纸术：从‘絮纸’到‘蔡侯纸’",
+      "dynasty": "东汉",
+      "category": "古代科技发明",
+      "source": "《后汉书·蔡伦传》"
+    },
+    {
+      "title": "范雎与‘远交近攻’：秦国的外交智慧",
+      "dynasty": "战国",
+      "category": "成语典故",
+      "source": "《史记·范雎蔡泽列传》"
+    },
+    {
+      "title": "王羲之与‘东床坦腹’：名士风流的真性情",
+      "dynasty": "东晋",
+      "category": "成语典故",
+      "source": "《世说新语·雅量》"
+    },
+    {
+      "title": "班超投笔从戎：书生定西域",
+      "dynasty": "东汉",
+      "category": "古代名人逸事",
+      "source": "《后汉书·班超传》"
+    },
+    {
+      "title": "狄仁杰与‘白云亲舍’：孝道与忠君的两全",
+      "dynasty": "唐",
+      "category": "古代名人逸事",
+      "source": "《旧唐书·狄仁杰传》"
+    },
+    {
+      "title": "李时珍与《本草纲目》：踏遍青山寻药",
+      "dynasty": "明",
+      "category": "古代科技发明",
+      "source": "《明史·李时珍传》"
+    },
+    {
+      "title": "田忌赛马：孙膑的博弈智慧",
+      "dynasty": "战国",
+      "category": "成语典故",
+      "source": "《史记·孙子吴起列传》"
+    },
+    {
+      "title": "韩信胯下之辱：忍辱负重的逆袭",
+      "dynasty": "西汉",
+      "category": "古代名人逸事",
+      "source": "《史记·淮阴侯列传》"
+    },
+    {
+      "title": "张衡与浑天仪：模拟天球运转的智慧",
+      "dynasty": "东汉",
+      "category": "古代科技发明",
+      "source": "《后汉书·张衡传》"
+    },
+    {
+      "title": "苏武牧羊：十九年的坚守与气节",
+      "dynasty": "西汉",
+      "category": "古代名人逸事",
+      "source": "《汉书·李广苏建传》"
+    },
+    {
+      "title": "《天工开物》：宋应星与明代科技百科全书",
+      "dynasty": "明",
+      "category": "古代科技发明",
+      "source": "《天工开物·序》"
+    }
+  ]
+}
