@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-08",
+  "ai_news_count": 10,
+  "stories_count": 20,
+  "ai_news": [
+    {
+      "title": "SpaceXAI发布Grok 4.5，马斯克称其为'Opus级模型'",
+      "summary_zh": "马斯克的SpaceXAI发布了Grok 4.5版本，宣称其性能达到Opus级别，同时成本更低、效率更高。该模型定位为强大AI模型的替代方案，旨在降低使用门槛并提升推理效率，有望在竞争激烈的AI模型市场中掀起新一轮价格与性能竞赛。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "score": 5
+    },
+    {
+      "title": "OpenAI发布新语音模型，实现更自然的实时对话",
+      "summary_zh": "OpenAI推出了新一代语音模型GPT-Live-1，支持同时说话和倾听，实现实时翻译。新模型减少打断，能更自然地等待用户停顿后继续对话，显著提升人机交互体验。这一技术突破将推动语音助手、翻译等应用场景的进化。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+      "score": 5
+    },
+    {
+      "title": "Prime Intellect获1.3亿美元A轮融资，助力企业构建自主AI代理",
+      "summary_zh": "成立于2024年的Prime Intellect完成1.3亿美元A轮融资，旨在帮助企业无需依赖前沿AI实验室即可训练自主代理系统。本轮融资凸显了企业级AI代理市场的巨大需求，也反映了资本对去中心化AI基础设施的强烈兴趣。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+      "score": 5
+    },
+    {
+      "title": "Lovable估值翻倍至132亿美元，AI应用开发领域持续升温",
+      "summary_zh": "据报道，AI应用开发平台Lovable正在洽谈新一轮3亿美元融资，由Menlo Ventures领投，估值将翻倍至132亿美元。这一高估值反映了市场对AI驱动应用开发工具的极度追捧，也标志着AI创业公司融资热潮持续。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/lovable-reportedly-in-talks-to-double-its-valuation-to-13-2b/",
+      "score": 5
+    },
+    {
+      "title": "谷歌深度伪造检测系统揭穿麦康奈尔恶搞图片",
+      "summary_zh": "本周早些时候，一张显示参议员米奇·麦康奈尔在医院病床上极度痛苦的图片被证实为AI生成的伪造品。谷歌的深度伪造检测系统成功识别并揭穿了这一骗局，展示了AI鉴别技术在打击虚假信息中的关键作用。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+      "score": 4
+    },
+    {
+      "title": "Meta开发全天候录音智能眼镜，隐私争议再起",
+      "summary_zh": "据《金融时报》报道，Meta正在开发原型“超级感知”智能眼镜，可连续录音并每隔几秒拍照。用户可通过Meta AI查询记录内容。尽管Meta试图通过新增保护措施减少偷拍担忧，但该计划引发了对隐私的严重质疑。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/963138/meta-smart-glasses-recording-super-sensing-ai",
+      "score": 4
+    },
+    {
+      "title": "美国联邦机构要求自动驾驶公司停止干扰应急响应人员",
+      "summary_zh": "美国国家公路交通安全管理局（NHTSA）发布指令，要求自动驾驶汽车公司确保其车辆不再干扰应急响应人员的工作，并指出紧急场景并非“边缘案例”。此举将推动行业改进感知与决策算法，对自动驾驶安全标准产生深远影响。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/feds-demand-autonomous-vehicle-companies-stop-interfering-with-first-responders/",
+      "score": 4
+    },
+    {
+      "title": "全新GPT-Live-1语音模式更善于“闭嘴”，提升对话体验",
+      "summary_zh": "OpenAI对ChatGPT语音模式进行重大升级，推出GPT-Live-1模型。新模型设计为更少打断用户，并在用户停顿后等待其继续。这一改进使对话更接近人类交流，显著提升了语音交互的自然度和用户体验，为实时翻译等应用铺平道路。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/962856/chatgpt-upgraded-voice-mode-gpt-live",
+      "score": 4
+    },
+    {
+      "title": "Hugging Face与Cerebras合作，将Gemma 4带入实时语音AI",
+      "summary_zh": "Hugging Face与Cerebras宣布合作，将谷歌的Gemma 4模型部署于Cerebras的专用硬件上，用于实时语音AI应用。这一联合旨在解决语音AI的低延迟需求，展示了定制芯片在加速AI推理方面的潜力，可能推动语音助手和实时翻译的硬件革新。",
+      "source": "Hugging Face - Blog",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "score": 4
+    },
+    {
+      "title": "初创公司General Intuition认为机器人技术即将迎来ChatGPT时刻",
+      "summary_zh": "初创公司General Intuition宣称，通过利用数百万小时的视频游戏数据训练物理AI基础模型，机器人技术即将迎来类似ChatGPT的突破。该方法有望大幅减少对真实世界数据的依赖，加速智能机器人的开发与普及。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "score": 4
+    }
+  ],
+  "stories": [
+    {
+      "title": "弦高犒师",
+      "dynasty": "春秋",
+      "category": "兵法谋略故事",
+      "source": "《左传·僖公三十三年》"
+    },
+    {
+      "title": "退避三舍",
+      "dynasty": "春秋",
+      "category": "兵法谋略故事",
+      "source": "《左传·僖公二十三年》"
+    },
+    {
+      "title": "空城计",
+      "dynasty": "春秋",
+      "category": "兵法谋略故事",
+      "source": "《左传·庄公二十八年》"
+    },
+    {
+      "title": "夫差与勾践的谍战：越国‘灭吴九术’",
+      "dynasty": "春秋",
+      "category": "兵法谋略故事",
+      "source": "《吴越春秋》《越绝书》"
+    },
+    {
+      "title": "李愬雪夜入蔡州",
+      "dynasty": "唐",
+      "category": "兵法谋略故事",
+      "source": "《资治通鉴》《旧唐书》"
+    },
+    {
+      "title": "虞诩增灶退羌兵",
+      "dynasty": "东汉",
+      "category": "兵法谋略故事",
+      "source": "《后汉书·虞诩传》"
+    },
+    {
+      "title": "鲁班造木鹊：古代飞行器的尝试",
+      "dynasty": "春秋",
+      "category": "古代科技发明故事",
+      "source": "《墨子·鲁问》《韩非子》"
+    },
+    {
+      "title": "张仲景与‘坐堂医’的由来",
+      "dynasty": "东汉",
+      "category": "古代科技发明故事",
+      "source": "《后汉书》《伤寒杂病论》序"
+    },
+    {
+      "title": "黄道婆与棉纺织革新",
+      "dynasty": "元",
+      "category": "古代科技发明故事",
+      "source": "《南村辍耕录》《王祯农书》"
+    },
+    {
+      "title": "僧一行测量子午线",
+      "dynasty": "唐",
+      "category": "古代天文地理",
+      "source": "《旧唐书·天文志》《新唐书》"
+    },
+    {
+      "title": "徐光启与《崇祯历书》：中西天文的交汇",
+      "dynasty": "明",
+      "category": "古代天文地理",
+      "source": "《明史·徐光启传》《崇祯历书》"
+    },
+    {
+      "title": "郭璞注《山海经》与地理神话",
+      "dynasty": "东晋",
+      "category": "古代天文地理",
+      "source": "《晋书·郭璞传》《山海经》"
+    },
+    {
+      "title": "郦道元与《水经注》：古代地理学的巅峰",
+      "dynasty": "北魏",
+      "category": "古代天文地理",
+      "source": "《魏书·郦道元传》《水经注》"
+    },
+    {
+      "title": "王羲之东床坦腹：率真名士的佳话",
+      "dynasty": "东晋",
+      "category": "古代名人逸事",
+      "source": "《世说新语·雅量》"
+    },
+    {
+      "title": "陶渊明不为五斗米折腰",
+      "dynasty": "东晋",
+      "category": "古代名人逸事",
+      "source": "《晋书·陶潜传》《宋书·陶潜传》"
+    },
+    {
+      "title": "魏征直言敢谏：唐太宗的‘人镜’",
+      "dynasty": "唐",
+      "category": "古代名人逸事",
+      "source": "《旧唐书·魏征传》《资治通鉴》"
+    },
+    {
+      "title": "苏轼与佛印的禅机斗智",
+      "dynasty": "宋",
+      "category": "古代名人逸事",
+      "source": "《东坡志林》《五灯会元》"
+    },
+    {
+      "title": "郑和宝船与古代造船‘黑科技’",
+      "dynasty": "明",
+      "category": "古代科技发明故事",
+      "source": "《明史·郑和传》《天工开物》"
+    },
+    {
+      "title": "李时珍与《本草纲目》：踏遍千山寻药",
+      "dynasty": "明",
+      "category": "古代科技发明故事",
+      "source": "《明史·李时珍传》《本草纲目》序"
+    },
+    {
+      "title": "古代‘快递’：一骑红尘妃子笑背后的驿传系统",
+      "dynasty": "唐",
+      "category": "古代科技发明故事",
+      "source": "《唐六典》《新唐书·百官志》"
+    }
+  ]
+}
