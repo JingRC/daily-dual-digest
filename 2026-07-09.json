@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-09",
+  "ai_news_count": 10,
+  "stories_count": 20,
+  "ai_news": [
+    {
+      "title": "OpenAI发布GPT-5.6并推出ChatGPT Work",
+      "summary_zh": "OpenAI在获得政府批准后正式发布GPT-5.6模型，该模型在网络安全等多个领域有显著改进。同时，公司宣布推出ChatGPT Work，旨在提升企业用户的工作效率。此举标志着OpenAI在AI应用商业化方面迈出重要一步。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963464/openai-gpt-5-6-codex-chatgpt-work",
+      "score": 5
+    },
+    {
+      "title": "AI代理初创公司Lyzr用自家代理完成1亿美元融资",
+      "summary_zh": "企业AI代理初创公司Lyzr使用自家AI代理成功完成1亿美元融资，证明了其产品的实际有效性。这一事件展示了AI代理在商业运营中的潜力，可能引领更多企业采用类似技术。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+      "score": 5
+    },
+    {
+      "title": "Meta发布Muse Spark 1.1进入AI编码战场",
+      "summary_zh": "Meta推出Muse Spark 1.1，进军竞争激烈的AI编码领域。该工具能处理大型代理工作负载、修复bug并协助大规模代码迁移，满足企业对自动化日益增长的需求。此举加剧了AI编码工具市场的竞争。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "score": 4
+    },
+    {
+      "title": "纽约时报指控OpenAI在ChatGPT版权审判中隐藏证据",
+      "summary_zh": "纽约时报指控OpenAI在ChatGPT版权诉讼中隐藏了能识别受版权保护内容的工具和数据集，并请求法院制裁。此案可能对AI训练数据的版权合规产生深远影响，是AI行业面临的关键法律挑战。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/new-york-times-says-openai-hid-evidence-in-chatgpt-copyright-trial/",
+      "score": 5
+    },
+    {
+      "title": "谷歌要求披露AI生成广告",
+      "summary_zh": "谷歌宣布将在搜索、Discover和YouTube广告中标注“由AI创建或编辑”的标签。此前仅选举广告需披露，现在扩展至所有广告。此举提高了AI广告透明度，可能成为行业标准。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/963628/google-ai-generated-ads-label",
+      "score": 4
+    },
+    {
+      "title": "巴黎AI语音初创公司Gradium获1亿美元种子轮融资",
+      "summary_zh": "巴黎AI语音初创公司Gradium获得1亿美元种子轮融资，由英伟达支持。公司将用这笔资金在湾区设立办公室并招募人才，加强其在全球AI生态系统中的竞争力。这反映了AI语音领域的投资热度。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/paris-based-ai-voice-startup-gradium-raises-100m-seed-backed-by-nvidia/",
+      "score": 4
+    },
+    {
+      "title": "OpenAI关闭AI浏览器Atlas",
+      "summary_zh": "OpenAI在推出不到一年后关闭其AI浏览器Atlas，但将部分代理浏览功能迁移至桌面应用和Chrome扩展。此举表明OpenAI调整产品策略，聚焦核心应用，同时保留AI浏览技术。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
+      "score": 3
+    },
+    {
+      "title": "Hugging Face和Cerebras将Gemma 4用于实时语音AI",
+      "summary_zh": "Hugging Face与Cerebras合作，将Gemma 4模型部署于实时语音AI应用。这一合作结合了Hugging Face的模型生态和Cerebras的硬件加速，可能推动语音AI的实时处理性能提升。",
+      "source": "Hugging Face - Blog",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "score": 3
+    },
+    {
+      "title": "微软利用AI扩大Windows安全补丁更新",
+      "summary_zh": "微软宣布利用AI技术更早识别潜在安全问题，从而在每月的安全更新中包含更多修复。此举旨在提高Windows系统的安全性，但也可能增加补丁管理复杂性。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/963307/microsoft-patch-tuesday-ai-security-updates",
+      "score": 3
+    },
+    {
+      "title": "Hugging Face推出零出口存储方案，支持跨云AI工作负载",
+      "summary_zh": "Hugging Face与SkyPilot合作推出零出口存储方案，允许用户在任意云上运行AI工作负载，同时将数据存储在Hugging Face上。此方案解决了多云环境中的数据迁移成本问题，提升了AI开发的灵活性。",
+      "source": "Hugging Face - Blog",
+      "url": "https://huggingface.co/blog/skypilot-hf-storage",
+      "score": 4
+    }
+  ],
+  "stories": [
+    {
+      "title": "王莽时期的青铜卡尺：两千年前的游标卡尺",
+      "dynasty": "新朝",
+      "category": "历史趣考",
+      "source": "《汉书·王莽传》及出土文物"
+    },
+    {
+      "title": "孙权派人‘浮海求夷洲’：最早的大陆与台湾官方往来",
+      "dynasty": "三国·吴",
+      "category": "历史趣考",
+      "source": "《三国志·吴书·吴主传》"
+    },
+    {
+      "title": "唐代的‘不良人’：古代便衣警察的起源",
+      "dynasty": "唐",
+      "category": "历史趣考",
+      "source": "《资治通鉴》卷二五六注引《唐会要》"
+    },
+    {
+      "title": "明代‘廷杖’制度：当众打屁股的政治表演",
+      "dynasty": "明",
+      "category": "历史趣考",
+      "source": "《明史·刑法志》"
+    },
+    {
+      "title": "宋代‘交子’防伪：古代金融的‘黑科技’",
+      "dynasty": "宋",
+      "category": "历史趣考",
+      "source": "《宋史·食货志》"
+    },
+    {
+      "title": "二十八星宿与‘四象’：古代天文学的星座划分",
+      "dynasty": "先秦至汉",
+      "category": "古代天文地理",
+      "source": "《史记·天官书》《淮南子·天文训》"
+    },
+    {
+      "title": "《山海经》中的‘夸父逐日’：上古地理神话的生态隐喻",
+      "dynasty": "先秦",
+      "category": "古代天文地理",
+      "source": "《山海经·海外北经》"
+    },
+    {
+      "title": "古代‘十二时辰’与‘更夫报时’：没有钟表如何计时",
+      "dynasty": "先秦至清",
+      "category": "古代天文地理",
+      "source": "《周礼》《唐六典》"
+    },
+    {
+      "title": "商鞅‘徙木立信’背后的法律智慧",
+      "dynasty": "战国·秦",
+      "category": "诸子百家寓言",
+      "source": "《史记·商君列传》"
+    },
+    {
+      "title": "韩非子‘买椟还珠’：过度包装的讽刺",
+      "dynasty": "战国·韩",
+      "category": "诸子百家寓言",
+      "source": "《韩非子·外储说左上》"
+    },
+    {
+      "title": "孟子‘五十步笑百步’：量变与质变的辩证",
+      "dynasty": "战国",
+      "category": "诸子百家寓言",
+      "source": "《孟子·梁惠王上》"
+    },
+    {
+      "title": "庄子‘庖丁解牛’：游刃有余的境界",
+      "dynasty": "战国·宋",
+      "category": "诸子百家寓言",
+      "source": "《庄子·养生主》"
+    },
+    {
+      "title": "汉文帝‘缇萦救父’：废除肉刑的转折点",
+      "dynasty": "西汉",
+      "category": "历史故事",
+      "source": "《史记·扁鹊仓公列传》"
+    },
+    {
+      "title": "光武帝刘秀‘昆阳之战’：以少胜多的天命之战",
+      "dynasty": "东汉",
+      "category": "历史故事",
+      "source": "《后汉书·光武帝纪》"
+    },
+    {
+      "title": "狄仁杰‘劝谏武则天’：以孝道化解酷刑",
+      "dynasty": "唐",
+      "category": "历史故事",
+      "source": "《旧唐书·狄仁杰传》"
+    },
+    {
+      "title": "范蠡‘三散千金’：商圣的财富智慧",
+      "dynasty": "春秋",
+      "category": "历史故事",
+      "source": "《史记·货殖列传》"
+    },
+    {
+      "title": "明代‘郑成功收复台湾’：海上丝绸之路的保卫战",
+      "dynasty": "明末清初",
+      "category": "历史故事",
+      "source": "《清史稿·郑成功传》及荷兰史料"
+    },
+    {
+      "title": "古代‘西域’的葡萄与葡萄酒：张骞之后的‘舶来品’",
+      "dynasty": "汉至唐",
+      "category": "古代天文地理",
+      "source": "《史记·大宛列传》《唐六典》"
+    },
+    {
+      "title": "明代‘郑和航海图’：世界最早的航海地图集",
+      "dynasty": "明",
+      "category": "古代天文地理",
+      "source": "《武备志》卷二百四十"
+    },
+    {
+      "title": "清代‘康熙皇舆全览图’：中国第一部实测全国地图",
+      "dynasty": "清",
+      "category": "古代天文地理",
+      "source": "《清史稿·何国宗传》及耶稣会士记录"
+    }
+  ]
+}
