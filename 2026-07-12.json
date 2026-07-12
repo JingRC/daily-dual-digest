@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-12",
+  "ai_news_count": 10,
+  "stories_count": 20,
+  "ai_news": [
+    {
+      "title": "SK海力士创美国史上最大外资IPO，融资265亿美元",
+      "summary_zh": "AI芯片巨头SK海力士在美IPO融资265亿美元，创美国史上最大外资IPO纪录。此举凸显AI芯片市场需求激增，SK海力士与三星随后被敦促在美新建工厂，加速半导体本土化进程，对全球AI供应链格局产生重大影响。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "score": 5
+    },
+    {
+      "title": "苹果起诉OpenAI窃取商业机密",
+      "summary_zh": "苹果正式起诉OpenAI，指控其高层领导（包括一名前长期员工）指使窃取商业机密。此案涉及AI领域核心知识产权保护，若成立将严重冲击OpenAI声誉及行业合作关系，引发对AI人才流动与保密协议的广泛讨论。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "score": 5
+    },
+    {
+      "title": "GPT-5.6正式上线，Codex整合入ChatGPT",
+      "summary_zh": "OpenAI发布GPT-5.6，并宣布将编程助手Codex整合进ChatGPT，打造名为ChatGPT Work的统一平台。此举标志着AI从对话工具向全能工作助手的进化，直接对标微软Copilot，加速AI办公生态竞争。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1671521?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 5
+    },
+    {
+      "title": "OpenAI押注家庭场景，招聘产品经理拓展ChatGPT家庭应用",
+      "summary_zh": "OpenAI发布招聘启事，招募专门产品经理为家庭、看护者和老年人打造ChatGPT体验。此举显示OpenAI正将AI应用从办公场景向家庭渗透，意图抢占智能家居和家庭陪伴市场，或引发新一轮消费级AI竞争。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "score": 4
+    },
+    {
+      "title": "Meta删除Instagram争议性AI功能",
+      "summary_zh": "Meta因用户强烈反对，删除Instagram上一项允许AI引用公开内容的争议功能。公司承认功能“未达预期”，此举反映AI应用在社交媒体中面临隐私与伦理挑战，预示平台将更谨慎地部署生成式AI。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "score": 4
+    },
+    {
+      "title": "苹果自动驾驶项目失败，留下强大AI芯片遗产",
+      "summary_zh": "报道揭示苹果已取消的自动驾驶汽车项目虽未成功，但其为车载AI处理开发的芯片技术催生了苹果自研芯片（Apple Silicon）的强大AI性能。这一发现解释了苹果芯片为何在AI任务中表现卓越，并重新评估失败项目的长期价值。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/964519/apple-silicon-self-driving-car-ai-m7-ultra",
+      "score": 4
+    },
+    {
+      "title": "宇树G1机器人完成两例活体手术，登上《自然》",
+      "summary_zh": "中国宇树科技的G1人形机器人在活体手术中成功完成两例操作，相关成果发表于《自然》期刊。这标志着人形机器人在高精度医疗领域取得突破性进展，展示了AI与机器人结合在手术自动化中的巨大潜力。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1671681?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 5
+    },
+    {
+      "title": "Hugging Face与Cerebras合作推出Gemma 4实时语音AI",
+      "summary_zh": "Hugging Face与芯片公司Cerebras合作，将Google的Gemma 4模型部署于实时语音AI场景。此举结合了Cerebras的高效算力与开源模型生态，有望降低语音AI延迟并推动边缘端应用，加速对话式AI在消费设备中的普及。",
+      "source": "Hugging Face - Blog",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "score": 4
+    },
+    {
+      "title": "IBM发布ScarfBench：评估AI Agent迁移企业Java框架能力",
+      "summary_zh": "IBM Research推出ScarfBench基准测试，专门评估AI Agent在迁移企业级Java框架时的性能。该测试填补了AI在复杂软件工程任务中的评估空白，对推动AI辅助代码重构和遗留系统现代化具有重要参考价值。",
+      "source": "Hugging Face - Blog",
+      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
+      "score": 3
+    },
+    {
+      "title": "AI数据中心建设引发社会抗争，环保与能源问题凸显",
+      "summary_zh": "随着AI算力需求激增，大规模数据中心建设引发社区环保和能源消耗争议。报道指出，从选址到电力供应，各地居民和环保组织开始组织抗议，预示AI基础设施扩张将面临更严峻的社会监管和可持续性挑战。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+      "score": 4
+    }
+  ],
+  "stories": [
+    {
+      "title": "石崇斗富：西晋末年的奢靡狂欢",
+      "dynasty": "西晋",
+      "category": "历史故事",
+      "source": "《晋书·石崇传》及《世说新语·汰侈》"
+    },
+    {
+      "title": "邹忌讽齐王纳谏",
+      "dynasty": "战国（齐国）",
+      "category": "诸子百家寓言",
+      "source": "《战国策·齐策一》"
+    },
+    {
+      "title": "张骞通西域：凿空之旅",
+      "dynasty": "西汉",
+      "category": "古代天文地理",
+      "source": "《史记·大宛列传》"
+    },
+    {
+      "title": "王羲之题扇桥",
+      "dynasty": "东晋",
+      "category": "唐诗宋词背后的故事",
+      "source": "《晋书·王羲之传》及《世说新语》"
+    },
+    {
+      "title": "田忌赛马：孙膑的博弈智慧",
+      "dynasty": "战国（齐国）",
+      "category": "诸子百家寓言",
+      "source": "《史记·孙子吴起列传》"
+    },
+    {
+      "title": "班超投笔从戎：万里封侯",
+      "dynasty": "东汉",
+      "category": "历史故事",
+      "source": "《后汉书·班超传》"
+    },
+    {
+      "title": "庖丁解牛：游刃有余的养生之道",
+      "dynasty": "战国（魏国）",
+      "category": "诸子百家寓言",
+      "source": "《庄子·养生主》"
+    },
+    {
+      "title": "李贺骑驴觅诗：呕心沥血的鬼才",
+      "dynasty": "唐代",
+      "category": "唐诗宋词背后的故事",
+      "source": "《新唐书·李贺传》及李商隐《李长吉小传》"
+    },
+    {
+      "title": "愚公移山：锲而不舍的信念",
+      "dynasty": "战国（列子）",
+      "category": "诸子百家寓言",
+      "source": "《列子·汤问》"
+    },
+    {
+      "title": "范蠡泛舟五湖：功成身退的智慧",
+      "dynasty": "春秋（越国）",
+      "category": "历史故事",
+      "source": "《史记·越王勾践世家》"
+    },
+    {
+      "title": "伯牙绝弦：知音难觅",
+      "dynasty": "春秋（楚国）",
+      "category": "诸子百家寓言",
+      "source": "《列子·汤问》及《吕氏春秋·本味》"
+    },
+    {
+      "title": "郑和下西洋：宝船扬帆七万里",
+      "dynasty": "明代",
+      "category": "古代天文地理",
+      "source": "《明史·郑和传》及马欢《瀛涯胜览》"
+    },
+    {
+      "title": "曹刿论战：一鼓作气的兵法",
+      "dynasty": "春秋（鲁国）",
+      "category": "诸子百家寓言",
+      "source": "《左传·庄公十年》"
+    },
+    {
+      "title": "塞翁失马：福祸相依的辩证法",
+      "dynasty": "西汉（淮南子）",
+      "category": "诸子百家寓言",
+      "source": "《淮南子·人间训》"
+    },
+    {
+      "title": "张择端与《清明上河图》：汴京繁华录",
+      "dynasty": "北宋",
+      "category": "唐诗宋词背后的故事",
+      "source": "《石渠宝笈》及孟元老《东京梦华录》"
+    },
+    {
+      "title": "墨子救宋：止楚攻宋的和平使者",
+      "dynasty": "战国（宋国）",
+      "category": "诸子百家寓言",
+      "source": "《墨子·公输》"
+    },
+    {
+      "title": "刘晏通漕运：大唐的经济命脉",
+      "dynasty": "唐代",
+      "category": "历史故事",
+      "source": "《旧唐书·刘晏传》及《资治通鉴》"
+    },
+    {
+      "title": "郦道元注《水经》：以水为脉写神州",
+      "dynasty": "北魏",
+      "category": "古代天文地理",
+      "source": "《水经注》及《魏书·郦道元传》"
+    },
+    {
+      "title": "董狐直笔：史官的骨气",
+      "dynasty": "春秋（晋国）",
+      "category": "历史故事",
+      "source": "《左传·宣公二年》"
+    },
+    {
+      "title": "沈括与《梦溪笔谈》：宋代科学百科全书",
+      "dynasty": "北宋",
+      "category": "古代天文地理",
+      "source": "《梦溪笔谈》及《宋史·沈括传》"
+    }
+  ]
+}
