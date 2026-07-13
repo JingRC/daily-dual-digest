@@ -550,7 +550,28 @@ def main():
                     "headline_news": "今日AI快讯精选",
                 }
 
-            # 6b. 渲染暗黑编辑风图片卡片（HTML → Chrome → PNG）
+            # 6b. LLM 为每条新闻生成「关键洞察 + 详细解读」
+            from modules.xhs_content import build_enrich_prompt
+            enrich_prompt = build_enrich_prompt(ai_news, max_news)
+            logger.info("🤖 调用 LLM 为每条新闻补充洞察和详解...")
+            enrich_response = call_llm(
+                enrich_prompt, config,
+                system_prompt="你是资深AI科技分析师。只返回JSON数组，不要markdown代码块。每条新闻补充一针见血的洞察和详细解读。"
+            )
+            enriched = parse_json_response(enrich_response)
+            if isinstance(enriched, list) and enriched:
+                # Merge enrichment into ai_news
+                enrich_map = {e.get("index", -1): e for e in enriched if isinstance(e, dict)}
+                for i, item in enumerate(ai_news[:max_news]):
+                    idx = i + 1
+                    if idx in enrich_map:
+                        item["insight_zh"] = enrich_map[idx].get("insight_zh", "")
+                        item["detail_zh"] = enrich_map[idx].get("detail_zh", "")
+                logger.info(f"✅ 已为 {len(enrich_map)} 条新闻补充洞察/详解")
+            else:
+                logger.warning("LLM 未返回有效的补充内容，使用原始摘要")
+
+            # 6c. 渲染图片卡片（HTML → Chrome → PNG）
             from modules.xhs_renderer import render_xhs_cards
             xhs_output_dir = xhs_config.get("output_dir", "docs/xhs")
             card_paths = render_xhs_cards(

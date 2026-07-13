@@ -81,3 +81,43 @@ def build_xhs_prompt(ai_news: list[dict], count: int = 10) -> str:
 }}"""
 
     return prompt
+
+
+def build_enrich_prompt(ai_news: list[dict], count: int = 10) -> str:
+    """Build prompt to enrich each news item with sharp insight + detailed body."""
+    news_blocks = []
+    for i, item in enumerate(ai_news[:count], 1):
+        news_blocks.append(
+            f"#{i} [{item.get('source','')}] {item.get('title','')}\n"
+            f"    原摘要: {item.get('summary_zh','')[:150]}"
+        )
+    news_str = "\n\n".join(news_blocks)
+
+    return f"""你是资深AI科技分析师，擅长一针见血的行业洞察。
+
+对以下每条新闻，请补充两段内容：
+
+## 1. 关键洞察 (insight_zh) — 30-50字
+- 用一句话点出这条新闻的「为什么重要」「意味着什么」
+- 要有观点、有态度、敢下判断
+- 让读者产生"原来如此！"的感觉
+- 举例："GPT-5 不仅是性能提升，更意味着 OpenAI 正在用降价策略收割开发者生态，这对 Anthropic 和 Google 是降维打击。"
+
+## 2. 详细解读 (detail_zh) — 80-150字
+- 更深入展开：背景、影响、与同类对比、后续展望
+- 口语化但专业，像资深分析师在给朋友讲解
+- 给出具体细节而非泛泛而谈
+- 让读完的人比只看标题的人多知道一些东西
+
+## 新闻列表
+{news_str}
+
+## 返回JSON数组（纯JSON，无markdown标记）
+[
+  {{
+    "index": 1,
+    "insight_zh": "一针见血的30-50字洞察",
+    "detail_zh": "80-150字详细解读，背景+影响+展望"
+  }},
+  ...
+]"""

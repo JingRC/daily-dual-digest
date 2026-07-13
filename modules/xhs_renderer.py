@@ -133,28 +133,47 @@ def _build_cover_html(date_str: str, count: int, pal_index: int) -> str:
 </div></body></html>"""
 
 
-def _layout_editorial(item: dict, idx: int, total: int, pal_index: int) -> str:
-    """Full photo bg, bold overlay — magazine cover feel."""
-    p = _palette(pal_index)
-    css = _build_css(p, 0, True, pal_index)
+def _extract_fields(item: dict) -> tuple:
+    """Extract common fields with smart fallbacks."""
     title = item.get("title", "")
     source = item.get("source", "")
     score = int(item.get("score", 3))
     stars = "★" * score + "☆" * (5 - score)
     summary = item.get("summary_zh", "")
+    insight = item.get("insight_zh", "") or ""
+    detail = item.get("detail_zh", "") or ""
+    # Fallback: if no enriched fields, derive from summary
+    if not insight:
+        insight = summary[:80] if summary else ""
+    if not detail:
+        detail = summary[80:] if len(summary) > 80 else summary
     url = item.get("url", "")
     domain = ""
     if url:
         from urllib.parse import urlparse
-        try: domain = urlparse(url).netloc
-        except: pass
+        try:
+            domain = urlparse(url).netloc
+        except Exception:
+            pass
+    return title, source, score, stars, summary, insight, detail, url, domain
+
+
+def _layout_editorial(item: dict, idx: int, total: int, pal_index: int) -> str:
+    """Full photo bg, insight-first — magazine cover feel."""
+    p = _palette(pal_index)
+    css = _build_css(p, 0, True, pal_index)
+    title, source, score, stars, summary, insight, detail, url, domain = _extract_fields(item)
 
     return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
 <div class="photo-bg"></div><div class="content" style="display:flex;flex-direction:column;justify-content:flex-end;padding:72px 80px;">
-  <div class="meta" style="margin-bottom:24px;">{source} &nbsp;·&nbsp; {stars}</div>
-  <div class="title" style="font-size:58px;margin-bottom:36px;">{title}</div>
-  <div class="summary" style="margin-bottom:40px;">{summary[:300]}</div>
-  <div class="hairline" style="margin-bottom:32px;"></div>
+  <div class="meta" style="margin-bottom:20px;">{source} &nbsp;·&nbsp; {stars}</div>
+  <div class="title" style="font-size:54px;margin-bottom:32px;">{title}</div>
+  <div class="insight-box" style="margin-bottom:32px;padding:36px 40px;border-left-width:4px;">
+    <div class="insight-label">⟡ 关键洞察</div>
+    <div class="insight-text" style="margin-top:12px;font-size:30px;line-height:1.5;">{insight}</div>
+  </div>
+  <div class="summary" style="margin-bottom:32px;font-size:28px;line-height:1.7;">{detail[:400]}</div>
+  <div class="hairline" style="margin-bottom:28px;"></div>
   <div style="display:flex;justify-content:space-between;align-items:center;">
     <div class="source-tag">原文 {domain}</div>
     <div class="brand">每日双拼日报 · {idx}/{total}</div>
@@ -163,38 +182,26 @@ def _layout_editorial(item: dict, idx: int, total: int, pal_index: int) -> str:
 
 
 def _layout_split(item: dict, idx: int, total: int, pal_index: int) -> str:
-    """Photo in top half, text grid below."""
+    """Photo top, insight + detail below — news magazine spread."""
     p = _palette(pal_index)
     css = _build_css(p, 1, True, pal_index)
-    title = item.get("title", "")
-    source = item.get("source", "")
-    score = int(item.get("score", 3))
-    stars = "★" * score + "☆" * (5 - score)
-    summary = item.get("summary_zh", "")
-    insight = item.get("insight_zh", summary)[:140]
-    url = item.get("url", "")
-    from urllib.parse import urlparse
-    domain = ""
-    if url:
-        try: domain = urlparse(url).netloc
-        except: pass
+    title, source, score, stars, summary, insight, detail, url, domain = _extract_fields(item)
 
     return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
-<div class="photo-bg" style="height:45%;position:absolute;top:0;left:0;right:0;opacity:0.7;"></div>
-<div class="content" style="display:flex;flex-direction:column;padding:0 72px;padding-top:48%;height:100%;">
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:28px;">
+<div class="photo-bg" style="height:38%;position:absolute;top:0;left:0;right:0;opacity:0.7;"></div>
+<div class="content" style="display:flex;flex-direction:column;padding:0 72px;padding-top:42%;height:100%;">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
     <div class="meta">{source}</div>
     <div class="stars">{stars}</div>
   </div>
-  <div class="title">{title}</div>
-  <div class="accent-line" style="margin:32px 0;"></div>
-  <div class="summary" style="flex:1;">{summary[:350]}</div>
-  <div class="insight-box" style="margin:28px 0;">
+  <div class="title" style="font-size:48px;">{title}</div>
+  <div class="insight-box" style="margin:32px 0;padding:32px 38px;border-left-width:4px;">
     <div class="insight-label">⟡ 关键洞察</div>
-    <div class="insight-text" style="margin-top:8px;">{insight}</div>
+    <div class="insight-text" style="margin-top:10px;font-size:29px;line-height:1.5;">{insight}</div>
   </div>
-  <div class="hairline"></div>
-  <div style="display:flex;justify-content:space-between;padding:24px 0 60px;">
+  <div class="summary" style="flex:1;font-size:27px;line-height:1.7;">{detail[:380]}</div>
+  <div class="hairline" style="margin-top:20px;"></div>
+  <div style="display:flex;justify-content:space-between;padding:20px 0 56px;">
     <div class="source-tag">{'原文 '+domain if domain else ''}</div>
     <div class="brand">每日双拼日报 · {idx}/{total}</div>
   </div>
@@ -202,40 +209,30 @@ def _layout_split(item: dict, idx: int, total: int, pal_index: int) -> str:
 
 
 def _layout_swiss(item: dict, idx: int, total: int, pal_index: int) -> str:
-    """Pure typography, no photo — Swiss International Style."""
+    """No photo, typography with big number — Swiss grid."""
     p = _palette(pal_index)
     css = _build_css(p, 2, False)
-    title = item.get("title", "")
-    source = item.get("source", "")
-    score = int(item.get("score", 3))
-    stars = "★" * score + "☆" * (5 - score)
-    summary = item.get("summary_zh", "")
-    url = item.get("url", "")
-    from urllib.parse import urlparse
-    domain = ""
-    if url:
-        try: domain = urlparse(url).netloc
-        except: pass
+    title, source, score, stars, summary, insight, detail, url, domain = _extract_fields(item)
 
     return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
-<div class="content" style="display:flex;flex-direction:column;height:100%;padding:80px 80px 60px;">
-  <div style="display:flex;gap:32px;align-items:flex-start;margin-bottom:48px;">
-    <div class="number">{idx:02d}</div>
-    <div style="flex:1;padding-top:20px;">
+<div class="content" style="display:flex;flex-direction:column;height:100%;padding:70px 80px 56px;">
+  <div style="display:flex;gap:28px;align-items:flex-start;margin-bottom:36px;">
+    <div class="number" style="font-size:140px;line-height:0.7;">{idx:02d}</div>
+    <div style="flex:1;padding-top:16px;">
       <div style="display:flex;justify-content:space-between;">
         <div class="meta">{source}</div>
         <div class="stars">{stars}</div>
       </div>
     </div>
   </div>
-  <div class="title" style="font-size:56px;margin-bottom:40px;">{title}</div>
-  <div class="hairline" style="margin-bottom:40px;"></div>
-  <div class="summary" style="flex:1;font-size:30px;">{summary[:380]}</div>
-  <div class="insight-box">
-    <div class="insight-label">K E Y &nbsp; T A K E A W A Y</div>
-    <div class="insight-text" style="margin-top:10px;">{summary[:130]}</div>
+  <div class="title" style="font-size:52px;margin-bottom:32px;">{title}</div>
+  <div class="insight-box" style="margin-bottom:32px;padding:30px 38px;border-left-width:4px;">
+    <div class="insight-label">K E Y &nbsp; I N S I G H T</div>
+    <div class="insight-text" style="margin-top:10px;font-size:28px;line-height:1.5;">{insight}</div>
   </div>
-  <div style="display:flex;justify-content:space-between;margin-top:40px;">
+  <div class="summary" style="flex:1;font-size:28px;line-height:1.7;">{detail[:420]}</div>
+  <div class="hairline" style="margin-top:28px;"></div>
+  <div style="display:flex;justify-content:space-between;padding-top:20px;">
     <div class="source-tag">{'原文 '+domain if domain else ''}</div>
     <div class="brand">每日双拼日报 · {idx}/{total}</div>
   </div>
@@ -243,31 +240,24 @@ def _layout_swiss(item: dict, idx: int, total: int, pal_index: int) -> str:
 
 
 def _layout_accent(item: dict, idx: int, total: int, pal_index: int) -> str:
-    """Accent color frame + dramatic typography."""
+    """Accent frame + big number — dramatic editorial."""
     p = _palette(pal_index)
     css = _build_css(p, 3, False)
-    title = item.get("title", "")
-    source = item.get("source", "")
-    score = int(item.get("score", 3))
-    stars = "★" * score + "☆" * (5 - score)
-    summary = item.get("summary_zh", "")
-    url = item.get("url", "")
-    from urllib.parse import urlparse
-    domain = ""
-    if url:
-        try: domain = urlparse(url).netloc
-        except: pass
+    title, source, score, stars, summary, insight, detail, url, domain = _extract_fields(item)
 
     return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
 <div style="position:absolute;left:0;top:0;bottom:0;width:8px;background:{p['accent']};z-index:3;"></div>
 <div style="position:absolute;left:8px;top:0;right:0;bottom:0;border:1px solid {p['accent']}22;z-index:1;"></div>
-<div class="content" style="display:flex;flex-direction:column;height:100%;padding:90px 90px 60px;position:relative;z-index:2;">
-  <div class="meta" style="margin-bottom:16px;">{source} &nbsp;·&nbsp; {stars}</div>
-  <div class="number" style="font-size:160px;margin-bottom:20px;">{idx:02d}</div>
-  <div class="title" style="font-size:54px;margin-bottom:40px;">{title}</div>
-  <div class="accent-line" style="width:80px;margin-bottom:36px;"></div>
-  <div class="summary" style="flex:1;font-size:29px;">{summary[:350]}</div>
-  <div style="display:flex;justify-content:space-between;padding-top:30px;border-top:1px solid {p['accent']}20;">
+<div class="content" style="display:flex;flex-direction:column;height:100%;padding:80px 90px 56px;position:relative;z-index:2;">
+  <div class="meta" style="margin-bottom:12px;">{source} &nbsp;·&nbsp; {stars}</div>
+  <div class="number" style="font-size:120px;margin-bottom:16px;">{idx:02d}</div>
+  <div class="title" style="font-size:50px;margin-bottom:28px;">{title}</div>
+  <div class="insight-box" style="margin-bottom:28px;padding:28px 36px;border-left-width:4px;">
+    <div class="insight-label">⟡ 关键洞察</div>
+    <div class="insight-text" style="margin-top:10px;font-size:28px;line-height:1.5;">{insight}</div>
+  </div>
+  <div class="summary" style="flex:1;font-size:27px;line-height:1.7;">{detail[:380]}</div>
+  <div style="display:flex;justify-content:space-between;padding-top:24px;border-top:1px solid {p['accent']}20;">
     <div class="source-tag">{'原文 '+domain if domain else ''}</div>
     <div class="brand">每日双拼日报 · {idx}/{total}</div>
   </div>
