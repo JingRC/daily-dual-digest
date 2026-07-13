@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-13",
+  "ai_news_count": 10,
+  "stories_count": 20,
+  "ai_news": [
+    {
+      "title": "SK海力士创美国史上最大外国IPO，筹资265亿美元，被敦促建新厂",
+      "summary_zh": "AI芯片热潮催生华尔街里程碑事件。SK海力士以265亿美元完成美国史上最大外国公司IPO，随后被美国政府敦促建设本土工厂。此举凸显AI基础设施建设的资本密集度及地缘政治影响，标志着半导体供应链向美国转移的关键一步。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/10/sk-hynix-raises-26-5b-in-the-biggest-foreign-ipo-in-us-history-is-urged-to-build-new-us-fabs/",
+      "score": 5
+    },
+    {
+      "title": "苹果起诉OpenAI涉嫌窃取商业秘密",
+      "summary_zh": "苹果公司正式起诉OpenAI，指控其高级领导层（包括一名前长期员工）指导了商业秘密窃取行为。此案是科技巨头间围绕AI人才和核心技术展开的激烈竞争缩影，可能重塑行业合作与保密协议，对AI研发格局产生深远影响。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
+      "score": 5
+    },
+    {
+      "title": "OpenAI押注家庭场景：ChatGPT深入家庭",
+      "summary_zh": "OpenAI正通过招聘专门的产品经理，为家庭、照护者和老年人打造ChatGPT体验，推动AI向家庭场景深度渗透。此举标志着ChatGPT从办公工具向家庭伴侣转型的战略升级，有望开辟新的用户增长和市场空间。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "score": 4
+    },
+    {
+      "title": "苹果M7 Ultra芯片曝光：最高支持1.5TB内存，源自自动驾驶项目遗产",
+      "summary_zh": "最新爆料显示，苹果M7 Ultra芯片将支持高达1.5TB内存，其高性能AI处理能力源于已取消的自动驾驶汽车项目。该项目虽未成功造车，但催生了强大的芯片技术，为苹果在AI算力领域奠定了硬件基础，或将对市场产生冲击。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1671746?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 4
+    },
+    {
+      "title": "Meta因争议移除Instagram AI功能",
+      "summary_zh": "Meta迫于用户强烈反对，移除了Instagram上一项有争议的AI功能。该功能允许AI引用用户的公开内容进行创作，但被批评“未达预期”。此举反映了公众对AI滥用个人数据的敏感度上升，以及科技公司在AI伦理与创新间平衡的挑战。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/",
+      "score": 4
+    },
+    {
+      "title": "Hugging Face与Cerebras合作推出实时语音AI：Gemma 4",
+      "summary_zh": "Hugging Face与Cerebras合作，将Gemma 4模型应用于实时语音AI领域。该合作利用Cerebras的专用硬件加速推理，有望大幅降低语音AI的延迟，推动智能语音助手、实时翻译等应用的发展，是模型与芯片深度协同的重要案例。",
+      "source": "Hugging Face - Blog",
+      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "score": 4
+    },
+    {
+      "title": "宇树G1机器人完成两例活体手术，登上《自然》",
+      "summary_zh": "中国机器人公司宇树科技的G1人形机器人成功完成两例活体手术，相关成果发表在顶级期刊《自然》上。这标志着AI机器人在医疗领域的应用取得重大突破，展示了其在精密操作和自主决策方面的潜力，为手术机器人市场带来新变量。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1671746?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 4
+    },
+    {
+      "title": "GPT-5.6正式上线，与Codex整合为ChatGPT Work",
+      "summary_zh": "OpenAI正式发布GPT-5.6模型，并将其与Codex能力整合，推出名为ChatGPT Work的新产品。此举将强大的代码执行与对话能力结合，直接面向企业级工作流，标志着AI助手从聊天工具向全能工作平台的进化，竞争压力直指Claude等对手。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1671521?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 5
+    },
+    {
+      "title": "腾讯WorkBuddy入门指南：更适合国人体质的Codex",
+      "summary_zh": "腾讯推出AI助手WorkBuddy，定位为“更懂国人”的Codex替代品。它不旨在取代用户，而是作为协同工作的“搭子”，通过拆解和推进任务来提升效率。该产品反映了中国科技巨头在企业AI助手领域的本土化竞争策略，直接对标国际产品。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1671739?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 4
+    },
+    {
+      "title": "AI数据中心之争才刚刚开始",
+      "summary_zh": "随着AI热潮推动数据中心大规模建设，围绕其能源消耗、环境影响和社区反对的争议日益激烈。本文深入分析了这场斗争的起源与现状，指出在AI算力需求暴增的背景下，数据中心选址与运营将面临越来越大的社会和政治阻力，成为行业发展的关键挑战。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/column/963346/ai-data-centers-fight",
+      "score": 4
+    }
+  ],
+  "stories": [
+    {
+      "title": "甘棠遗爱",
+      "dynasty": "西周",
+      "category": "成语典故",
+      "source": "《诗经·召南·甘棠》"
+    },
+    {
+      "title": "悬梁刺股",
+      "dynasty": "战国/东汉",
+      "category": "成语典故",
+      "source": "《战国策·秦策一》《汉书》"
+    },
+    {
+      "title": "请君入瓮",
+      "dynasty": "唐",
+      "category": "成语典故",
+      "source": "《资治通鉴·唐纪》"
+    },
+    {
+      "title": "破镜重圆",
+      "dynasty": "南北朝",
+      "category": "成语典故",
+      "source": "《本事诗·情感》"
+    },
+    {
+      "title": "东山再起",
+      "dynasty": "东晋",
+      "category": "成语典故",
+      "source": "《晋书·谢安传》"
+    },
+    {
+      "title": "秦观与《鹊桥仙》",
+      "dynasty": "北宋",
+      "category": "唐诗宋词背后的故事",
+      "source": "《淮海集》"
+    },
+    {
+      "title": "辛弃疾的‘万字平戎策’",
+      "dynasty": "南宋",
+      "category": "唐诗宋词背后的故事",
+      "source": "《宋史·辛弃疾传》《美芹十论》"
+    },
+    {
+      "title": "张衡与浑天仪",
+      "dynasty": "东汉",
+      "category": "古代科技发明故事",
+      "source": "《后汉书·张衡传》"
+    },
+    {
+      "title": "蔡伦改进造纸术",
+      "dynasty": "东汉",
+      "category": "古代科技发明故事",
+      "source": "《后汉书·蔡伦传》"
+    },
+    {
+      "title": "空城计的真实主角：曹操vs吕布",
+      "dynasty": "东汉末年",
+      "category": "兵法谋略故事",
+      "source": "《三国志·魏书·武帝纪》注引《魏书》"
+    },
+    {
+      "title": "李愬雪夜入蔡州",
+      "dynasty": "唐",
+      "category": "兵法谋略故事",
+      "source": "《资治通鉴·唐纪》《旧唐书·李愬传》"
+    },
+    {
+      "title": "班超投笔从戎",
+      "dynasty": "东汉",
+      "category": "成语典故",
+      "source": "《后汉书·班超传》"
+    },
+    {
+      "title": "《山海经》中的‘夸父逐日’新解",
+      "dynasty": "先秦",
+      "category": "古代天文地理类",
+      "source": "《山海经·海外北经》"
+    },
+    {
+      "title": "《水经注》与郦道元的地理考察",
+      "dynasty": "北魏",
+      "category": "古代天文地理类",
+      "source": "《水经注》"
+    },
+    {
+      "title": "马王堆汉墓的千年女尸",
+      "dynasty": "西汉",
+      "category": "历史趣考类",
+      "source": "《长沙马王堆一号汉墓发掘简报》"
+    },
+    {
+      "title": "宋代‘交子’：世界上最早的纸币",
+      "dynasty": "北宋",
+      "category": "历史趣考类",
+      "source": "《宋史·食货志》"
+    },
+    {
+      "title": "范蠡三聚三散：商圣的财富智慧",
+      "dynasty": "春秋",
+      "category": "成语典故",
+      "source": "《史记·越王勾践世家》"
+    },
+    {
+      "title": "汉文帝废除肉刑：缇萦救父",
+      "dynasty": "西汉",
+      "category": "历史趣考类",
+      "source": "《史记·扁鹊仓公列传》《汉书·刑法志》"
+    },
+    {
+      "title": "黄道婆改进棉纺织技术",
+      "dynasty": "元",
+      "category": "古代科技发明故事",
+      "source": "《南村辍耕录》"
+    },
+    {
+      "title": "赵氏孤儿：历史的真相与传说",
+      "dynasty": "春秋",
+      "category": "历史趣考类",
+      "source": "《左传》《史记·赵世家》"
+    }
+  ]
+}
