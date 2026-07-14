@@ -10,7 +10,7 @@ llm:
   model: "deepseek-chat"         # deepseek-chat / gpt-4o / claude-sonnet-4-20250514
   base_url: "https://api.deepseek.com"
   temperature: 0.7
-  max_tokens: 8192
+  max_tokens: 16384
 
 # --- AI 快讯配置 ---
 ai_news:

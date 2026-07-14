@@ -75,14 +75,15 @@ def load_config() -> dict:
     return yaml.safe_load(raw)
 
 
-def call_llm(prompt: str, config: dict, system_prompt: str = "") -> str:
+def call_llm(prompt: str, config: dict, system_prompt: str = "", max_tokens: int = None) -> str:
     """调用 LLM（支持 DeepSeek / OpenAI / Anthropic / Gemini）"""
     provider = config["llm"]["provider"]
     api_key = config["llm"]["api_key"]
     base_url = config["llm"].get("base_url", "https://api.deepseek.com")
     model = config["llm"]["model"]
     temperature = config["llm"].get("temperature", 0.7)
-    max_tokens = config["llm"].get("max_tokens", 8192)
+    if max_tokens is None:
+        max_tokens = config["llm"].get("max_tokens", 8192)
 
     if not api_key:
         raise ValueError(f"API Key 未配置！请设置环境变量")
@@ -551,17 +552,31 @@ def main():
                 }
 
             # 6b. LLM 为每条新闻生成「关键洞察 + 详细解读」
+            # 分两批调用，每批5条 → 每批有充裕的 8192 token（≈4000中文字）
             from modules.xhs_content import build_enrich_prompt
-            enrich_prompt = build_enrich_prompt(ai_news, max_news)
-            logger.info("🤖 调用 LLM 为每条新闻补充洞察和详解...")
-            enrich_response = call_llm(
-                enrich_prompt, config,
-                system_prompt="你是资深AI科技分析师。只返回JSON数组，不要markdown代码块。每条新闻补充一针见血的洞察和详细解读。"
-            )
-            enriched = parse_json_response(enrich_response)
-            if isinstance(enriched, list) and enriched:
-                # Merge enrichment into ai_news
-                enrich_map = {e.get("index", -1): e for e in enriched if isinstance(e, dict)}
+            batch_size = 5
+            all_enriched = []
+            for batch_start in range(0, max_news, batch_size):
+                batch_end = min(batch_start + batch_size, max_news)
+                batch = ai_news[batch_start:batch_end]
+                logger.info(f"🤖 补充洞察/详解 第{batch_start//batch_size + 1}批 ({batch_start+1}-{batch_end}/{max_news})...")
+                enrich_prompt = build_enrich_prompt(batch, len(batch))
+                enrich_response = call_llm(
+                    enrich_prompt, config,
+                    system_prompt="你是资深AI科技分析师。只返回JSON数组，不要markdown代码块。每条新闻补充一针见血的洞察和详细解读。",
+                    max_tokens=8192,
+                )
+                enriched = parse_json_response(enrich_response)
+                if isinstance(enriched, list):
+                    # Offset indices for batch 2+
+                    offset = batch_start
+                    for e in enriched:
+                        if isinstance(e, dict) and "index" in e:
+                            e = dict(e)  # don't mutate original
+                            e["index"] = e["index"] + offset
+                        all_enriched.append(e)
+            if all_enriched:
+                enrich_map = {e.get("index", -1): e for e in all_enriched if isinstance(e, dict)}
                 for i, item in enumerate(ai_news[:max_news]):
                     idx = i + 1
                     if idx in enrich_map:

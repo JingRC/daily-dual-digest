@@ -1,19 +1,19 @@
 """
-Xiaohongshu image card renderer v3 — Premium Editorial / Magazine Style
+Xiaohongshu image card renderer v5 — Magazine editorial design
 
-Design philosophy (anti-AI aesthetic):
-- Real photography backgrounds (Unsplash) — NOT AI-generated pixels
-- Asymmetric magazine layouts — NOT centered templates
-- Curated color palettes — NOT algorithm-recommended gradients
-- Paper texture + grain — NOT smooth plastic surfaces
-- Bold bleed typography — NOT safe centered text
+Every card structure:
+  1. 图片区 — photo with page-number badge at TOP-RIGHT
+  2. 信息条 — source name + ★★★★★ star rating
+  3. 标题 — bold headline
+  4. 关键洞察 — sharp insight in accent-bordered box
+  5. 详细解说 — detailed body text
+  6. 页脚 — full article URL + page indicator
 
-Renders via headless Chrome: HTML+CSS → 1080×1440 PNG (2x retina)
+4 layout variations in typography/decoration, unified page-badge position.
 """
 
 import logging
 import os
-import random
 import shutil
 import subprocess
 from datetime import datetime
@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 CARD_W = 1080
 CARD_H = 1440
 
-# ── Curated Unsplash photos (tech/abstract, real photography) ──
+# ── Curated Unsplash photos ──
 UNSPLASH_BG = [
     "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=2160&q=80",
     "https://images.unsplash.com/photo-1518770660439-4636190af475?w=2160&q=80",
@@ -36,7 +36,7 @@ UNSPLASH_BG = [
     "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=2160&q=80",
 ]
 
-# ── Curated color palettes (cycling, not random) ──
+# ── Color palettes ──
 PALETTES = [
     {"name": "verge",   "bg": "#0a0a0a", "accent": "#00ff88", "text": "#f0ece4", "muted": "#8a8578", "surface": "#1a1a18"},
     {"name": "wired",   "bg": "#0d0c0a", "accent": "#ff3366", "text": "#f2efe9", "muted": "#9a9488", "surface": "#1c1a16"},
@@ -46,11 +46,7 @@ PALETTES = [
     {"name": "amber",   "bg": "#120e0b", "accent": "#ff8c42", "text": "#f0eae0", "muted": "#8a8075", "surface": "#1c1812"},
 ]
 
-# ── Layout templates (4 styles, rotate by index) ──
-# 0: Editorial — full photo bg + bold text overlay
-# 1: Split — photo top + text grid bottom
-# 2: Swiss — no photo, pure typography + texture
-# 3: Accent — accent block frame + centered text
+PHOTO_RATIOS = [0.34, 0.30, 0.35, 0.32]  # editorial(text-heavy), split(max-text), swiss(balanced), frame(text-heavy)
 
 
 def _palette(index: int) -> dict:
@@ -61,8 +57,7 @@ def _photo(index: int) -> str:
     return UNSPLASH_BG[index % len(UNSPLASH_BG)]
 
 
-def _build_css(p: dict, layout: int, has_photo: bool, photo_idx: int = 0) -> str:
-    """Build the CSS block for a card."""
+def _build_shared_css(p: dict) -> str:
     return f"""
     <style>
       * {{ margin:0; padding:0; box-sizing:border-box; }}
@@ -74,7 +69,6 @@ def _build_css(p: dict, layout: int, has_photo: bool, photo_idx: int = 0) -> str
         overflow: hidden;
         position: relative;
       }}
-      /* Paper grain overlay */
       body::after {{
         content: '';
         position: absolute; inset: 0; z-index: 999;
@@ -82,45 +76,231 @@ def _build_css(p: dict, layout: int, has_photo: bool, photo_idx: int = 0) -> str
         background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.045'/%3E%3C/svg%3E");
         background-repeat: repeat;
       }}
-      /* Photo background */
-      .photo-bg {{
-        position: absolute; inset: 0; z-index: 0;
-        background: url('{_photo(photo_idx) if has_photo else ""}') center/cover no-repeat;
-        opacity: {0.55 if has_photo else 0};
+      .photo-section {{
+        position: absolute; top: 0; left: 0; right: 0;
+        background: url('PHOTO_URL_PLACEHOLDER') center/cover no-repeat;
+        z-index: 0;
       }}
-      .photo-bg::after {{
+      .photo-section::after {{
         content: '';
         position: absolute; inset: 0;
-        background: linear-gradient(180deg, {p['bg']}00 30%, {p['bg']}cc 100%);
+        background: linear-gradient(180deg,
+          {p['bg']}00 55%,
+          {p['bg']}ee 95%,
+          {p['bg']} 100%);
       }}
-      .content {{ position: relative; z-index: 2; height: 100%; }}
+      .content {{ position: relative; z-index: 2; height: 100%; display:flex; flex-direction:column; }}
+      .page-badge {{
+        position: absolute; z-index: 3;
+        top: 32px; right: 60px;
+        font-weight: 900; font-size: 130px;
+        color: {p['accent']}99;
+        text-shadow:
+          0 0 30px {p['accent']}30,
+          0 0 60px {p['accent']}18,
+          0 2px 8px {p['bg']}40;
+        -webkit-text-stroke: 1.5px {p['accent']}40;
+        letter-spacing: -6px; line-height: 0.75;
+      }}
       .meta {{ font-size: 24px; font-weight: 400; color: {p['accent']}; letter-spacing: 4px; text-transform: uppercase; }}
-      .number {{ font-size: 180px; font-weight: 900; line-height: 0.75; color: {p['accent']}; opacity: 0.85; letter-spacing: -8px; }}
-      .title {{ font-size: {52 if layout in (0,3) else 46}px; font-weight: 900; line-height: 1.1; letter-spacing: -0.5px; }}
-      .summary {{ font-size: 28px; font-weight: 300; line-height: 1.65; color: {p['muted']}; }}
-      .accent-line {{ width: 60px; height: 3px; background: {p['accent']}; }}
+      .stars {{ font-size: 28px; color: {p['accent']}; letter-spacing: 4px; }}
+      .title {{ font-weight: 900; line-height: 1.12; letter-spacing: -0.5px; }}
       .insight-box {{
         background: {p['surface']};
-        border-left: 3px solid {p['accent']};
-        padding: 28px 36px;
+        border-left: 4px solid {p['accent']};
         border-radius: 0 8px 8px 0;
       }}
       .insight-label {{ font-size: 22px; font-weight: 700; color: {p['accent']}; letter-spacing: 3px; }}
-      .insight-text {{ font-size: 26px; font-weight: 400; line-height: 1.55; }}
+      .insight-text {{ font-weight: 400; line-height: 1.55; }}
+      .detail-text {{ font-weight: 300; line-height: 1.55; color: {p['muted']}; }}
       .source-tag {{ font-size: 22px; color: {p['muted']}; font-weight: 300; }}
-      .stars {{ font-size: 28px; color: {p['accent']}; letter-spacing: 4px; }}
       .brand {{ font-size: 18px; color: {p['muted']}; opacity: 0.5; letter-spacing: 3px; }}
       .hairline {{ width: 100%; height: 1px; background: {p['accent']}; opacity: 0.15; }}
+      .accent-line {{ height: 3px; background: {p['accent']}; }}
+      .folio {{ font-size: 20px; color: {p['muted']}; font-weight: 300; letter-spacing: 2px; }}
     </style>"""
 
 
+def _extract_fields(item: dict) -> tuple:
+    title = item.get("title", "")
+    source = item.get("source", "")
+    score = int(item.get("score", 3))
+    stars = "★" * score + "☆" * (5 - score)
+    summary = item.get("summary_zh", "")
+    insight = item.get("insight_zh", "") or ""
+    detail = item.get("detail_zh", "") or ""
+    if not insight and summary:
+        insight = summary[:80]
+    if not detail:
+        detail = summary[80:] if len(summary) > 80 else summary
+    url = item.get("url", "")
+    url_display = ""
+    if url:
+        from urllib.parse import urlparse
+        try:
+            pu = urlparse(url)
+            if pu.netloc:
+                url_display = pu.netloc + pu.path
+                # Clean up: remove trailing slash if path is just "/"
+                if url_display.endswith("/") and pu.path == "/":
+                    url_display = pu.netloc
+            if len(url_display) > 80:
+                url_display = url_display[:77] + "..."
+        except Exception:
+            pass
+    # Fallback: show source name if no URL
+    if not url_display:
+        url_display = source if source else ""
+    return title, source, score, stars, summary, insight, detail, url, url_display
+
+
+# ═══════════════════════════════════════════════════════════════
+# Layout 0 — Editorial: full-bleed photo + bold overlay typography
+# ═══════════════════════════════════════════════════════════════
+
+def _layout_editorial(item: dict, idx: int, total: int, pal_index: int) -> str:
+    p = _palette(pal_index)
+    photo = _photo(pal_index)
+    css = _build_shared_css(p).replace("PHOTO_URL_PLACEHOLDER", photo)
+    title, source, score, stars, summary, insight, detail, url, url_display = _extract_fields(item)
+    photo_h = int(CARD_H * PHOTO_RATIOS[0])
+
+    return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
+<div class="photo-section" style="height:{photo_h}px;"></div>
+<div class="page-badge">{idx:02d}</div>
+<div class="content" style="padding:0 80px; padding-top:{photo_h + 24}px;">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
+    <div class="meta">{source}</div>
+    <div class="stars">{stars}</div>
+  </div>
+  <div class="title" style="font-size:48px;margin-bottom:22px;">{title}</div>
+  <div class="insight-box" style="padding:20px 30px;margin-bottom:20px;">
+    <div class="insight-label">⟡ 关键洞察</div>
+    <div class="insight-text" style="margin-top:8px;font-size:26px;">{insight}</div>
+  </div>
+  <div class="detail-text" style="flex:1;font-size:25px;">{detail}</div>
+  <div class="hairline" style="margin:14px 0 10px;"></div>
+  <div style="display:flex;justify-content:space-between;align-items:center;padding-bottom:40px;">
+    <div style="font-size:21px;color:{p['accent']};font-weight:400;">{'🔗 '+url_display if url_display else ''}</div>
+    <div class="folio">{idx} / {total}</div>
+  </div>
+</div></body></html>"""
+
+
+# ═══════════════════════════════════════════════════════════════
+# Layout 1 — Split: photo block + clean text grid
+# ═══════════════════════════════════════════════════════════════
+
+def _layout_split(item: dict, idx: int, total: int, pal_index: int) -> str:
+    p = _palette(pal_index)
+    photo = _photo(pal_index)
+    css = _build_shared_css(p).replace("PHOTO_URL_PLACEHOLDER", photo)
+    title, source, score, stars, summary, insight, detail, url, url_display = _extract_fields(item)
+    photo_h = int(CARD_H * PHOTO_RATIOS[1])
+
+    return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
+<div class="photo-section" style="height:{photo_h}px;"></div>
+<div class="page-badge">{idx:02d}</div>
+<div class="content" style="padding:0 72px; padding-top:{photo_h + 20}px;">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+    <div class="meta">{source}</div>
+    <div class="stars">{stars}</div>
+  </div>
+  <div class="title" style="font-size:44px;margin-bottom:20px;">{title}</div>
+  <div class="insight-box" style="padding:18px 28px;margin-bottom:18px;">
+    <div class="insight-label">⟡ 关键洞察</div>
+    <div class="insight-text" style="margin-top:6px;font-size:25px;">{insight}</div>
+  </div>
+  <div class="detail-text" style="flex:1;font-size:24px;">{detail}</div>
+  <div class="hairline" style="margin:12px 0 8px;"></div>
+  <div style="display:flex;justify-content:space-between;align-items:center;padding-bottom:38px;">
+    <div style="font-size:20px;color:{p['accent']};font-weight:400;">{'🔗 '+url_display if url_display else ''}</div>
+    <div class="folio">{idx} / {total}</div>
+  </div>
+</div></body></html>"""
+
+
+# ═══════════════════════════════════════════════════════════════
+# Layout 2 — Swiss: bold number bridge + crisp type
+# ═══════════════════════════════════════════════════════════════
+
+def _layout_swiss(item: dict, idx: int, total: int, pal_index: int) -> str:
+    p = _palette(pal_index)
+    photo = _photo(pal_index)
+    css = _build_shared_css(p).replace("PHOTO_URL_PLACEHOLDER", photo)
+    title, source, score, stars, summary, insight, detail, url, url_display = _extract_fields(item)
+    photo_h = int(CARD_H * PHOTO_RATIOS[2])
+
+    return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
+<div class="photo-section" style="height:{photo_h}px;"></div>
+<div class="page-badge">{idx:02d}</div>
+<div class="content" style="padding:0 76px; padding-top:{photo_h + 22}px;">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
+    <div class="meta">{source}</div>
+    <div class="stars">{stars}</div>
+  </div>
+  <div class="title" style="font-size:46px;margin-bottom:20px;">{title}</div>
+  <div class="insight-box" style="padding:20px 30px;margin-bottom:20px;">
+    <div class="insight-label">K E Y &nbsp; I N S I G H T</div>
+    <div class="insight-text" style="margin-top:8px;font-size:25px;">{insight}</div>
+  </div>
+  <div class="detail-text" style="flex:1;font-size:25px;">{detail}</div>
+  <div class="hairline" style="margin:12px 0 10px;"></div>
+  <div style="display:flex;justify-content:space-between;align-items:center;padding-bottom:40px;">
+    <div style="font-size:20px;color:{p['accent']};font-weight:400;">{'🔗 '+url_display if url_display else ''}</div>
+    <div class="folio">{idx} / {total}</div>
+  </div>
+</div></body></html>"""
+
+
+# ═══════════════════════════════════════════════════════════════
+# Layout 3 — Frame: accent border + contained photo
+# ═══════════════════════════════════════════════════════════════
+
+def _layout_frame(item: dict, idx: int, total: int, pal_index: int) -> str:
+    p = _palette(pal_index)
+    photo = _photo(pal_index)
+    css = _build_shared_css(p).replace("PHOTO_URL_PLACEHOLDER", photo)
+    title, source, score, stars, summary, insight, detail, url, url_display = _extract_fields(item)
+    photo_h = int(CARD_H * PHOTO_RATIOS[3])
+
+    return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
+<div style="position:absolute;left:0;top:0;bottom:0;width:6px;background:{p['accent']};z-index:3;"></div>
+<div class="photo-section" style="height:{photo_h}px;left:6px;right:0;">
+  <div style="position:absolute;bottom:0;left:0;right:0;height:4px;background:{p['accent']};z-index:4;opacity:0.7;"></div>
+</div>
+<div class="page-badge">{idx:02d}</div>
+<div class="content" style="padding:0 82px; padding-top:{photo_h + 24}px;">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;">
+    <div class="meta">{source}</div>
+    <div class="stars">{stars}</div>
+  </div>
+  <div class="title" style="font-size:46px;margin-bottom:20px;">{title}</div>
+  <div class="insight-box" style="padding:18px 28px;margin-bottom:18px;">
+    <div class="insight-label">⟡ 关键洞察</div>
+    <div class="insight-text" style="margin-top:6px;font-size:25px;">{insight}</div>
+  </div>
+  <div class="detail-text" style="flex:1;font-size:25px;">{detail}</div>
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:14px 0 38px;margin-top:12px;border-top:1px solid {p['accent']}20;">
+    <div style="font-size:20px;color:{p['accent']};font-weight:400;">{'🔗 '+url_display if url_display else ''}</div>
+    <div class="folio">{idx} / {total}</div>
+  </div>
+</div></body></html>"""
+
+
+# ═══════════════════════════════════════════════════════════════
+# Cover & Summary
+# ═══════════════════════════════════════════════════════════════
+
 def _build_cover_html(date_str: str, count: int, pal_index: int) -> str:
     p = _palette(pal_index)
-    css = _build_css(p, 0, True, pal_index)
+    photo = _photo(pal_index)
+    css = _build_shared_css(p).replace("PHOTO_URL_PLACEHOLDER", photo)
     return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
-<div class="photo-bg"></div><div class="content" style="display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:100px 80px;">
+<div class="photo-section" style="height:100%;opacity:0.5;"></div>
+<div class="content" style="align-items:center;justify-content:center;text-align:center;padding:100px 80px;">
   <div class="meta" style="margin-bottom:60px;">D A I L Y &nbsp; D I G E S T</div>
-  <div class="number" style="font-size:120px;line-height:1;margin-bottom:32px;">{count}</div>
+  <div style="font-size:120px;font-weight:900;color:{p['accent']};opacity:0.85;letter-spacing:-6px;line-height:1;margin-bottom:32px;">{count}</div>
   <div class="title" style="font-size:56px;margin-bottom:20px;">今日 AI 快讯精选</div>
   <div class="source-tag" style="font-size:28px;">{date_str}</div>
   <div class="accent-line" style="margin-top:48px;width:120px;"></div>
@@ -133,167 +313,20 @@ def _build_cover_html(date_str: str, count: int, pal_index: int) -> str:
 </div></body></html>"""
 
 
-def _extract_fields(item: dict) -> tuple:
-    """Extract common fields with smart fallbacks."""
-    title = item.get("title", "")
-    source = item.get("source", "")
-    score = int(item.get("score", 3))
-    stars = "★" * score + "☆" * (5 - score)
-    summary = item.get("summary_zh", "")
-    insight = item.get("insight_zh", "") or ""
-    detail = item.get("detail_zh", "") or ""
-    # Fallback: if no enriched fields, derive from summary
-    if not insight:
-        insight = summary[:80] if summary else ""
-    if not detail:
-        detail = summary[80:] if len(summary) > 80 else summary
-    url = item.get("url", "")
-    domain = ""
-    if url:
-        from urllib.parse import urlparse
-        try:
-            domain = urlparse(url).netloc
-        except Exception:
-            pass
-    return title, source, score, stars, summary, insight, detail, url, domain
-
-
-def _layout_editorial(item: dict, idx: int, total: int, pal_index: int) -> str:
-    """Full photo bg, insight-first — magazine cover feel."""
-    p = _palette(pal_index)
-    css = _build_css(p, 0, True, pal_index)
-    title, source, score, stars, summary, insight, detail, url, domain = _extract_fields(item)
-
-    return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
-<div class="photo-bg"></div><div class="content" style="display:flex;flex-direction:column;justify-content:flex-end;padding:72px 80px;">
-  <div class="meta" style="margin-bottom:20px;">{source} &nbsp;·&nbsp; {stars}</div>
-  <div class="title" style="font-size:54px;margin-bottom:32px;">{title}</div>
-  <div class="insight-box" style="margin-bottom:32px;padding:36px 40px;border-left-width:4px;">
-    <div class="insight-label">⟡ 关键洞察</div>
-    <div class="insight-text" style="margin-top:12px;font-size:30px;line-height:1.5;">{insight}</div>
-  </div>
-  <div class="summary" style="margin-bottom:32px;font-size:28px;line-height:1.7;">{detail[:400]}</div>
-  <div class="hairline" style="margin-bottom:28px;"></div>
-  <div style="display:flex;justify-content:space-between;align-items:center;">
-    <div class="source-tag">原文 {domain}</div>
-    <div class="brand">每日双拼日报 · {idx}/{total}</div>
-  </div>
-</div></body></html>"""
-
-
-def _layout_split(item: dict, idx: int, total: int, pal_index: int) -> str:
-    """Photo top, insight + detail below — news magazine spread."""
-    p = _palette(pal_index)
-    css = _build_css(p, 1, True, pal_index)
-    title, source, score, stars, summary, insight, detail, url, domain = _extract_fields(item)
-
-    return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
-<div class="photo-bg" style="height:38%;position:absolute;top:0;left:0;right:0;opacity:0.7;"></div>
-<div class="content" style="display:flex;flex-direction:column;padding:0 72px;padding-top:42%;height:100%;">
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;">
-    <div class="meta">{source}</div>
-    <div class="stars">{stars}</div>
-  </div>
-  <div class="title" style="font-size:48px;">{title}</div>
-  <div class="insight-box" style="margin:32px 0;padding:32px 38px;border-left-width:4px;">
-    <div class="insight-label">⟡ 关键洞察</div>
-    <div class="insight-text" style="margin-top:10px;font-size:29px;line-height:1.5;">{insight}</div>
-  </div>
-  <div class="summary" style="flex:1;font-size:27px;line-height:1.7;">{detail[:380]}</div>
-  <div class="hairline" style="margin-top:20px;"></div>
-  <div style="display:flex;justify-content:space-between;padding:20px 0 56px;">
-    <div class="source-tag">{'原文 '+domain if domain else ''}</div>
-    <div class="brand">每日双拼日报 · {idx}/{total}</div>
-  </div>
-</div></body></html>"""
-
-
-def _layout_swiss(item: dict, idx: int, total: int, pal_index: int) -> str:
-    """No photo, typography with big number — Swiss grid."""
-    p = _palette(pal_index)
-    css = _build_css(p, 2, False)
-    title, source, score, stars, summary, insight, detail, url, domain = _extract_fields(item)
-
-    return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
-<div class="content" style="display:flex;flex-direction:column;height:100%;padding:70px 80px 56px;">
-  <div style="display:flex;gap:28px;align-items:flex-start;margin-bottom:36px;">
-    <div class="number" style="font-size:140px;line-height:0.7;">{idx:02d}</div>
-    <div style="flex:1;padding-top:16px;">
-      <div style="display:flex;justify-content:space-between;">
-        <div class="meta">{source}</div>
-        <div class="stars">{stars}</div>
-      </div>
-    </div>
-  </div>
-  <div class="title" style="font-size:52px;margin-bottom:32px;">{title}</div>
-  <div class="insight-box" style="margin-bottom:32px;padding:30px 38px;border-left-width:4px;">
-    <div class="insight-label">K E Y &nbsp; I N S I G H T</div>
-    <div class="insight-text" style="margin-top:10px;font-size:28px;line-height:1.5;">{insight}</div>
-  </div>
-  <div class="summary" style="flex:1;font-size:28px;line-height:1.7;">{detail[:420]}</div>
-  <div class="hairline" style="margin-top:28px;"></div>
-  <div style="display:flex;justify-content:space-between;padding-top:20px;">
-    <div class="source-tag">{'原文 '+domain if domain else ''}</div>
-    <div class="brand">每日双拼日报 · {idx}/{total}</div>
-  </div>
-</div></body></html>"""
-
-
-def _layout_accent(item: dict, idx: int, total: int, pal_index: int) -> str:
-    """Accent frame + big number — dramatic editorial."""
-    p = _palette(pal_index)
-    css = _build_css(p, 3, False)
-    title, source, score, stars, summary, insight, detail, url, domain = _extract_fields(item)
-
-    return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
-<div style="position:absolute;left:0;top:0;bottom:0;width:8px;background:{p['accent']};z-index:3;"></div>
-<div style="position:absolute;left:8px;top:0;right:0;bottom:0;border:1px solid {p['accent']}22;z-index:1;"></div>
-<div class="content" style="display:flex;flex-direction:column;height:100%;padding:80px 90px 56px;position:relative;z-index:2;">
-  <div class="meta" style="margin-bottom:12px;">{source} &nbsp;·&nbsp; {stars}</div>
-  <div class="number" style="font-size:120px;margin-bottom:16px;">{idx:02d}</div>
-  <div class="title" style="font-size:50px;margin-bottom:28px;">{title}</div>
-  <div class="insight-box" style="margin-bottom:28px;padding:28px 36px;border-left-width:4px;">
-    <div class="insight-label">⟡ 关键洞察</div>
-    <div class="insight-text" style="margin-top:10px;font-size:28px;line-height:1.5;">{insight}</div>
-  </div>
-  <div class="summary" style="flex:1;font-size:27px;line-height:1.7;">{detail[:380]}</div>
-  <div style="display:flex;justify-content:space-between;padding-top:24px;border-top:1px solid {p['accent']}20;">
-    <div class="source-tag">{'原文 '+domain if domain else ''}</div>
-    <div class="brand">每日双拼日报 · {idx}/{total}</div>
-  </div>
-</div></body></html>"""
-
-
-def _build_news_card_html(item: dict, idx: int, total: int) -> str:
-    """Route to the appropriate layout template based on index."""
-    layout = idx % 4  # Rotate through 4 layouts
-    pal_index = idx % len(PALETTES)
-
-    if layout == 0:
-        return _layout_editorial(item, idx, total, pal_index)
-    elif layout == 1:
-        return _layout_split(item, idx, total, pal_index)
-    elif layout == 2:
-        return _layout_swiss(item, idx, total, pal_index)
-    else:
-        return _layout_accent(item, idx, total, pal_index)
-
-
 def _build_summary_html(news: list[dict], date_str: str) -> str:
-    """Final overview card."""
     p = _palette(0)
-    css = _build_css(p, 2, False)
+    css = _build_shared_css(p).replace("PHOTO_URL_PLACEHOLDER", "")
     items = ""
     for i, item in enumerate(news[:10], 1):
         s = "★" * int(item.get("score", 3))
-        items += f"""<div style="display:flex;gap:20px;padding:18px 0;border-bottom:1px solid {p['accent']}12;align-items:flex-start;">
+        items += f"""<div style="display:flex;gap:20px;padding:18px 0;border-bottom:1px solid {p['accent']}12;align-items:center;">
   <div style="font-size:26px;font-weight:900;color:{p['accent']};min-width:36px;">{i:02d}</div>
   <div style="flex:1;"><div style="font-size:25px;font-weight:600;line-height:1.45;">{item.get('title','')}</div>
-  <div style="font-size:20px;color:{p['muted']};margin-top:8px;">{item.get('source','')} &nbsp; {s}</div></div>
+  <div style="font-size:20px;color:{p['muted']};margin-top:6px;">{item.get('source','')}</div></div>
+  <div class="stars">{s}</div>
 </div>"""
-
     return f"""<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8">{css}</head><body>
-<div class="content" style="display:flex;flex-direction:column;height:100%;padding:80px 72px 60px;">
+<div class="content" style="padding:80px 72px 60px;">
   <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:32px;">
     <div class="title" style="font-size:44px;">今日快讯一览</div>
     <div class="source-tag">{date_str}</div>
@@ -306,6 +339,19 @@ def _build_summary_html(news: list[dict], date_str: str) -> str:
     <div class="brand">每日双拼日报</div>
   </div>
 </div></body></html>"""
+
+
+def _build_news_card_html(item: dict, idx: int, total: int) -> str:
+    layout = idx % 4
+    pal_index = idx % len(PALETTES)
+    if layout == 0:
+        return _layout_editorial(item, idx, total, pal_index)
+    elif layout == 1:
+        return _layout_split(item, idx, total, pal_index)
+    elif layout == 2:
+        return _layout_swiss(item, idx, total, pal_index)
+    else:
+        return _layout_frame(item, idx, total, pal_index)
 
 
 # ── Chrome finder ─────────────────────────────────────────
@@ -362,7 +408,6 @@ def render_html_to_png(html: str, png_path: str,
 def render_xhs_cards(ai_news: list[dict],
                      output_dir: str = "docs/xhs",
                      max_news: int = 10) -> list[str]:
-    """Render 1 cover + N news cards + 1 summary card."""
     out = Path(output_dir)
     out.mkdir(parents=True, exist_ok=True)
 
@@ -372,27 +417,26 @@ def render_xhs_cards(ai_news: list[dict],
     selected = ai_news[:max_news]
     total = 2 + len(selected)
 
-    logger.info(f"[XHS] Rendering {total} cards (Premium Editorial, 4 layouts, {len(PALETTES)} palettes)")
+    logger.info(f"[XHS] Rendering {total} cards (v5: unified page-badge + stars)")
 
-    # 1. Cover
+    # Cover
     html = _build_cover_html(today_cn, len(selected), 0)
     png = out / f"{date_file}_01_cover.png"
     render_html_to_png(html, str(png))
     paths.append(str(png))
     logger.info(f"  [1/{total}] Cover -> {png.name}")
 
-    # 2. News cards (rotating layouts + palettes)
+    # News cards
     for i, item in enumerate(selected):
         n = i + 2
         html = _build_news_card_html(item, i + 1, len(selected))
         png = out / f"{date_file}_{n:02d}_news_{i+1:02d}.png"
         render_html_to_png(html, str(png))
         paths.append(str(png))
-        layout_name = ["Editorial", "Split", "Swiss", "Accent"][i % 4]
-        palette_name = PALETTES[i % len(PALETTES)]["name"]
-        logger.info(f"  [{n}/{total}] {item.get('title','')[:36]}... [{layout_name}] [{palette_name}] -> {png.name}")
+        layout_name = ["Editorial", "Split", "Swiss", "Frame"][i % 4]
+        logger.info(f"  [{n}/{total}] {item.get('title','')[:36]}... [{layout_name}] -> {png.name}")
 
-    # 3. Summary
+    # Summary
     n = total
     html = _build_summary_html(selected, today_cn)
     png = out / f"{date_file}_{n:02d}_summary.png"
