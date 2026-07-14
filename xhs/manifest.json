@@ -1,7 +1,7 @@
 {
-  "date": "2026-07-13",
-  "title": "🚨 今天AI圈又地震了…",
-  "body": "家人们，今天的AI快讯真的炸裂到离谱！\n\n1️⃣ 苹果起诉OpenAI：前员工窃取机密文件跳槽\n苹果把OpenAI告了，说前员工利用罕见漏洞长期下载机密文件，跳槽时还带走了苹果硬件。员工间甚至开玩笑说“这是合法的”。AI人才争夺战已经升级到商业机密保卫战了。\n💬 锐评：苹果这波操作，表面是打官司，实则是给所有AI公司敲警钟：挖人可以，但别碰底线。\n原文：TechCrunch\n\n2️⃣ Satya Nadella警告企业使用AI的风险\n微软CEO纳德拉说，销售专有模型的AI巨头像特洛伊木马，企业用它们的服务可能被“锁死”或面临深层风险。这言论直接引爆硅谷对AI安全与供应商锁定的辩论。\n💬 锐评：纳德拉这是“自己人打自己人”啊，但说实话，企业用AI确实得长个心眼，别被巨头绑架。\n原文：TechCrunch\n\n3️⃣ Hugging Face与Cerebras合作推出实时语音AI\nHugging Face和Cerebras联手，把Gemma 4模型部署到实时语音场景，低延迟、高性能，语音交互要起飞了。\n💬 锐评：这组合绝了，Cerebras的算力加上Hugging Face的生态，语音AI的“iPhone时刻”可能真要来了。\n原文：Hugging Face - Blog\n\n4️⃣ Anthropic为印度市场本地化Claude定价\nAnthropic开始给印度用户提供卢比计价的Claude订阅，印度是它美国之外最大市场。本地化定价策略，抢用户、卷对手。\n💬 锐评：AI公司终于开始接地气了，印度市场这么大，不搞点本地化怎么行？其他家赶紧跟上。\n原文：TechCrunch\n\n5️⃣ iOS 27公测版发布：Siri AI重大升级\n苹果发布iOS 27公测版，Siri终于“活”了，能给出简洁回答，改变交互方式。watchOS 27的Siri也让Apple Watch变成腕上电脑。\n💬 锐评：苹果AI战略的关键转折，Siri再不好用，库克可能真要睡不着了。\n原文：The Verge\n\n6️⃣ Uber与Waymo在华盛顿展开Robotaxi游说大战\nUber在华盛顿疯狂游说，推动有利于自己的Robotaxi监管，和Waymo正面硬刚。两大巨头为自动驾驶出租车规则打起来了。\n💬 锐评：这游说大战比技术竞争还精彩，谁赢了，谁就掌握未来出行命脉。\n原文：TechCrunch\n\n7️⃣ 腾讯WorkBuddy入门指南：国产AI编程助手\n腾讯推出WorkBuddy，定位是“适合国人体质的Codex替代品”，不是替代程序员，而是当协作伙伴。\n💬 锐评：国产AI助手终于不卷“替代人类”了，而是卷“怎么帮人类”，这思路对头。\n原文：爱范儿\n\n8️⃣ 英伟达AIPC中国首秀：笔记本中装下曼哈顿\n英伟达在中国展示AIPC概念，把强大算力塞进笔记本，定义AI PC标准。\n💬 锐评：英伟达这是要统治PC端AI啊，笔记本都能跑大模型了，台式机还远吗？\n原文：爱范儿\n\n9️⃣ Waze新增AI功能：由Gemini驱动\nWaze引入Google Gemini AI，提供个性化定制更新，帮助Waze对抗Apple Maps。\n💬 锐评：导航也开始卷AI了，以后开车可能连地图都不用自己看了。\n原文：TechCrunch\n\n🔟 宇树G1机器人完成活体手术登上《自然》\n宇树科技的G1机器人成功完成两例活体手术，成果登上《自然》期刊，人形机器人在医疗领域取得重大突破。\n💬 锐评：这比任何AI聊天都震撼，机器人做手术，科幻成真了。\n原文：爱范儿\n\n你觉得哪条最有冲击力？评论区聊聊 👇",
+  "date": "2026-07-14",
+  "title": "🚨今天AI圈又地震了…",
+  "body": "家人们，今天的AI圈简直是核弹连爆！从苹果手撕OpenAI到机器人上手术台，每一条都让我瞳孔地震。👇\n\n1️⃣ PixVerse狂揽4.39亿美元，估值破20亿\n视频生成赛道杀疯了，月活1500万的PixVerse直接封神。资本押注AI视频，说明内容创作的下一个风口已经来了。\n💬 锐评：AI视频的烧钱大战才刚开始，普通人先别急着跟投。\n原文：TechCrunch\n\n2️⃣ 苹果起诉OpenAI：前员工偷机密文件\n苹果指控一名前员工窃取敏感文件后跳槽OpenAI，甚至开玩笑说能“黑进”苹果系统。这波操作，科技圈吃瓜群众已搬好小板凳。\n💬 锐评：AI公司挖人挖到法律红线了，硅谷的“人才战争”升级成“间谍战”。\n原文：TechCrunch\n\n3️⃣ 微软CEO纳德拉警告：AI模型是特洛伊木马\n纳德拉说专有模型会让企业被供应商“绑架”，这波自黑直接引爆硅谷。微软自己也在卖模型，这波反向操作有点意思。\n💬 锐评：大佬的嘴，骗人的鬼，但话糙理不糙——别把所有鸡蛋放一个篮子里。\n原文：TechCrunch\n\n4️⃣ Anthropic为印度用户定制Claude定价\n印度成为除美国外最大市场，Anthropic开始玩本地化。看来AI付费模式也要“因地制宜”了。\n💬 锐评：印度市场是AI的必争之地，谁先降价谁赢。\n原文：TechCrunch\n\n5️⃣ Nous Research估值15亿，Agent赛道再升温\nHermes模型制造商Nous Research融资在即，AI Agent从概念走向变现。\n💬 锐评：Agent是AI的下一个爆点，但产品化还得再卷几年。\n原文：TechCrunch\n\n6️⃣ iOS 27公测版发布，Siri AI终于支棱起来了\n苹果用AI重做Siri，测试者反馈“简洁有效”，iPhone的使用方式要变了。\n💬 锐评：苹果终于醒了，但Siri AI能不能打，还得看秋季正式版。\n原文：The Verge\n\n7️⃣ 腾讯混元Hy3登顶OpenRouter周榜\n国产大模型单周处理6万亿Token，推理效率碾压一众对手。这波，中国AI争气了。\n💬 锐评：混元Hy3证明国产模型不是“花瓶”，落地能力才是王道。\n原文：爱范儿\n\n8️⃣ 英伟达AIPC中国首秀，算力塞进笔记本\n英伟达把“一座曼哈顿的算力”塞进笔记本，AI PC的定义权争夺战打响。\n💬 锐评：以后笔记本不配AI芯片，都不好意思叫“电脑”。\n原文：爱范儿\n\n9️⃣ 宇树G1机器人完成活体手术，登上《自然》\n人形机器人做手术，还发顶刊。具身智能从实验室走向手术台，医疗AI要变天。\n💬 锐评：以后做手术，主刀医生可能是机器人。\n原文：爱范儿\n\n🔟 Hugging Face + Cerebras推出Gemma 4实时语音AI\n高性能计算+开源模型，低延迟语音交互来了。语音AI的实用化，可能比我们想象的快。\n💬 锐评：语音交互的“ChatGPT时刻”要来了。\n原文：Hugging Face Blog\n\n你觉得哪条最有冲击力？评论区聊聊👇",
   "hashtags": [
     "#AI",
     "#人工智能",
@@ -14,17 +14,17 @@
   ],
   "headline_news": "苹果起诉OpenAI",
   "cards": [
-    "docs/xhs/20260713_01_cover.png",
-    "docs/xhs/20260713_02_news_01.png",
-    "docs/xhs/20260713_03_news_02.png",
-    "docs/xhs/20260713_04_news_03.png",
-    "docs/xhs/20260713_05_news_04.png",
-    "docs/xhs/20260713_06_news_05.png",
-    "docs/xhs/20260713_07_news_06.png",
-    "docs/xhs/20260713_08_news_07.png",
-    "docs/xhs/20260713_09_news_08.png",
-    "docs/xhs/20260713_10_news_09.png",
-    "docs/xhs/20260713_11_news_10.png",
-    "docs/xhs/20260713_12_summary.png"
+    "docs/xhs/20260714_01_cover.png",
+    "docs/xhs/20260714_02_news_01.png",
+    "docs/xhs/20260714_03_news_02.png",
+    "docs/xhs/20260714_04_news_03.png",
+    "docs/xhs/20260714_05_news_04.png",
+    "docs/xhs/20260714_06_news_05.png",
+    "docs/xhs/20260714_07_news_06.png",
+    "docs/xhs/20260714_08_news_07.png",
+    "docs/xhs/20260714_09_news_08.png",
+    "docs/xhs/20260714_10_news_09.png",
+    "docs/xhs/20260714_11_news_10.png",
+    "docs/xhs/20260714_12_summary.png"
   ]
 }
