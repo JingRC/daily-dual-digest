@@ -123,7 +123,7 @@ def _build_shared_css(p: dict) -> str:
       }}
       .insight-label {{ font-size: 22px; font-weight: 700; color: {p['accent']}; letter-spacing: 3px; }}
       .insight-text {{ font-weight: 400; line-height: 1.55; }}
-      .detail-text {{ font-weight: 300; line-height: 1.55; color: {p['muted']}; }}
+      .detail-text {{ font-weight: 300; line-height: 1.55; color: {p['muted']}; overflow: hidden; }}
       .source-tag {{ font-size: 22px; color: {p['muted']}; font-weight: 300; }}
       .brand {{ font-size: 18px; color: {p['muted']}; opacity: 0.5; letter-spacing: 3px; }}
       .hairline {{ width: 100%; height: 1px; background: {p['accent']}; opacity: 0.15; }}
@@ -144,6 +144,15 @@ def _extract_fields(item: dict) -> tuple:
         insight = summary[:80]
     if not detail:
         detail = summary[80:] if len(summary) > 80 else summary
+    # Cap detail at 500 chars to prevent link overflow
+    if len(detail) > 500:
+        # Cut at last complete sentence before 500
+        cut = detail[:500].rstrip("，。！？；：、,")
+        last_period = max(cut.rfind("。"), cut.rfind("！"), cut.rfind("？"), cut.rfind("；"))
+        if last_period > 300:
+            detail = cut[:last_period + 1]
+        else:
+            detail = cut
     url = item.get("url", "")
     url_display = ""
     if url:
