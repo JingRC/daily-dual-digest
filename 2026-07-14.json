@@ -5,195 +5,195 @@
   "ai_news": [
     {
       "title": "视频生成初创公司PixVerse融资4.39亿美元，估值超20亿美元",
-      "summary_zh": "视频生成AI初创公司PixVerse完成4.39亿美元融资，估值突破20亿美元。该公司计划利用新资金扩展其世界模型产品并拓展全球市场。此轮融资凸显了AI视频生成赛道的火热，PixVerse成为该领域又一独角兽。",
+      "summary_zh": "视频生成初创公司PixVerse在最新一轮融资中筹集了4.39亿美元，估值突破20亿美元。该公司计划利用这笔资金扩展其世界模型产品，并覆盖更多地区的客户。这标志着AI视频生成领域持续受到资本热捧。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
       "score": 5
     },
     {
-      "title": "Nous Research洽谈融资，估值达15亿美元",
-      "summary_zh": "AI Agent开发商Nous Research正在洽谈新一轮融资，估值约15亿美元，计划筹集至少7500万美元，由Robot Ventures领投，USV等知名机构参投。该公司以开发Hermes系列Agent模型闻名，此次融资反映了资本市场对AI Agent赛道的持续看好。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
-      "score": 5
-    },
-    {
-      "title": "纳德拉警告企业使用AI需警惕“特洛伊木马”风险",
-      "summary_zh": "微软CEO萨提亚·纳德拉发出警告，称企业使用专有AI模型可能面临“特洛伊木马”风险，即大型AI实验室可能通过模型渗透企业数据。这一言论引发了硅谷对AI安全与数据主权的新一轮讨论，凸显了企业采用AI时的潜在隐患。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
-      "score": 5
-    },
-    {
-      "title": "苹果起诉OpenAI前员工窃取商业机密",
-      "summary_zh": "苹果公司起诉一名前员工，指控其在离职加入OpenAI后，利用系统漏洞下载大量机密文件。诉讼文件中还披露了员工之间关于未经授权访问系统的玩笑以及面试中要求携带苹果硬件的指控。此案凸显了AI人才争夺中的商业秘密保护问题。",
+      "title": "苹果起诉OpenAI，指控前员工窃取商业机密",
+      "summary_zh": "苹果公司对OpenAI提起商业机密诉讼，指控一名前员工在离职加入OpenAI后，利用罕见漏洞下载了大量机密文件。诉讼中包含员工开玩笑称可非法访问苹果系统等惊人指控，凸显两大科技巨头间的激烈人才与知识产权争夺。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
       "score": 5
     },
     {
-      "title": "苹果发布iOS 27公测版，Siri AI正式登场",
-      "summary_zh": "苹果发布了iOS 27、macOS 27等系统的首个公测版，其中最受关注的是Siri AI——苹果延迟已久的AI驱动Siri升级。早期测试显示其实际可用性大幅提升，能更自然地处理复杂指令，标志着苹果在AI助手领域迈出关键一步。",
+      "title": "纳德拉警告：使用AI时需警惕“特洛伊木马”风险",
+      "summary_zh": "微软CEO萨提亚·纳德拉发出惊人警告，称使用AI的公司需警惕大型AI实验室提供的专有模型可能像“特洛伊木马”一样带来安全隐患。这一言论引发了硅谷AI界关于模型供应商信任问题的新一轮辩论。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+      "score": 5
+    },
+    {
+      "title": "Nous Research洽谈融资，估值达15亿美元",
+      "summary_zh": "AI代理开发商Nous Research正以15亿美元估值洽谈新一轮融资，计划筹集至少7500万美元，由Robot Ventures领投，USV等知名投资者参投。该公司以开发Hermes代理而闻名，此次融资表明AI代理赛道持续火热。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "score": 5
+    },
+    {
+      "title": "苹果发布iOS 27公测版，Siri AI正式亮相",
+      "summary_zh": "苹果发布了iOS 27及其他主要操作系统更新的公测版，其中最大的新功能是Siri AI——延迟已久的AI驱动Siri改造版。早期评测显示其实际可用，但回答较为简洁。这标志着苹果在AI助手领域的重大进展。",
       "source": "The Verge",
       "url": "https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai",
       "score": 4
     },
     {
-      "title": "Anthropic为印度市场推出本地化Claude定价",
-      "summary_zh": "Anthropic开始为印度用户提供以印度卢比计价的Claude订阅计划。印度是其在美国之外的最大市场，此举旨在通过本地化定价策略扩大用户基础，降低使用门槛，反映了AI公司对新兴市场的重视。",
+      "title": "Anthropic为印度市场本地化Claude定价",
+      "summary_zh": "Anthropic开始为印度用户提供以印度卢比计价的Claude订阅计划。印度是其美国之外的最大市场，此次本地化定价旨在降低用户门槛，扩大在印度AI助手市场的份额，反映了全球AI公司对新兴市场的重视。",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
       "score": 4
     },
     {
-      "title": "Hugging Face与Cerebras合作将Gemma 4用于实时语音AI",
-      "summary_zh": "Hugging Face与芯片公司Cerebras合作，将Google的Gemma 4模型部署于实时语音AI场景。该合作利用Cerebras的专用硬件加速推理，实现低延迟语音交互，展示了开源模型与专用芯片结合的潜力，推动语音AI应用发展。",
+      "title": "英伟达AIPC中国首秀：将“曼哈顿”装入笔记本",
+      "summary_zh": "英伟达在中国首次展示其AIPC概念，旨在通过定义AIPC本身来切走未来更大的蛋糕。该技术将强大的AI计算能力集成到笔记本中，相当于在便携设备里装下一座“曼哈顿”的算力，标志着AI PC市场竞争白热化。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1671945?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 4
+    },
+    {
+      "title": "宇树G1机器人完成两例活体手术，登上《自然》",
+      "summary_zh": "宇树科技的G1机器人成功完成两例活体手术，相关成果登上《自然》期刊。这标志着通用人形机器人在医疗手术领域取得重大突破，展示了AI与机器人技术结合在精密操作中的巨大潜力。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1671746?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 4
+    },
+    {
+      "title": "Hugging Face与Cerebras联手，将Gemma 4用于实时语音AI",
+      "summary_zh": "Hugging Face与Cerebras合作，将谷歌的Gemma 4模型部署于实时语音AI应用。此次合作利用Cerebras的专用硬件加速推理，旨在提升语音交互的响应速度和性能，为实时AI语音助手开辟新可能。",
       "source": "Hugging Face - Blog",
       "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
       "score": 4
     },
     {
-      "title": "IBM推出ScarfBench基准测试，评估AI Agent迁移Java框架能力",
-      "summary_zh": "IBM Research发布了ScarfBench基准测试，专门用于评估AI Agent在企业Java框架迁移中的表现。该测试涵盖代码理解、重构和测试等任务，旨在衡量AI在复杂企业级软件开发场景中的实用性，填补了相关评估空白。",
-      "source": "Hugging Face - Blog",
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "score": 4
-    },
-    {
-      "title": "微软测试无广告版Windows 11搜索",
-      "summary_zh": "微软开始向Windows Insider实验通道推送更简洁的Windows 11搜索菜单，移除了推荐内容和广告。此举旨在改善用户体验、重建信任，反映了微软在AI时代对系统界面简洁性的重视，可能为未来AI搜索功能铺路。",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/965090/microsoft-windows-11-search-menu-ads",
-      "score": 3
-    },
-    {
-      "title": "腾讯混元Hy3登顶OpenRouter周榜",
-      "summary_zh": "腾讯混元Hy3模型在AI模型聚合平台OpenRouter上周榜单中登顶，单周处理Token超6万亿。这一成绩显示腾讯在基础大模型领域的竞争力，Hy3凭借高效推理和广泛适用性获得开发者青睐，成为开源社区热门选择。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1671983?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "title": "OpenCut：开源CapCut替代品上线GitHub",
+      "summary_zh": "开源视频编辑工具OpenCut在GitHub上发布，定位为CapCut的开源替代品。该项目吸引了大量关注，标志着视频编辑领域对开源和自主可控解决方案的需求增长，可能影响AI视频编辑工具的生态格局。",
+      "source": "GitHub Trending",
+      "url": "https://github.com/OpenCut-app/OpenCut",
       "score": 3
     }
   ],
   "stories": [
     {
-      "title": "张良拾履",
-      "dynasty": "秦末汉初",
+      "title": "卜式牧羊与捐献家财",
+      "dynasty": "西汉",
       "category": "古代名人逸事",
-      "source": "《史记·留侯世家》"
+      "source": "《汉书·卜式传》"
     },
     {
-      "title": "管鲍之交",
-      "dynasty": "春秋",
+      "title": "朱买臣负薪读书",
+      "dynasty": "西汉",
       "category": "古代名人逸事",
-      "source": "《史记·管晏列传》"
+      "source": "《汉书·朱买臣传》"
     },
     {
-      "title": "退避三舍",
-      "dynasty": "春秋",
+      "title": "刘伶病酒与裸形屋中",
+      "dynasty": "魏晋",
+      "category": "古代名人逸事",
+      "source": "《世说新语·任诞》"
+    },
+    {
+      "title": "周处除三害",
+      "dynasty": "西晋",
+      "category": "古代名人逸事",
+      "source": "《世说新语·自新》"
+    },
+    {
+      "title": "管宁割席断交",
+      "dynasty": "东汉末",
+      "category": "古代名人逸事",
+      "source": "《世说新语·德行》"
+    },
+    {
+      "title": "纪昌学射",
+      "dynasty": "战国",
       "category": "成语典故",
-      "source": "《左传·僖公二十三年》"
+      "source": "《列子·汤问》"
     },
     {
-      "title": "端午节与伍子胥",
-      "dynasty": "春秋",
+      "title": "三人成虎",
+      "dynasty": "战国",
+      "category": "成语典故",
+      "source": "《战国策·魏策二》"
+    },
+    {
+      "title": "重阳节登高避灾的传说",
+      "dynasty": "东汉",
       "category": "传统节日传说",
-      "source": "《吴越春秋》《史记·伍子胥列传》"
+      "source": "《续齐谐记》"
     },
     {
-      "title": "韩信胯下之辱",
-      "dynasty": "秦末汉初",
-      "category": "古代名人逸事",
-      "source": "《史记·淮阴侯列传》"
+      "title": "腊八节的传说：佛祖成道与牧女献糜",
+      "dynasty": "南北朝",
+      "category": "传统节日传说",
+      "source": "《佛本行集经》"
     },
     {
-      "title": "纸上谈兵",
-      "dynasty": "战国",
-      "category": "成语典故",
-      "source": "《史记·廉颇蔺相如列传》"
-    },
-    {
-      "title": "姜太公钓鱼——愿者上钩",
-      "dynasty": "商末周初",
-      "category": "古代名人逸事",
-      "source": "《史记·齐太公世家》《武王伐纣平话》"
-    },
-    {
-      "title": "负荆请罪",
-      "dynasty": "战国",
-      "category": "古代名人逸事",
-      "source": "《史记·廉颇蔺相如列传》"
-    },
-    {
-      "title": "四面楚歌",
-      "dynasty": "秦末汉初",
-      "category": "成语典故",
-      "source": "《史记·项羽本纪》"
-    },
-    {
-      "title": "空城计",
-      "dynasty": "三国",
+      "title": "李愬雪夜袭蔡州",
+      "dynasty": "唐",
       "category": "兵法谋略故事",
-      "source": "《三国志·蜀书·诸葛亮传》裴松之注引郭冲三事"
+      "source": "《资治通鉴·唐纪》"
     },
     {
-      "title": "卧薪尝胆",
-      "dynasty": "春秋",
-      "category": "古代名人逸事",
-      "source": "《史记·越王勾践世家》"
-    },
-    {
-      "title": "晏子使楚",
-      "dynasty": "春秋",
-      "category": "古代名人逸事",
-      "source": "《晏子春秋·内篇杂下》"
-    },
-    {
-      "title": "破釜沉舟",
-      "dynasty": "秦末",
-      "category": "成语典故",
-      "source": "《史记·项羽本纪》"
-    },
-    {
-      "title": "指鹿为马",
-      "dynasty": "秦朝",
-      "category": "成语典故",
-      "source": "《史记·秦始皇本纪》"
-    },
-    {
-      "title": "三顾茅庐",
-      "dynasty": "三国",
-      "category": "古代名人逸事",
-      "source": "《三国志·蜀书·诸葛亮传》"
-    },
-    {
-      "title": "闻鸡起舞",
-      "dynasty": "东晋",
-      "category": "成语典故",
-      "source": "《晋书·祖逖传》"
-    },
-    {
-      "title": "完璧归赵",
-      "dynasty": "战国",
-      "category": "成语典故",
-      "source": "《史记·廉颇蔺相如列传》"
-    },
-    {
-      "title": "田忌赛马",
+      "title": "孙膑围魏救赵",
       "dynasty": "战国",
       "category": "兵法谋略故事",
       "source": "《史记·孙子吴起列传》"
     },
     {
-      "title": "孟母三迁",
-      "dynasty": "战国",
-      "category": "成语典故",
-      "source": "《列女传·母仪传》"
+      "title": "郭橐驼种树与为官之道",
+      "dynasty": "唐",
+      "category": "古代名人逸事",
+      "source": "《柳宗元·种树郭橐驼传》"
     },
     {
-      "title": "苏武牧羊",
-      "dynasty": "西汉",
+      "title": "阿豺折箭教子",
+      "dynasty": "南北朝",
       "category": "古代名人逸事",
-      "source": "《汉书·李广苏建传》"
+      "source": "《魏书·吐谷浑传》"
+    },
+    {
+      "title": "范雎远交近攻",
+      "dynasty": "战国",
+      "category": "兵法谋略故事",
+      "source": "《史记·范雎蔡泽列传》"
+    },
+    {
+      "title": "王羲之东床坦腹",
+      "dynasty": "东晋",
+      "category": "成语典故",
+      "source": "《世说新语·雅量》"
+    },
+    {
+      "title": "陶渊明不为五斗米折腰",
+      "dynasty": "东晋",
+      "category": "古代名人逸事",
+      "source": "《晋书·陶潜传》"
+    },
+    {
+      "title": "曹操割发代首",
+      "dynasty": "三国",
+      "category": "古代名人逸事",
+      "source": "《三国志·武帝纪》裴松之注引《曹瞒传》"
+    },
+    {
+      "title": "张良拾履",
+      "dynasty": "秦末",
+      "category": "古代名人逸事",
+      "source": "《史记·留侯世家》"
+    },
+    {
+      "title": "萧何月下追韩信",
+      "dynasty": "秦末",
+      "category": "古代名人逸事",
+      "source": "《史记·淮阴侯列传》"
+    },
+    {
+      "title": "苏秦刺股与悬梁",
+      "dynasty": "战国",
+      "category": "古代名人逸事",
+      "source": "《战国策·秦策一》"
     }
   ]
 }
