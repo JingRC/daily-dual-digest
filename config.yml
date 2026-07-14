@@ -77,3 +77,5 @@ xhs:
   enabled: true                    # 是否生成小红书卡片
   max_news: 10                     # AI快讯卡片数（每张一条）
   output_dir: "docs/xhs"           # 卡片图片输出目录
+  category: "科技报"               # 卡片分类（每天独立文件夹: YYYY-MM-DD/分类/）
+                                    # 后续可扩展: 历史故事、财经报 等

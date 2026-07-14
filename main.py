@@ -589,13 +589,15 @@ def main():
             # 6c. 渲染图片卡片（HTML → Chrome → PNG）
             from modules.xhs_renderer import render_xhs_cards
             xhs_output_dir = xhs_config.get("output_dir", "docs/xhs")
+            xhs_category = xhs_config.get("category", "科技报")
             card_paths = render_xhs_cards(
                 ai_news,
                 output_dir=xhs_output_dir,
                 max_news=max_news,
+                category=xhs_category,
             )
 
-            # 6c. 保存 XHS 发布清单
+            # 6d. 保存 XHS 发布清单 (与卡片同目录)
             xhs_manifest = {
                 "date": datetime.now().strftime("%Y-%m-%d"),
                 "title": xhs_content.get("title", ""),
@@ -604,7 +606,8 @@ def main():
                 "headline_news": xhs_content.get("headline_news", ""),
                 "cards": card_paths,
             }
-            manifest_path = DOCS_DIR / "xhs" / "manifest.json"
+            manifest_dir = Path(card_paths[0]).parent if card_paths else DOCS_DIR / "xhs"
+            manifest_path = manifest_dir / "manifest.json"
             with open(manifest_path, "w", encoding="utf-8") as f:
                 json.dump(xhs_manifest, f, ensure_ascii=False, indent=2)
             logger.info(f"📋 发布清单: {manifest_path}")

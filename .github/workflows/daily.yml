@@ -87,6 +87,20 @@ jobs:
           echo "${{ steps.date.outputs.today }}" > .email-sentinel/date
           echo "✅ Marked as sent — later cron runs will skip"
 
+      - name: Commit XHS cards to repo
+        if: success() && (steps.sentinel.outputs.cache-hit != 'true' || github.event_name != 'schedule')
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add docs/xhs/
+          if git diff --cached --quiet; then
+            echo "No card changes to commit"
+          else
+            git commit -m "auto: XHS cards — ${{ steps.date.outputs.today }}"
+            git push
+            echo "✅ Cards pushed to repo"
+          fi
+
       - name: Deploy to GitHub Pages
         if: steps.sentinel.outputs.cache-hit != 'true' || github.event_name != 'schedule'
         uses: peaceiris/actions-gh-pages@v3

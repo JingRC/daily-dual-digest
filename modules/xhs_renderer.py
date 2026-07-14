@@ -2,14 +2,15 @@
 Xiaohongshu image card renderer v5 — Magazine editorial design
 
 Every card structure:
-  1. 图片区 — photo with page-number badge at TOP-RIGHT
+  1. 图片区 — photo with page-number badge at TOP-RIGHT (frosted glass)
   2. 信息条 — source name + ★★★★★ star rating
   3. 标题 — bold headline
   4. 关键洞察 — sharp insight in accent-bordered box
-  5. 详细解说 — detailed body text
-  6. 页脚 — full article URL + page indicator
+  5. 详细解说 — detailed body text (400-600 chars)
+  6. 页脚 — full article URL (with fallback) + page indicator
 
-4 layout variations in typography/decoration, unified page-badge position.
+Output: {output_dir}/{YYYY-MM-DD}/{category}/
+4 rotating layout styles vary typography/decoration, unified structure.
 """
 
 import logging
@@ -46,7 +47,9 @@ PALETTES = [
     {"name": "amber",   "bg": "#120e0b", "accent": "#ff8c42", "text": "#f0eae0", "muted": "#8a8075", "surface": "#1c1812"},
 ]
 
-PHOTO_RATIOS = [0.34, 0.30, 0.35, 0.32]  # editorial(text-heavy), split(max-text), swiss(balanced), frame(text-heavy)
+# ── Photo ratios (vary by layout for distinct text capacity) ──
+# Editorial 34%: ~630 chars, Split 30%: ~700 chars, Swiss 35%: ~625 chars, Frame 32%: ~665 chars
+PHOTO_RATIOS = [0.34, 0.30, 0.35, 0.32]
 
 
 def _palette(index: int) -> dict:
@@ -141,14 +144,12 @@ def _extract_fields(item: dict) -> tuple:
             pu = urlparse(url)
             if pu.netloc:
                 url_display = pu.netloc + pu.path
-                # Clean up: remove trailing slash if path is just "/"
                 if url_display.endswith("/") and pu.path == "/":
                     url_display = pu.netloc
             if len(url_display) > 80:
                 url_display = url_display[:77] + "..."
         except Exception:
             pass
-    # Fallback: show source name if no URL
     if not url_display:
         url_display = source if source else ""
     return title, source, score, stars, summary, insight, detail, url, url_display
@@ -188,7 +189,7 @@ def _layout_editorial(item: dict, idx: int, total: int, pal_index: int) -> str:
 
 
 # ═══════════════════════════════════════════════════════════════
-# Layout 1 — Split: photo block + clean text grid
+# Layout 1 — Split: max-text, smallest photo
 # ═══════════════════════════════════════════════════════════════
 
 def _layout_split(item: dict, idx: int, total: int, pal_index: int) -> str:
@@ -221,7 +222,7 @@ def _layout_split(item: dict, idx: int, total: int, pal_index: int) -> str:
 
 
 # ═══════════════════════════════════════════════════════════════
-# Layout 2 — Swiss: bold number bridge + crisp type
+# Layout 2 — Swiss: balanced, photo + bold number
 # ═══════════════════════════════════════════════════════════════
 
 def _layout_swiss(item: dict, idx: int, total: int, pal_index: int) -> str:
@@ -254,7 +255,7 @@ def _layout_swiss(item: dict, idx: int, total: int, pal_index: int) -> str:
 
 
 # ═══════════════════════════════════════════════════════════════
-# Layout 3 — Frame: accent border + contained photo
+# Layout 3 — Frame: accent border, text-heavy
 # ═══════════════════════════════════════════════════════════════
 
 def _layout_frame(item: dict, idx: int, total: int, pal_index: int) -> str:
@@ -407,39 +408,44 @@ def render_html_to_png(html: str, png_path: str,
 
 def render_xhs_cards(ai_news: list[dict],
                      output_dir: str = "docs/xhs",
-                     max_news: int = 10) -> list[str]:
-    out = Path(output_dir)
+                     max_news: int = 10,
+                     category: str = "科技报") -> list[str]:
+    """Render 1 cover + N news cards + 1 summary card.
+
+    Output: {output_dir}/{YYYY-MM-DD}/{category}/
+    """
+    today_cn = datetime.now().strftime("%Y年%m月%d日")
+    date_folder = datetime.now().strftime("%Y-%m-%d")
+    out = Path(output_dir) / date_folder / category
     out.mkdir(parents=True, exist_ok=True)
 
-    today_cn = datetime.now().strftime("%Y年%m月%d日")
-    date_file = datetime.now().strftime("%Y%m%d")
     paths = []
     selected = ai_news[:max_news]
     total = 2 + len(selected)
 
-    logger.info(f"[XHS] Rendering {total} cards (v5: unified page-badge + stars)")
+    logger.info(f"[XHS] Rendering {total} cards -> {out}/ (v5: glass badge, 400-600char detail)")
 
-    # Cover
+    # 1. Cover
     html = _build_cover_html(today_cn, len(selected), 0)
-    png = out / f"{date_file}_01_cover.png"
+    png = out / "01_cover.png"
     render_html_to_png(html, str(png))
     paths.append(str(png))
     logger.info(f"  [1/{total}] Cover -> {png.name}")
 
-    # News cards
+    # 2. News cards
     for i, item in enumerate(selected):
         n = i + 2
         html = _build_news_card_html(item, i + 1, len(selected))
-        png = out / f"{date_file}_{n:02d}_news_{i+1:02d}.png"
+        png = out / f"{n:02d}_news_{i+1:02d}.png"
         render_html_to_png(html, str(png))
         paths.append(str(png))
         layout_name = ["Editorial", "Split", "Swiss", "Frame"][i % 4]
         logger.info(f"  [{n}/{total}] {item.get('title','')[:36]}... [{layout_name}] -> {png.name}")
 
-    # Summary
+    # 3. Summary
     n = total
     html = _build_summary_html(selected, today_cn)
-    png = out / f"{date_file}_{n:02d}_summary.png"
+    png = out / f"{n:02d}_summary.png"
     render_html_to_png(html, str(png))
     paths.append(str(png))
     logger.info(f"  [{n}/{total}] Summary -> {png.name}")
