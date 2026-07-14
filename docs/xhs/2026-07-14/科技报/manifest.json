@@ -1,0 +1,30 @@
+{
+  "date": "2026-07-14",
+  "title": "🚨今天AI圈又地震了…",
+  "body": "姐妹们，今天的AI快讯真的炸裂！第1条直接封神，视频生成公司PixVerse融了4.39亿美元，估值飙到20亿+美金，AI视频赛道彻底疯了。但更劲爆的是第2条，苹果居然起诉OpenAI，指控前员工偷机密？纳德拉还警告，用AI的公司小心模型供应商是“特洛伊木马”…这10条新闻，条条都是核弹级，我给你们画好重点了👇\n\n⭐ #1 视频生成初创公司PixVerse融资4.39亿美元，估值超20亿美元\nPixVerse这波融资，直接把AI视频生成赛道拉到新高度。世界模型产品要扩展，全球客户也要冲，这钱烧得够猛。\n💬 锐评：AI视频卷疯了，PixVerse这是要当赛道里的“字节跳动”？\n原文：TechCrunch\n\n⭐ #2 苹果起诉OpenAI，指控前员工窃取机密文件\n苹果指控一名前员工利用系统漏洞，离职后还在下载机密文件，甚至调侃非法访问系统。这剧情比电影还魔幻。\n💬 锐评：硅谷互撕大戏，苹果和OpenAI这梁子结大了。\n原文：TechCrunch\n\n⭐ #3 纳德拉警告：使用AI的公司需警惕模型供应商的“特洛伊木马”\n微软CEO纳德拉说，卖AI模型的实验室可能像特洛伊木马，一边给你能力一边偷你数据。这警告太敢说了。\n💬 锐评：纳德拉这是在给OpenAI和谷歌上眼药？企业用AI真的得长个心眼。\n原文：TechCrunch\n\n⭐ #4 苹果发布iOS 27等系统公测版，Siri AI重大升级\niOS 27公测版来了，Siri终于迎来AI大升级，评测说“真正可用”。watchOS 27也让Apple Watch变腕上电脑。\n💬 锐评：苹果AI终于不摆烂了？Siri这次要是再拉胯，果粉真要哭了。\n原文：The Verge\n\n⭐ #5 Anthropic在印度推出本地化Claude定价\nAnthropic给印度用户搞了卢比计价，降低AI订阅门槛，这是要跟OpenAI抢新兴市场。\n💬 锐评：本地化定价才是AI出海的关键，Anthropic这步棋走得聪明。\n原文：TechCrunch\n\n⭐ #6 Hermes智能体制造商Nous Research寻求融资，估值15亿美元\nNous Research要融7500万美元，估值15亿，主打Hermes智能体。AI智能体赛道继续吸金。\n💬 锐评：智能体赛道越来越热，但落地场景还得再跑跑。\n原文：TechCrunch\n\n⭐ #7 Hugging Face与Cerebras合作，将Gemma 4带入实时语音AI\nHugging Face和Cerebras联手，把谷歌Gemma 4部署到专用加速器上，搞实时语音AI。开源模型+专用硬件的组合拳。\n💬 锐评：实时语音AI的延迟痛点，这波合作给了新解法。\n原文：Hugging Face\n\n⭐ #8 英伟达AIPC中国首秀：笔记本中装下“曼哈顿”\n英伟达在中国秀AIPC概念，笔记本里塞进超级计算机级别的AI算力，这是要重新定义PC。\n💬 锐评：AIPC概念终于落地，英伟达这是要革了传统PC的命。\n原文：爱范儿\n\n⭐ #9 腾讯混元Hy3登顶OpenRouter周榜，单周处理Token超6万亿\n腾讯混元Hy3在OpenRouter上登顶，单周处理6万亿Token，国产大模型真的支棱起来了。\n💬 锐评：国产开源模型硬刚Llama，腾讯这波给力。\n原文：爱范儿\n\n⭐ #10 Waze推出AI新功能，整合谷歌Gemini提升导航体验\nWaze用谷歌Gemini做了更智能的路线规划和实时路况预测，跟Apple Maps硬刚。\n💬 锐评：导航也卷AI了，Waze这波更新挺实用。\n原文：TechCrunch\n\n你觉得哪条最有冲击力？评论区聊聊 👇",
+  "hashtags": [
+    "#AI",
+    "#人工智能",
+    "#AI快讯",
+    "#科技前沿",
+    "#每日AI",
+    "#ChatGPT",
+    "#OpenAI",
+    "#大模型"
+  ],
+  "headline_news": "PixVerse融资4.39亿",
+  "cards": [
+    "docs/xhs/2026-07-14/科技报/01_cover.png",
+    "docs/xhs/2026-07-14/科技报/02_news_01.png",
+    "docs/xhs/2026-07-14/科技报/03_news_02.png",
+    "docs/xhs/2026-07-14/科技报/04_news_03.png",
+    "docs/xhs/2026-07-14/科技报/05_news_04.png",
+    "docs/xhs/2026-07-14/科技报/06_news_05.png",
+    "docs/xhs/2026-07-14/科技报/07_news_06.png",
+    "docs/xhs/2026-07-14/科技报/08_news_07.png",
+    "docs/xhs/2026-07-14/科技报/09_news_08.png",
+    "docs/xhs/2026-07-14/科技报/10_news_09.png",
+    "docs/xhs/2026-07-14/科技报/11_news_10.png",
+    "docs/xhs/2026-07-14/科技报/12_summary.png"
+  ]
+}
