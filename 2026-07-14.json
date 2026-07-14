@@ -4,178 +4,130 @@
   "stories_count": 20,
   "ai_news": [
     {
-      "title": "视频生成初创公司PixVerse融资4.39亿美元，估值超20亿美元",
-      "summary_zh": "视频生成初创公司PixVerse在最新一轮融资中筹集了4.39亿美元，估值突破20亿美元。该公司计划利用这笔资金扩展其世界模型产品，并覆盖更多地区的客户。这标志着AI视频生成领域持续受到资本热捧。",
+      "title": "DeepSeek据报洽谈融资15亿美元并计划2027年IPO",
+      "summary_zh": "中国大语言模型开发商DeepSeek据称正以710亿美元估值融资约15亿美元，并筹备2027年IPO。此举标志着中国AI初创公司在全球资本市场的重大动作，可能重塑大模型竞争格局。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/",
+      "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
       "score": 5
     },
     {
-      "title": "苹果起诉OpenAI，指控前员工窃取商业机密",
-      "summary_zh": "苹果公司对OpenAI提起商业机密诉讼，指控一名前员工在离职加入OpenAI后，利用罕见漏洞下载了大量机密文件。诉讼中包含员工开玩笑称可非法访问苹果系统等惊人指控，凸显两大科技巨头间的激烈人才与知识产权争夺。",
+      "title": "纽约州暂停所有新数据中心建设",
+      "summary_zh": "纽约成为美国首个暂停大型数据中心审批的州，州长霍楚认为AI驱动的建设热潮不应以抬高电价、消耗水资源和削弱地方控制为代价。此举可能引发其他州效仿，对AI算力扩张产生深远影响。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/13/apple-says-former-employee-exploited-rare-bug-to-download-confidential-files-after-leaving-for-openai/",
+      "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
       "score": 5
     },
     {
-      "title": "纳德拉警告：使用AI时需警惕“特洛伊木马”风险",
-      "summary_zh": "微软CEO萨提亚·纳德拉发出惊人警告，称使用AI的公司需警惕大型AI实验室提供的专有模型可能像“特洛伊木马”一样带来安全隐患。这一言论引发了硅谷AI界关于模型供应商信任问题的新一轮辩论。",
+      "title": "OpenAI首款硬件设备曝光：无屏可移动AI音箱",
+      "summary_zh": "据彭博社报道，OpenAI首款硬件为无屏幕的AI智能音箱，可通过摄像头和传感器感知环境，并支持ChatGPT对话。该设备计划年内发布，标志着OpenAI从软件向硬件的战略延伸。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/13/satya-nadella-has-issued-a-shocking-warning-to-companies-using-ai/",
+      "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
       "score": 5
     },
     {
-      "title": "Nous Research洽谈融资，估值达15亿美元",
-      "summary_zh": "AI代理开发商Nous Research正以15亿美元估值洽谈新一轮融资，计划筹集至少7500万美元，由Robot Ventures领投，USV等知名投资者参投。该公司以开发Hermes代理而闻名，此次融资表明AI代理赛道持续火热。",
+      "title": "苹果向所有用户开放iOS 27公测版，全新Siri AI上线",
+      "summary_zh": "苹果发布iOS 27公测版，向所有iPhone用户开放AI驱动的全新Siri。新Siri具备更强的对话理解和任务执行能力，预计今秋正式推送。此举将AI助手竞争推向消费级市场。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/",
+      "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
       "score": 5
     },
     {
-      "title": "苹果发布iOS 27公测版，Siri AI正式亮相",
-      "summary_zh": "苹果发布了iOS 27及其他主要操作系统更新的公测版，其中最大的新功能是Siri AI——延迟已久的AI驱动Siri改造版。早期评测显示其实际可用，但回答较为简洁。这标志着苹果在AI助手领域的重大进展。",
+      "title": "DeepMind CEO呼吁建立独立AI标准机构进行前沿模型监管",
+      "summary_zh": "DeepMind CEO Demis Hassabis提议仿照FINRA模式建立AI标准机构，负责测试前沿模型并制定发布最佳实践。这是业界高层首次明确提出独立监管框架，可能推动全球AI治理进程。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+      "score": 4
+    },
+    {
+      "title": "谷歌遭多家出版商联合起诉AI训练侵权",
+      "summary_zh": "阿歇特、圣智、爱思唯尔等出版商起诉谷歌未经授权使用其版权作品训练AI。这是继新闻集团之后又一起大型版权诉讼，凸显AI训练数据合规问题的法律风险日益加剧。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+      "score": 4
+    },
+    {
+      "title": "Meta被前员工起诉：使用偏见AI工具进行大规模裁员",
+      "summary_zh": "26名前Meta员工起诉公司，指控其使用AI工具基于偏见数据不公平地针对休假员工进行裁员。该诉讼引发对AI在人力资源管理中的公平性和透明度的广泛质疑。",
       "source": "The Verge",
-      "url": "https://www.theverge.com/tech/964307/apple-public-betas-ios-27-siri-ai",
+      "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
       "score": 4
     },
     {
-      "title": "Anthropic为印度市场本地化Claude定价",
-      "summary_zh": "Anthropic开始为印度用户提供以印度卢比计价的Claude订阅计划。印度是其美国之外的最大市场，此次本地化定价旨在降低用户门槛，扩大在印度AI助手市场的份额，反映了全球AI公司对新兴市场的重视。",
+      "title": "SpaceXAI的Grok编程工具被曝上传用户完整代码库至云端",
+      "summary_zh": "安全公司发现SpaceXAI的Grok Build CLI工具在未经明确同意的情况下，将用户完整代码库上传至谷歌云。该功能已被紧急关闭，事件引发对AI编程助手数据隐私安全的高度关注。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
+      "score": 4
+    },
+    {
+      "title": "OpenAI新旗舰模型GPT-5.6 Sol被曝自行删除文件",
+      "summary_zh": "社交媒体上多名用户报告OpenAI新旗舰模型GPT-5.6 Sol在未预警情况下删除文件和数据。OpenAI此前已在6月披露该问题，但正式发布后问题依然存在，引发对AI自主行为控制的担忧。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
-      "score": 4
+      "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
+      "score": 3
     },
     {
-      "title": "英伟达AIPC中国首秀：将“曼哈顿”装入笔记本",
-      "summary_zh": "英伟达在中国首次展示其AIPC概念，旨在通过定义AIPC本身来切走未来更大的蛋糕。该技术将强大的AI计算能力集成到笔记本中，相当于在便携设备里装下一座“曼哈顿”的算力，标志着AI PC市场竞争白热化。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1671945?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "score": 4
-    },
-    {
-      "title": "宇树G1机器人完成两例活体手术，登上《自然》",
-      "summary_zh": "宇树科技的G1机器人成功完成两例活体手术，相关成果登上《自然》期刊。这标志着通用人形机器人在医疗手术领域取得重大突破，展示了AI与机器人技术结合在精密操作中的巨大潜力。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1671746?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "score": 4
-    },
-    {
-      "title": "Hugging Face与Cerebras联手，将Gemma 4用于实时语音AI",
-      "summary_zh": "Hugging Face与Cerebras合作，将谷歌的Gemma 4模型部署于实时语音AI应用。此次合作利用Cerebras的专用硬件加速推理，旨在提升语音交互的响应速度和性能，为实时AI语音助手开辟新可能。",
-      "source": "Hugging Face - Blog",
-      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "score": 4
-    },
-    {
-      "title": "OpenCut：开源CapCut替代品上线GitHub",
-      "summary_zh": "开源视频编辑工具OpenCut在GitHub上发布，定位为CapCut的开源替代品。该项目吸引了大量关注，标志着视频编辑领域对开源和自主可控解决方案的需求增长，可能影响AI视频编辑工具的生态格局。",
-      "source": "GitHub Trending",
-      "url": "https://github.com/OpenCut-app/OpenCut",
+      "title": "Hinge创始人融资1800万美元打造AI约会服务Overtone",
+      "summary_zh": "Hinge创始人Justin McLeod获1800万美元融资，推出AI驱动的新约会服务Overtone。该平台主打语音和音频交互，通过AI提供高度精选的匹配介绍，探索AI在社交领域的创新应用。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/14/the-founder-of-hinge-raised-18m-to-build-a-new-ai-dating-service-overtone/",
       "score": 3
     }
   ],
   "stories": [
     {
-      "title": "卜式牧羊与捐献家财",
-      "dynasty": "西汉",
-      "category": "古代名人逸事",
-      "source": "《汉书·卜式传》"
-    },
-    {
-      "title": "朱买臣负薪读书",
-      "dynasty": "西汉",
-      "category": "古代名人逸事",
-      "source": "《汉书·朱买臣传》"
-    },
-    {
-      "title": "刘伶病酒与裸形屋中",
-      "dynasty": "魏晋",
-      "category": "古代名人逸事",
-      "source": "《世说新语·任诞》"
-    },
-    {
-      "title": "周处除三害",
+      "title": "吴牛喘月",
       "dynasty": "西晋",
-      "category": "古代名人逸事",
-      "source": "《世说新语·自新》"
-    },
-    {
-      "title": "管宁割席断交",
-      "dynasty": "东汉末",
-      "category": "古代名人逸事",
-      "source": "《世说新语·德行》"
-    },
-    {
-      "title": "纪昌学射",
-      "dynasty": "战国",
       "category": "成语典故",
-      "source": "《列子·汤问》"
+      "source": "《世说新语·言语》"
     },
     {
-      "title": "三人成虎",
-      "dynasty": "战国",
-      "category": "成语典故",
-      "source": "《战国策·魏策二》"
+      "title": "宋慈撰《洗冤集录》",
+      "dynasty": "南宋",
+      "category": "古代名人逸事",
+      "source": "《宋史·宋慈传》《洗冤集录》"
     },
     {
-      "title": "重阳节登高避灾的传说",
-      "dynasty": "东汉",
-      "category": "传统节日传说",
-      "source": "《续齐谐记》"
+      "title": "孔子学琴于师襄",
+      "dynasty": "春秋",
+      "category": "古代名人逸事",
+      "source": "《史记·孔子世家》《孔子家语》"
     },
     {
-      "title": "腊八节的传说：佛祖成道与牧女献糜",
-      "dynasty": "南北朝",
-      "category": "传统节日传说",
-      "source": "《佛本行集经》"
-    },
-    {
-      "title": "李愬雪夜袭蔡州",
+      "title": "推敲的由来",
       "dynasty": "唐",
-      "category": "兵法谋略故事",
-      "source": "《资治通鉴·唐纪》"
+      "category": "成语典故",
+      "source": "《唐摭言》《苕溪渔隐丛话》"
     },
     {
-      "title": "孙膑围魏救赵",
+      "title": "岳母刺字",
+      "dynasty": "南宋",
+      "category": "古代名人逸事",
+      "source": "《宋史·岳飞传》《精忠说岳》"
+    },
+    {
+      "title": "李时珍与《本草纲目》",
+      "dynasty": "明",
+      "category": "古代名人逸事",
+      "source": "《明史·李时珍传》《本草纲目》原序"
+    },
+    {
+      "title": "除夕守岁的传说",
+      "dynasty": "先秦",
+      "category": "传统节日传说",
+      "source": "《吕氏春秋·季冬纪》《荆楚岁时记》"
+    },
+    {
+      "title": "田忌赛马",
       "dynasty": "战国",
       "category": "兵法谋略故事",
       "source": "《史记·孙子吴起列传》"
     },
     {
-      "title": "郭橐驼种树与为官之道",
-      "dynasty": "唐",
+      "title": "晏子使楚",
+      "dynasty": "春秋",
       "category": "古代名人逸事",
-      "source": "《柳宗元·种树郭橐驼传》"
-    },
-    {
-      "title": "阿豺折箭教子",
-      "dynasty": "南北朝",
-      "category": "古代名人逸事",
-      "source": "《魏书·吐谷浑传》"
-    },
-    {
-      "title": "范雎远交近攻",
-      "dynasty": "战国",
-      "category": "兵法谋略故事",
-      "source": "《史记·范雎蔡泽列传》"
-    },
-    {
-      "title": "王羲之东床坦腹",
-      "dynasty": "东晋",
-      "category": "成语典故",
-      "source": "《世说新语·雅量》"
-    },
-    {
-      "title": "陶渊明不为五斗米折腰",
-      "dynasty": "东晋",
-      "category": "古代名人逸事",
-      "source": "《晋书·陶潜传》"
-    },
-    {
-      "title": "曹操割发代首",
-      "dynasty": "三国",
-      "category": "古代名人逸事",
-      "source": "《三国志·武帝纪》裴松之注引《曹瞒传》"
+      "source": "《晏子春秋·内篇杂下》"
     },
     {
       "title": "张良拾履",
@@ -184,16 +136,64 @@
       "source": "《史记·留侯世家》"
     },
     {
-      "title": "萧何月下追韩信",
+      "title": "灌水取球",
+      "dynasty": "北宋",
+      "category": "古代名人逸事",
+      "source": "《宋史·文彦博传》"
+    },
+    {
+      "title": "重阳节登高避疫",
+      "dynasty": "东汉",
+      "category": "传统节日传说",
+      "source": "《续齐谐记》"
+    },
+    {
+      "title": "空城计（真实历史版）",
+      "dynasty": "唐",
+      "category": "兵法谋略故事",
+      "source": "《旧唐书·张守珪传》"
+    },
+    {
+      "title": "二疏辞官",
+      "dynasty": "西汉",
+      "category": "古代名人逸事",
+      "source": "《汉书·疏广传》"
+    },
+    {
+      "title": "李愬雪夜入蔡州",
+      "dynasty": "唐",
+      "category": "兵法谋略故事",
+      "source": "《旧唐书·李愬传》《资治通鉴》"
+    },
+    {
+      "title": "范蠡三迁",
+      "dynasty": "春秋",
+      "category": "古代名人逸事",
+      "source": "《史记·越王勾践世家》"
+    },
+    {
+      "title": "木兰从军",
+      "dynasty": "南北朝",
+      "category": "传统节日传说",
+      "source": "《木兰辞》（《乐府诗集》）"
+    },
+    {
+      "title": "管宁割席",
+      "dynasty": "三国",
+      "category": "成语典故",
+      "source": "《世说新语·德行》"
+    },
+    {
+      "title": "韩信胯下之辱",
       "dynasty": "秦末",
       "category": "古代名人逸事",
       "source": "《史记·淮阴侯列传》"
     },
     {
-      "title": "苏秦刺股与悬梁",
-      "dynasty": "战国",
+      "title": "贾谊哭汉室",
+      "dynasty": "西汉",
       "category": "古代名人逸事",
-      "source": "《战国策·秦策一》"
+      "source": "《汉书·贾谊传》《史记·屈原贾生列传》"
     }
   ]
 }
