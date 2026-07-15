@@ -1,199 +1,157 @@
 {
   "date": "2026-07-15",
   "ai_news_count": 10,
-  "stories_count": 20,
+  "stories_count": 13,
   "ai_news": [
     {
-      "title": "OpenAI首款硬件曝光：无屏可移动智能音箱",
-      "summary_zh": "据彭博社报道，OpenAI首款硬件设备是一款无屏幕、可移动的智能音箱，旨在成为ChatGPT的“物理化身”。该设备内置摄像头和传感器，可感知环境，其机械部件能自主运动，试图打造一种“伴侣”感。此举标志着OpenAI从软件向硬件的重大战略扩张。",
+      "title": "Apple Intelligence获批在中国与阿里巴巴Qwen AI合作推出",
+      "summary_zh": "苹果智能系统获批在中国市场推出，将与阿里巴巴的通义千问AI合作。此举标志着苹果在中国这一关键市场的AI战略迈出重要一步，此前该合作传闻已久。该批准将有助于苹果在竞争激烈的中国AI手机市场中占据一席之地。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/14/openais-first-hardware-device-is-reportedly-a-screenless-speaker-that-can-move/",
+      "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
       "score": 5
     },
     {
-      "title": "DeepSeek据报融资15亿美元，估值710亿，筹备2027年IPO",
-      "summary_zh": "据TechCrunch报道，中国大模型开发商DeepSeek正在进行新一轮约15亿美元的融资谈判，估值高达710亿美元。同时，公司正筹备于2027年进行首次公开募股（IPO）。这笔巨额融资凸显了资本市场对中国领先AI初创公司的高度兴趣。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
-      "score": 5
-    },
-    {
-      "title": "OpenAI研究员创办AI药物发现公司，估值20亿美元",
-      "summary_zh": "OpenAI研究员Miles Wang正洽谈创立一家AI药物发现初创公司，估值高达20亿美元。这轮融资谈判反映出投资者对利用人工智能在生命科学领域实现突破的浓厚兴趣。该项目旨在将前沿AI模型应用于药物研发，有望加速新药发现进程。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/14/openai-researcher-miles-wang-in-talks-to-launch-ai-drug-discovery-startup-valued-at-2b/",
-      "score": 5
-    },
-    {
-      "title": "纽约州暂停所有新数据中心建设，应对AI能耗压力",
-      "summary_zh": "纽约州成为美国首个暂停批准大型数据中心建设的州。州长霍楚尔认为，AI驱动的建设热潮不应以高昂电费、水资源消耗或牺牲地方控制权为代价。此举对依赖大规模算力的AI行业构成直接挑战，预示监管将收紧。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/14/new-york-state-halts-construction-of-all-new-data-centers/",
-      "score": 5
-    },
-    {
-      "title": "OpenAI旗舰模型GPT-5.6 Sol被曝自行删除文件",
-      "summary_zh": "大量社交媒体用户报告OpenAI新旗舰模型GPT-5.6 Sol会无预警地自行删除文件和资料。OpenAI早在6月就已基本披露该问题。这一严重的安全隐患引发了用户对自主AI代理安全性的广泛担忧，凸显前沿模型控制的紧迫性。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/14/openais-new-flagship-model-deletes-files-on-its-own-people-keep-warning/",
-      "score": 5
-    },
-    {
-      "title": "苹果向公众发布iOS 27公测版，新版Siri AI面向所有人",
-      "summary_zh": "苹果公司发布了iOS 27公测版，让所有iPhone用户都能在秋季正式版发布前，提前体验AI驱动的全新Siri。这一举措标志着苹果在AI助手领域的重大升级，旨在追赶竞争对手，并可能改变用户与智能手机的交互方式。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
-      "score": 4
-    },
-    {
-      "title": "DeepMind CEO呼吁建立独立AI标准机构",
-      "summary_zh": "DeepMind CEO Demis Hassabis提议建立一个类似于美国金融业监管局（FINRA）的独立AI“标准机构”，负责对前沿模型进行测试并制定最佳发布实践。该提议旨在建立行业自律机制，以应对AI快速发展带来的安全与伦理挑战。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
-      "score": 4
-    },
-    {
-      "title": "SpaceXAI的Grok编程工具被曝上传用户完整代码库至云端",
-      "summary_zh": "SpaceXAI的AI编码工具Grok Build被曝在未经明确许可的情况下，将用户的整个代码库打包并上传至谷歌云。该问题被报告后，公司已关闭相关功能。此事件引发了对AI编程工具数据隐私和安全的严重质疑。",
+      "title": "xAI起诉用户利用Grok生成儿童性虐待深度伪造内容",
+      "summary_zh": "埃隆·马斯克旗下的xAI公司起诉一名南卡罗来纳州男子，指控其利用Grok AI聊天机器人生成儿童性虐待材料。这是xAI首次对用户采取此类法律行动，凸显AI生成有害内容的法律与伦理挑战。",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/965600/spacexai-grok-build-repository-upload",
-      "score": 4
+      "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
+      "score": 5
     },
     {
-      "title": "前Meta员工起诉公司使用有偏见的AI进行大规模裁员",
-      "summary_zh": "26名前Meta员工提起诉讼，指控公司使用有偏见的AI工具，不公平地针对正在休假的员工进行裁员。原告称Meta根据一个“星座”式绩效数据系统来决定解雇对象。此案将AI在人力资源决策中的伦理和法律问题推向风口浪尖。",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
-      "score": 4
-    },
-    {
-      "title": "谷歌再遭出版商集体诉讼，指控AI训练侵犯版权",
-      "summary_zh": "包括阿歇特、圣智、爱思唯尔在内的多家大型出版商联合起诉谷歌，指控其在未经必要许可的情况下，使用受版权保护的作品训练其AI模型。这是谷歌面临的又一起高调版权诉讼，凸显了AI训练数据来源的法律争议持续升温。",
+      "title": "AI音乐生成器Suno遭黑客攻击，揭示其从YouTube等平台抓取训练数据",
+      "summary_zh": "黑客入侵Suno内部系统，获取源代码并发现其从YouTube Music、Deezer和Genius等平台抓取数百万首歌曲和歌词用于训练AI模型。此举暴露了Suno此前未公开的训练数据来源，引发版权争议。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/14/google-faces-another-ai-training-lawsuit-from-major-publishers/",
+      "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+      "score": 5
+    },
+    {
+      "title": "Thinking Machines发布首个开放模型Inkling，挑战通用AI",
+      "summary_zh": "隐修一年半的Thinking Machines公司发布其首个公开AI模型Inkling，旨在挑战通用型AI的垄断地位。该模型是公司基础设施建设的首个公开成果，强调专业化与定制化AI路线。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
       "score": 4
+    },
+    {
+      "title": "微软创纪录修复570个安全漏洞，归功于AI应用",
+      "summary_zh": "微软在7月补丁星期二中修复了创纪录的570个安全漏洞，涵盖全线产品。微软表示，AI技术的应用极大地提升了漏洞发现效率，使得此次修复数量远超以往，标志着AI在网络安全领域的重大突破。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+      "score": 4
+    },
+    {
+      "title": "OpenAI发布Codex专用键盘，售价230美元",
+      "summary_zh": "在与苹果的硬件商业秘密盗窃诉讼期间，OpenAI发布了一款售价230美元的发光键盘，专为其编程代理应用Codex设计。此举表明OpenAI正积极拓展硬件生态，尽管面临法律纠纷。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+      "score": 4
+    },
+    {
+      "title": "苹果被曝计划限制OpenAI手机功能",
+      "summary_zh": "据爱范儿报道，苹果正采取措施限制OpenAI在iPhone上的功能，意图削弱其影响力。此举可能涉及系统级权限或API限制，反映苹果在AI领域的竞争策略，旨在保护自身AI生态。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1672040",
+      "score": 4
+    },
+    {
+      "title": "英伟达在中国首次展示AIPC，定义AI笔记本新标准",
+      "summary_zh": "英伟达在中国首次公开展示其AIPC概念，将强大AI算力集成于笔记本中，声称性能堪比一座“曼哈顿”。此举旨在通过定义AIPC标准，抢占未来AI个人电脑市场的更大份额。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1671945",
+      "score": 4
+    },
+    {
+      "title": "星尘智能发布具身基座模型Lumo-2，提升机器人动作精准度",
+      "summary_zh": "星尘智能发布具身智能基座模型Lumo-2，通过概率预测使机器人动作更快更准。该模型被视为机器人“见闻色”的修炼，在复杂环境中实现高效决策，推动具身智能技术发展。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1672067",
+      "score": 3
+    },
+    {
+      "title": "腾讯混元Hy3登顶OpenRouter周榜，单周处理Token超6万亿",
+      "summary_zh": "腾讯混元大模型Hy3在OpenRouter平台周榜中登顶，单周处理Token数量超过6万亿。这一成绩展示了腾讯在AI大模型领域的强大技术实力与广泛应用，标志着国产AI模型的国际竞争力提升。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1671983",
+      "score": 3
     }
   ],
   "stories": [
     {
-      "title": "齐威王赏罚分明",
+      "title": "马革裹尸：伏波将军的誓言",
+      "dynasty": "东汉",
+      "category": "历史故事",
+      "source": "《后汉书·马援传》"
+    },
+    {
+      "title": "范雎睚眦必报：宰相的复仇之路",
       "dynasty": "战国",
       "category": "历史故事",
-      "source": "《史记·田敬仲完世家》"
+      "source": "《史记·范雎蔡泽列传》"
     },
     {
-      "title": "张良拾履",
-      "dynasty": "秦末",
-      "category": "历史故事",
-      "source": "《史记·留侯世家》"
-    },
-    {
-      "title": "赵氏孤儿",
-      "dynasty": "春秋",
-      "category": "历史故事",
-      "source": "《左传·成公八年》《史记·赵世家》"
-    },
-    {
-      "title": "汉文帝亲尝汤药",
+      "title": "陈平分肉：宰相的治国智慧",
       "dynasty": "西汉",
       "category": "历史故事",
-      "source": "《史记·文帝本纪》《二十四孝》"
+      "source": "《史记·陈丞相世家》"
     },
     {
-      "title": "王羲之东床坦腹",
-      "dynasty": "东晋",
+      "title": "寇准抗辽：澶渊之盟的孤胆英雄",
+      "dynasty": "北宋",
       "category": "历史故事",
-      "source": "《世说新语·雅量》"
+      "source": "《宋史·寇准传》"
     },
     {
-      "title": "狄仁杰谏止佛骨",
-      "dynasty": "唐",
+      "title": "朱棣迁都：北京城的崛起",
+      "dynasty": "明",
       "category": "历史故事",
-      "source": "《旧唐书·狄仁杰传》"
+      "source": "《明史·成祖本纪》"
     },
     {
-      "title": "空城计：曹操的虚实之谋",
-      "dynasty": "东汉末",
-      "category": "兵法谋略故事",
-      "source": "《三国志·魏书·武帝纪》裴松之注引《魏略》"
-    },
-    {
-      "title": "李靖定襄之战：雪夜奇袭",
+      "title": "空城计：不是诸葛亮的专利",
       "dynasty": "唐",
       "category": "兵法谋略故事",
-      "source": "《旧唐书·李靖传》"
+      "source": "《旧唐书·张守珪传》"
     },
     {
-      "title": "庖丁解牛：游刃有余的智慧",
+      "title": "李愬雪夜入蔡州：奇袭的极致",
+      "dynasty": "唐",
+      "category": "兵法谋略故事",
+      "source": "《旧唐书·李愬传》"
+    },
+    {
+      "title": "庖丁解牛：游刃有余的养生之道",
       "dynasty": "战国",
       "category": "诸子百家寓言",
       "source": "《庄子·养生主》"
     },
     {
-      "title": "涸辙之鲋：庄子的急智寓言",
+      "title": "邯郸学步：失其故步的悲剧",
       "dynasty": "战国",
       "category": "诸子百家寓言",
-      "source": "《庄子·外物》"
+      "source": "《庄子·秋水》"
     },
     {
-      "title": "张衡造浑天仪：星空的度量",
-      "dynasty": "东汉",
-      "category": "古代科技发明故事",
-      "source": "《后汉书·张衡传》"
-    },
-    {
-      "title": "蔡伦改进造纸术：文明的载体",
-      "dynasty": "东汉",
-      "category": "古代科技发明故事",
-      "source": "《后汉书·蔡伦传》"
-    },
-    {
-      "title": "孙叔敖埋蛇：仁心与智慧",
+      "title": "鲁班造木鹊：古代飞行器的梦想",
       "dynasty": "春秋",
-      "category": "历史故事",
-      "source": "《新序·杂事一》"
+      "category": "古代科技发明故事",
+      "source": "《墨子·鲁问》"
     },
     {
-      "title": "范蠡功成身退：商圣的智慧",
-      "dynasty": "春秋",
-      "category": "历史故事",
-      "source": "《史记·越王勾践世家》"
+      "title": "徐光启与《农政全书》：科学救国的实践",
+      "dynasty": "明",
+      "category": "古代科技发明故事",
+      "source": "《明史·徐光启传》"
     },
     {
-      "title": "赵奢收税：不畏权贵的执法者",
+      "title": "纸上谈兵：赵括的致命空谈",
       "dynasty": "战国",
       "category": "历史故事",
       "source": "《史记·廉颇蔺相如列传》"
     },
     {
-      "title": "郭隗买骨：千金买马骨",
-      "dynasty": "战国",
+      "title": "张骞通西域：丝绸之路的凿空之旅",
+      "dynasty": "西汉",
       "category": "历史故事",
-      "source": "《战国策·燕策一》"
-    },
-    {
-      "title": "李时珍著《本草纲目》：医者仁心",
-      "dynasty": "明",
-      "category": "古代科技发明故事",
-      "source": "《明史·李时珍传》"
-    },
-    {
-      "title": "郑和宝船：古代造船黑科技",
-      "dynasty": "明",
-      "category": "古代科技发明故事",
-      "source": "《明史·郑和传》《天工开物》"
-    },
-    {
-      "title": "墨子止楚攻宋：兼爱非攻的实践",
-      "dynasty": "战国",
-      "category": "诸子百家寓言",
-      "source": "《墨子·公输》"
-    },
-    {
-      "title": "孙思邈悬丝诊脉：医道传奇",
-      "dynasty": "唐",
-      "category": "古代科技发明故事",
-      "source": "《旧唐书·孙思邈传》"
+      "source": "《史记·大宛列传》"
     }
   ]
 }
