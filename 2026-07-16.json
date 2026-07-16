@@ -1,163 +1,199 @@
 {
   "date": "2026-07-16",
   "ai_news_count": 10,
-  "stories_count": 14,
+  "stories_count": 20,
   "ai_news": [
     {
-      "title": "微软被曝训练销售团队贬低OpenAI和Anthropic，力推自研AI模型",
-      "summary_zh": "微软正在训练其销售团队，在向客户推销时强调其自研AI模型比OpenAI和Anthropic的模型更高效、更具成本效益。此举表明微软正在积极将其内部AI能力商业化，并与曾经的合作伙伴展开直接竞争，对AI行业格局产生重大影响。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/",
-      "score": 5
-    },
-    {
-      "title": "Thinking Machines发布首个开源模型Inkling，挑战通用AI范式",
-      "summary_zh": "经过一年半的隐秘建设，Thinking Machines发布了其首个公开成果——开源模型Inkling。该模型旨在挑战当前“一刀切”的通用AI模式，标志着公司对更专业化、定制化AI路径的坚定押注，为开源AI社区注入新活力。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
-      "score": 5
-    },
-    {
-      "title": "微软利用AI发现创纪录的570个安全漏洞，Patch Tuesday修复量创新高",
-      "summary_zh": "微软在7月的Patch Tuesday中修复了创纪录的570个安全漏洞，公司表示这得益于AI技术的辅助发现。这一里程碑事件凸显了AI在提升网络安全防御能力方面的巨大潜力，但也意味着攻击面可能随之扩大，对行业具有警示意义。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
-      "score": 5
-    },
-    {
-      "title": "OpenAI在硬件法律纠纷中发布Codex专用键盘，售价230美元",
-      "summary_zh": "在与苹果就硬件贸易秘密窃取指控进行法律斗争之际，OpenAI发布了一款售价230美元的发光键盘，专为其智能编程应用Codex设计。此举标志着OpenAI正式进军硬件领域，尽管面临法律挑战，仍试图通过专用外设增强其AI编程工具的体验和粘性。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
-      "score": 4
-    },
-    {
-      "title": "xAI起诉用户利用Grok生成儿童性虐待深度伪造内容",
-      "summary_zh": "埃隆·马斯克旗下xAI公司起诉一名南卡罗来纳州男子，指控其故意利用Grok AI聊天机器人绕过安全措施，生成儿童性虐待材料（CSAM）。此案是AI公司首次就此类滥用行为采取法律行动，凸显了生成式AI在内容安全方面的严峻挑战。",
+      "title": "Netflix披露约300部作品使用生成式AI",
+      "summary_zh": "Netflix在第二季度财报中披露，其平台约有300部作品使用了生成式AI技术，主要用于后期制作。该公司表示正越来越多地利用这些工具以更快地交付更高质量的输出，这标志着主流流媒体平台对AI的广泛采纳进入新阶段。",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/966293/xai-grok-user-lawsuit-csam",
-      "score": 4
+      "url": "https://www.theverge.com/streaming/966633/netflix-ai-titles-q2-2026-earnings",
+      "score": 5
     },
     {
-      "title": "黑客入侵AI音乐生成器Suno，揭示其使用YouTube数据训练",
-      "summary_zh": "一名黑客利用员工凭证入侵了AI音乐生成公司Suno的源代码，发现该公司从YouTube等平台抓取了数十年的音频数据进行模型训练。这一事件再次引发了关于AI训练数据版权和伦理的激烈讨论，可能面临法律诉讼风险。",
+      "title": "AI驱动的旅行平台Fora估值达10亿美元，融资6000万",
+      "summary_zh": "AI旅行规划平台Fora宣布完成6000万美元D轮融资，由Forerunner和Tactile Ventures领投，估值达到10亿美元。该平台利用AI技术提供个性化旅行规划服务，此次融资表明投资者对AI垂直应用领域的持续看好。",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/15/hack-suggests-ai-music-generator-suno-scraped-youtube-for-training-data/",
+      "url": "https://techcrunch.com/2026/07/16/ai-powered-travel-agency-fora-hits-unicorn-status-raises-60m/",
+      "score": 5
+    },
+    {
+      "title": "欧盟命令谷歌向AI竞争对手开放Android",
+      "summary_zh": "欧盟依据《数字市场法案》要求谷歌向AI竞争对手开放Android操作系统，包括允许第三方AI助手更深度集成。这一裁决可能重塑移动AI生态格局，对苹果Siri等竞品产生连锁影响，标志着AI监管进入新阶段。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/policy/966588/eu-dma-ai-android-siri-ai",
+      "score": 5
+    },
+    {
+      "title": "NVIDIA Nemotron 3 Embed登顶检索基准排行榜",
+      "summary_zh": "NVIDIA发布的Nemotron 3 Embed模型在检索基准RTEB上排名第一，在智能体检索领域取得突破。该模型通过改进嵌入表示，显著提升了AI代理在复杂信息检索任务中的表现，为多智能体系统提供了更强大的基础能力。",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "score": 5
+    },
+    {
+      "title": "DoorDash推出命令行工具，面向AI代理",
+      "summary_zh": "DoorDash开放dd-cli命令行工具限量测试版，允许开发者和AI代理通过终端搜索商店、构建购物车并下单。此举标志着外卖平台开始为AI代理而非仅人类用户设计产品，是AI原生应用的重要里程碑。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
       "score": 4
     },
     {
-      "title": "Hugging Face与Cerebras合作，将Gemma 4带入实时语音AI",
-      "summary_zh": "Hugging Face与芯片公司Cerebras宣布合作，将Google的Gemma 4模型部署于Cerebras的硬件上，用于实时语音AI应用。此举旨在解决语音AI的延迟问题，展示了专用硬件与开源模型结合在实时交互领域的巨大潜力。",
-      "source": "Hugging Face - Blog",
-      "url": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
+      "title": "Google AI模式扩展至应用交互",
+      "summary_zh": "Google更新AI模式，从仅回答问题扩展到跨应用完成任务。用户可通过AI模式链接并操作常用应用，实现更复杂的任务自动化。这一功能将AI助手从信息查询工具升级为真正的数字助理。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/",
       "score": 4
     },
     {
-      "title": "星尘智能发布具身基座模型Lumo-2，提升机器人动作精准度",
-      "summary_zh": "中国AI机器人公司星尘智能发布了具身智能基座模型Lumo-2，该模型通过概率预测使机器人动作更快更准。这一技术突破标志着具身智能从实验室走向实际应用的重要一步，有望加速机器人在工业和服务场景的落地。",
+      "title": "星尘智能发布具身基座模型Lumo-2",
+      "summary_zh": "星尘智能发布具身基座模型Lumo-2，通过概率预测实现更快速精准的机器人动作。该模型让机器人具备类似'见闻色'的预判能力，在复杂环境中显著提升操作效率，推动具身智能向更实用化方向发展。",
       "source": "爱范儿",
       "url": "https://www.ifanr.com/1672067",
       "score": 4
     },
     {
-      "title": "英伟达AIPC中国首秀，定义新一代AI笔记本标准",
-      "summary_zh": "英伟达在中国首次展示其AIPC（AI个人电脑）方案，意图通过定义AI PC的硬件和软件标准来抢占未来市场。此举将推动笔记本端侧AI算力的大幅提升，对消费级AI应用生态产生深远影响。",
+      "title": "英伟达AIPC中国首秀，定义下一代笔记本",
+      "summary_zh": "英伟达在中国首次展示其AIPC概念，将强大AI算力集成至笔记本中。此举旨在通过定义AIPC标准来抢占未来市场份额，标志着AI计算从数据中心向个人设备的重大延伸。",
       "source": "爱范儿",
       "url": "https://www.ifanr.com/1671945",
+      "score": 4
+    },
+    {
+      "title": "Google将NotebookLM更名为Gemini Notebook",
+      "summary_zh": "Google宣布将其AI笔记应用NotebookLM更名为Gemini Notebook，但仍作为独立应用运营。新版本将更深度集成Gemini和Google搜索，用户可通过AI模式访问笔记，体现Google整合AI产品线的战略。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
       "score": 3
     },
     {
-      "title": "苹果国行AI确认搭载千问模型，加速中国市场布局",
-      "summary_zh": "据报道，苹果为中国市场定制的AI功能将搭载阿里巴巴的通义千问大模型，这标志着苹果AI服务正式进入中国。此举是苹果在全球AI战略中的重要一步，同时也为国内AI厂商提供了与国际巨头合作的范例。",
-      "source": "爱范儿",
-      "url": "https://www.ifanr.com/1672097",
+      "title": "Roblox在移动应用中推出AI游戏创作功能",
+      "summary_zh": "Roblox在其移动应用中推出'Build'功能，允许用户通过文本提示一键生成基础游戏。这一AI驱动的创作工具将大幅降低游戏开发门槛，但也可能加剧平台内容质量参差不齐的问题。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
       "score": 3
     }
   ],
   "stories": [
     {
-      "title": "贾岛推敲",
+      "title": "王维与《九月九日忆山东兄弟》：少年游子的思乡绝唱",
       "dynasty": "唐",
       "category": "唐诗宋词背后的故事",
-      "source": "《唐才子传》《苕溪渔隐丛话》"
+      "source": "《全唐诗》卷一百二十八"
     },
     {
-      "title": "王安石变法与‘三不足’",
-      "dynasty": "北宋",
+      "title": "韩愈《师说》：一场对抗时代风气的孤勇之战",
+      "dynasty": "唐",
       "category": "唐诗宋词背后的故事",
-      "source": "《宋史·王安石传》《续资治通鉴长编》"
+      "source": "《韩昌黎集》卷十二"
     },
     {
-      "title": "苏轼与佛印‘八风吹不动’",
-      "dynasty": "北宋",
+      "title": "苏轼《水调歌头》：中秋夜写给弟弟的宇宙级情书",
+      "dynasty": "宋",
       "category": "唐诗宋词背后的故事",
-      "source": "《东坡志林》《五灯会元》"
+      "source": "《东坡乐府笺》卷二"
     },
     {
-      "title": "李清照‘人比黄花瘦’",
-      "dynasty": "北宋",
+      "title": "李清照《声声慢》：从幸福少妇到乱世孤雁的悲歌",
+      "dynasty": "宋",
       "category": "唐诗宋词背后的故事",
-      "source": "《李清照集》《嫏嬛记》"
+      "source": "《漱玉词》"
     },
     {
-      "title": "柳永‘奉旨填词’的真相",
-      "dynasty": "北宋",
+      "title": "陆游与《钗头凤》：沈园墙上的血色遗恨",
+      "dynasty": "宋",
       "category": "唐诗宋词背后的故事",
-      "source": "《能改斋漫录》《避暑录话》"
+      "source": "《渭南文集》卷四十九"
     },
     {
-      "title": "庄子‘濠梁观鱼’",
-      "dynasty": "战国",
-      "category": "诸子百家寓言",
-      "source": "《庄子·秋水》"
-    },
-    {
-      "title": "孟子‘五十步笑百步’",
+      "title": "孟子'五十步笑百步'：用比喻戳破梁惠王的虚伪",
       "dynasty": "战国",
       "category": "诸子百家寓言",
       "source": "《孟子·梁惠王上》"
     },
     {
-      "title": "韩信‘胯下之辱’",
+      "title": "庄周梦蝶：一场关于真实与虚幻的哲学实验",
+      "dynasty": "战国",
+      "category": "诸子百家寓言",
+      "source": "《庄子·齐物论》"
+    },
+    {
+      "title": "孔子'苛政猛于虎'：泰山脚下的血泪控诉",
+      "dynasty": "春秋",
+      "category": "诸子百家寓言",
+      "source": "《礼记·檀弓下》"
+    },
+    {
+      "title": "韩信胯下之辱：大丈夫能屈能伸的终极诠释",
       "dynasty": "西汉",
       "category": "成语典故",
       "source": "《史记·淮阴侯列传》"
     },
     {
-      "title": "班超‘投笔从戎’",
+      "title": "管宁割席：道不同不相为谋的决绝",
       "dynasty": "东汉",
       "category": "成语典故",
-      "source": "《后汉书·班超传》"
+      "source": "《世说新语·德行》"
     },
     {
-      "title": "孙膑‘围魏救赵’的姊妹篇：桂陵之战",
-      "dynasty": "战国",
+      "title": "空城计：赵云的空营计才是真实版",
+      "dynasty": "三国",
       "category": "兵法谋略故事",
-      "source": "《史记·孙子吴起列传》《战国策·齐策》"
+      "source": "《三国志·赵云传》裴松之注引《云别传》"
     },
     {
-      "title": "李靖‘定襄之战’：三千骑兵破突厥",
+      "title": "李愬雪夜入蔡州：中国战争史上最经典的奇袭",
       "dynasty": "唐",
       "category": "兵法谋略故事",
-      "source": "《旧唐书·李靖传》《资治通鉴》"
+      "source": "《资治通鉴》卷二百四十"
     },
     {
-      "title": "岳飞‘郾城大捷’与‘十二道金牌’",
-      "dynasty": "南宋",
-      "category": "唐诗宋词背后的故事",
-      "source": "《宋史·岳飞传》《金佗粹编》"
+      "title": "张良圯桥进履：从隐忍到帝师的第一步",
+      "dynasty": "秦末",
+      "category": "成语典故",
+      "source": "《史记·留侯世家》"
     },
     {
-      "title": "文天祥‘过零丁洋’与《正气歌》",
-      "dynasty": "南宋",
-      "category": "唐诗宋词背后的故事",
-      "source": "《宋史·文天祥传》《文山先生全集》"
+      "title": "陶渊明不为五斗米折腰：文人的风骨与自由的代价",
+      "dynasty": "东晋",
+      "category": "成语典故",
+      "source": "《晋书·陶潜传》"
     },
     {
-      "title": "郭守敬编《授时历》：古代历法的巅峰",
+      "title": "郑和宝船：600年前的世界最大舰队",
+      "dynasty": "明",
+      "category": "古代天文地理类",
+      "source": "《明史·郑和传》《瀛涯胜览》"
+    },
+    {
+      "title": "郭守敬与《授时历》：领先世界300年的超级历法",
       "dynasty": "元",
       "category": "古代天文地理类",
       "source": "《元史·郭守敬传》《授时历》"
+    },
+    {
+      "title": "徐霞客与《徐霞客游记》：30年走遍中国的奇人",
+      "dynasty": "明",
+      "category": "古代天文地理类",
+      "source": "《徐霞客游记》"
+    },
+    {
+      "title": "都江堰：李冰父子的'乘势利导'智慧",
+      "dynasty": "战国",
+      "category": "古代天文地理类",
+      "source": "《史记·河渠书》《华阳国志》"
+    },
+    {
+      "title": "《山海经》中的'天狗'：从食人凶兽到护宅神兽",
+      "dynasty": "先秦",
+      "category": "古代天文地理类",
+      "source": "《山海经·西山经》"
+    },
+    {
+      "title": "灵渠：秦始皇的'水利高速公路'如何统一岭南",
+      "dynasty": "秦",
+      "category": "古代天文地理类",
+      "source": "《史记·平津侯主父列传》《水经注》"
     }
   ]
 }
