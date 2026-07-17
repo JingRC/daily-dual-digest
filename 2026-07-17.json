@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-17",
+  "ai_news_count": 10,
+  "stories_count": 20,
+  "ai_news": [
+    {
+      "title": "苹果起诉OpenAI，或扰乱其IPO计划",
+      "summary_zh": "苹果上周五对OpenAI提起商业秘密诉讼，指控其存在不当行为模式，涉及超过400名前苹果员工。该诉讼可能对OpenAI的IPO计划造成重大影响，引发业界对AI人才流动和商业机密的广泛关注。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/how-apples-big-lawsuit-could-disrupt-openais-ipo-plans/",
+      "score": 5
+    },
+    {
+      "title": "Databricks估值达1880亿美元，AI第二曲线持续发力",
+      "summary_zh": "Databricks成功重塑为AI公司，估值达到1880亿美元。公司还发布了关于开源AI模型在编程领域成本节约的研究，进一步巩固其在AI基础设施领域的领先地位，标志着数据平台向AI平台的战略转型成功。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
+      "score": 5
+    },
+    {
+      "title": "TikTok测试AI肖像检测工具，打击深度伪造",
+      "summary_zh": "TikTok开始测试一款可选AI肖像检测工具，可扫描并允许创作者向平台报告AI生成的肖像内容。该工具目前面向部分美国创作者开放，标志着社交媒体平台在AI内容治理方面迈出重要一步。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/967486/tiktok-ai-likeness-detection-tool",
+      "score": 4
+    },
+    {
+      "title": "Patreon转向主动拦截AI爬虫，保护创作者内容",
+      "summary_zh": "Patreon与Cloudflare合作，加强防御措施，主动拦截用于训练AI模型的爬虫程序，保护创作者内容免受未经授权的AI训练。这标志着平台从依赖robots.txt转向主动拦截，反映了AI内容版权保护的新趋势。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+      "score": 4
+    },
+    {
+      "title": "Zoox因浓烟导致机器人出租车混乱，发布软件召回",
+      "summary_zh": "亚马逊旗下自动驾驶公司Zoox因机器人出租车在浓烟环境中出现混乱而发布软件召回。此次召回正值美国最高汽车安全监管机构警告自动驾驶汽车公司注意其车辆干扰急救人员的问题，凸显自动驾驶技术在实际环境中的挑战。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/zoox-issues-software-recall-after-a-robotaxi-got-confused-by-heavy-smoke/",
+      "score": 4
+    },
+    {
+      "title": "星尘智能发布具身基座模型Lumo-2，机器人动作更精准",
+      "summary_zh": "星尘智能发布具身基座模型Lumo-2，通过概率预测实现更快速精准的机器人动作控制。该技术相当于为机器人赋予‘见闻色’，在概率中寻找最可能发生的动作，标志着具身智能领域的重要技术突破。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1672067?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 4
+    },
+    {
+      "title": "阶跃手机闯入战场，打造人机共生终端",
+      "summary_zh": "阶跃公司宣布进入手机市场，致力于打造人机共生的终端设备。在WAIC上展示其理念，认为当前是试错的最佳时机。此举可能打破现有手机市场格局，推动AI与移动设备的深度融合。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1672281?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "score": 4
+    },
+    {
+      "title": "苹果与谷歌被要求从应用商店清除‘脱衣’应用",
+      "summary_zh": "旧金山市检察官致信苹果和谷歌，要求其从应用商店中清除‘脱衣’应用，指控两家公司长期知情并托管违反州法律的应用程序。此举反映了监管机构对AI生成不当内容应用的严格态度。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/apple-and-google-ordered-to-purge-nudify-apps-from-app-stores/",
+      "score": 3
+    },
+    {
+      "title": "Agility Robotics在特斯拉后院开设机器人训练中心",
+      "summary_zh": "Agility Robotics在加州弗里蒙特开设新的Digit机器人训练中心，该地点位于特斯拉总部附近。此举标志着人形机器人领域的竞争加剧，Agility通过本地化训练设施加速机器人部署和商业化进程。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/agility-robotics-plants-its-flag-in-teslas-backyard/",
+      "score": 3
+    },
+    {
+      "title": "AI驱动内存紧张冲击印度智能手机市场",
+      "summary_zh": "印度智能手机市场放缓凸显了AI热潮如何重塑消费电子行业，从定价、需求到企业战略。AI应用对内存的高需求导致供应链紧张，影响智能手机价格和消费者购买决策，反映了AI对传统硬件市场的深远影响。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
+      "score": 3
+    }
+  ],
+  "stories": [
+    {
+      "title": "汉武帝钩弋夫人之死：立子杀母的残酷制度",
+      "dynasty": "西汉",
+      "category": "历史趣考",
+      "source": "《史记·外戚世家》《汉书·外戚传》"
+    },
+    {
+      "title": "诸葛亮木牛流马：古代机械工程的巅峰之谜",
+      "dynasty": "三国",
+      "category": "古代科技发明故事",
+      "source": "《三国志·诸葛亮传》《宋史·舆服志》"
+    },
+    {
+      "title": "管仲与鲍叔牙：千古第一友谊的真相",
+      "dynasty": "春秋",
+      "category": "古代名人逸事",
+      "source": "《史记·管晏列传》《左传·庄公九年》"
+    },
+    {
+      "title": "郑和宝船：明代造船技术的世界纪录",
+      "dynasty": "明",
+      "category": "古代科技发明故事",
+      "source": "《明史·郑和传》《龙江船厂志》《天工开物》"
+    },
+    {
+      "title": "赵匡胤‘杯酒释兵权’：酒桌上的权力游戏",
+      "dynasty": "北宋",
+      "category": "历史趣考",
+      "source": "《宋史·石守信传》《续资治通鉴长编》"
+    },
+    {
+      "title": "刘邦‘白马之盟’：汉朝皇权的铁律与背叛",
+      "dynasty": "西汉",
+      "category": "历史趣考",
+      "source": "《史记·吕太后本纪》《汉书·王陵传》"
+    },
+    {
+      "title": "狄青‘面涅’：宋代武将的屈辱与荣耀",
+      "dynasty": "北宋",
+      "category": "古代名人逸事",
+      "source": "《宋史·狄青传》《梦溪笔谈》"
+    },
+    {
+      "title": "李靖‘红拂夜奔’：唐代传奇中的侠女与英雄",
+      "dynasty": "唐",
+      "category": "古代名人逸事",
+      "source": "《虬髯客传》（唐·杜光庭）"
+    },
+    {
+      "title": "勾践‘卧薪尝胆’：忍辱负重的复仇之路",
+      "dynasty": "春秋",
+      "category": "兵法谋略故事",
+      "source": "《史记·越王勾践世家》《吴越春秋》"
+    },
+    {
+      "title": "孙膑‘围魏救赵’：避实击虚的经典战例",
+      "dynasty": "战国",
+      "category": "兵法谋略故事",
+      "source": "《史记·孙子吴起列传》《孙膑兵法》"
+    },
+    {
+      "title": "王羲之‘东床坦腹’：书圣的率性与婚姻",
+      "dynasty": "东晋",
+      "category": "古代名人逸事",
+      "source": "《世说新语·雅量》《晋书·王羲之传》"
+    },
+    {
+      "title": "岳飞‘莫须有’：千古奇冤与南宋政治",
+      "dynasty": "南宋",
+      "category": "历史趣考",
+      "source": "《宋史·岳飞传》《建炎以来系年要录》"
+    },
+    {
+      "title": "张骞‘凿空西域’：丝绸之路的开拓者",
+      "dynasty": "西汉",
+      "category": "历史趣考",
+      "source": "《史记·大宛列传》《汉书·张骞传》"
+    },
+    {
+      "title": "郑成功收复台湾：海上英雄的最后一战",
+      "dynasty": "明末清初",
+      "category": "兵法谋略故事",
+      "source": "《清史稿·郑成功传》《台湾外记》"
+    },
+    {
+      "title": "李时珍与《本草纲目》：一部药典的27年心血",
+      "dynasty": "明",
+      "category": "古代科技发明故事",
+      "source": "《明史·李时珍传》《本草纲目》序言"
+    },
+    {
+      "title": "秦始皇‘焚书坑儒’的真相：被误解千年的历史",
+      "dynasty": "秦",
+      "category": "历史趣考",
+      "source": "《史记·秦始皇本纪》《资治通鉴·秦纪》"
+    },
+    {
+      "title": "郭守敬与《授时历》：古代历法的巅峰之作",
+      "dynasty": "元",
+      "category": "古代科技发明故事",
+      "source": "《元史·郭守敬传》《授时历》"
+    },
+    {
+      "title": "安史之乱中的‘睢阳保卫战’：以人肉为粮的悲壮",
+      "dynasty": "唐",
+      "category": "历史趣考",
+      "source": "《旧唐书·张巡传》《资治通鉴·唐纪》"
+    },
+    {
+      "title": "陈胜吴广起义：‘王侯将相宁有种乎’的呐喊",
+      "dynasty": "秦末",
+      "category": "历史趣考",
+      "source": "《史记·陈涉世家》《汉书·陈胜传》"
+    },
+    {
+      "title": "海瑞‘抬棺死谏’：明代清官的最后一搏",
+      "dynasty": "明",
+      "category": "古代名人逸事",
+      "source": "《明史·海瑞传》《海忠介公全集》"
+    }
+  ]
+}
