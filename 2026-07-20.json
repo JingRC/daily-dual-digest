@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-20",
+  "ai_news_count": 10,
+  "stories_count": 20,
+  "ai_news": [
+    {
+      "title": "特朗普最新AI负责人已辞职",
+      "summary_zh": "美国人工智能标准与创新中心（CAISI）主任职位成为旋转门，继David Sacks离职后，新任负责人也已辞职。这一事件凸显了美国AI政策制定领域的不稳定性，可能影响未来AI监管和标准制定的连贯性。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/trumps-latest-ai-czar-has-already-resigned/",
+      "score": 5
+    },
+    {
+      "title": "谷歌研发新AI芯片提升Gemini效率",
+      "summary_zh": "谷歌母公司Alphabet正研发一款新AI芯片，旨在显著提升Gemini模型的运行效率。此举将加强谷歌在AI硬件领域的竞争力，并可能推动大模型推理成本的进一步降低，对AI基础设施格局产生深远影响。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/google-is-working-on-a-new-ai-chip-designed-to-make-gemini-more-efficient/",
+      "score": 5
+    },
+    {
+      "title": "索尼起诉Udio AI音乐生成器侵权3万首歌曲",
+      "summary_zh": "索尼音乐娱乐对AI音乐生成器Udio提起新诉讼，指控其侵犯了超过3万首歌曲的版权，包括猫王、碧昂丝等知名艺人的作品。此案是AI版权领域的重大事件，可能为AI生成内容的版权界定设立重要判例。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/968375/sony-udio-lawsuit-songs-ai-copyright",
+      "score": 5
+    },
+    {
+      "title": "Hugging Face确认数据泄露，内部数据集和凭证受影响",
+      "summary_zh": "Hugging Face确认发生安全事件，影响了其内部数据集和凭证。平台敦促用户轮换所有存储在平台上的访问令牌并检查账户活动。此次泄露波及AI开发者社区核心平台，对AI供应链安全构成严重威胁。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/hugging-face-confirms-breach-affected-internal-datasets-and-credentials-urges-users-to-take-action/",
+      "score": 5
+    },
+    {
+      "title": "Natural融资3000万美元，为AI代理重塑支付体系",
+      "summary_zh": "成立一年的初创公司Natural筹集3000万美元，旨在为自主AI交易重构金融架构，挑战Stripe等传统支付巨头。这笔融资反映了AI代理经济正在催生新的基础设施需求，是AI商业化进程中的重要信号。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/natural-raises-30m-to-reinvent-payments-for-ai-agents-and-take-on-stripe/",
+      "score": 4
+    },
+    {
+      "title": "推理初创公司Infinity融资1500万美元",
+      "summary_zh": "AI基础设施公司Infinity宣布获得1500万美元融资，估值达1亿美元，投资方包括Touring Capital以及来自OpenAI和Anthropic的研究人员。这表明AI推理市场持续火热，顶级AI人才也通过投资参与基础设施建设。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/inference-startup-infinity-raises-15m-from-touring-capital-openai-and-athropic-researchers/",
+      "score": 4
+    },
+    {
+      "title": "YouTube明确AI生成低质量内容政策",
+      "summary_zh": "YouTube更新其变现政策，更清晰地定义了哪些AI生成和低质量视频不能获得广告收入。此举是平台应对AI内容泛滥的重要举措，旨在维护内容生态质量，并对AI内容创作者产生直接影响。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/youtube-clarifies-policies-around-ai-slop-and-upsetting-videos/",
+      "score": 4
+    },
+    {
+      "title": "NVIDIA推出Cosmos 3 Edge模型",
+      "summary_zh": "NVIDIA通过Hugging Face博客发布了Cosmos 3 Edge模型。该模型可能聚焦于边缘计算场景下的AI推理，旨在将强大的AI能力部署到更广泛的终端设备，对于推动AI在物联网和移动设备上的应用具有重要意义。",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3edge",
+      "score": 4
+    },
+    {
+      "title": "阶跃星辰与荣耀合作推出智能体手机",
+      "summary_zh": "在WAIC 2026上，阶跃星辰展示了其首款智能体手机，并与荣耀达成合作。这标志着AI公司正式进军硬件终端，探索“人机共生”的新交互形态。同时，阶跃在展会现场用6台机器人拼出长城，展示了AI与机器人结合的能力。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1672344",
+      "score": 4
+    },
+    {
+      "title": "Hugging Face发布vLLM Transformers建模后端，实现原生速度",
+      "summary_zh": "Hugging Face发布了全新的vLLM Transformers建模后端，旨在实现原生速度的推理。这一技术突破将极大提升大语言模型的推理效率，降低部署成本，对于推动AI模型在生产环境中的广泛应用具有关键价值。",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "score": 4
+    }
+  ],
+  "stories": [
+    {
+      "title": "一鸣惊人",
+      "dynasty": "春秋",
+      "category": "成语典故",
+      "source": "《史记·滑稽列传》"
+    },
+    {
+      "title": "管鲍之交",
+      "dynasty": "春秋",
+      "category": "成语典故",
+      "source": "《史记·管晏列传》"
+    },
+    {
+      "title": "卧薪尝胆",
+      "dynasty": "春秋",
+      "category": "成语典故",
+      "source": "《史记·越王勾践世家》"
+    },
+    {
+      "title": "负荆请罪",
+      "dynasty": "战国",
+      "category": "成语典故",
+      "source": "《史记·廉颇蔺相如列传》"
+    },
+    {
+      "title": "萧规曹随",
+      "dynasty": "西汉",
+      "category": "成语典故",
+      "source": "《史记·曹相国世家》"
+    },
+    {
+      "title": "请君入瓮",
+      "dynasty": "唐",
+      "category": "成语典故",
+      "source": "《资治通鉴·唐纪》"
+    },
+    {
+      "title": "王安石变法：青苗法的争议",
+      "dynasty": "北宋",
+      "category": "历史故事",
+      "source": "《宋史·王安石传》"
+    },
+    {
+      "title": "郑成功收复台湾",
+      "dynasty": "明末清初",
+      "category": "历史故事",
+      "source": "《清史稿·郑成功传》"
+    },
+    {
+      "title": "苏轼与《水调歌头·明月几时有》",
+      "dynasty": "北宋",
+      "category": "唐诗宋词背后的故事",
+      "source": "《东坡乐府》"
+    },
+    {
+      "title": "李白与《行路难》",
+      "dynasty": "唐",
+      "category": "唐诗宋词背后的故事",
+      "source": "《李太白全集》"
+    },
+    {
+      "title": "《山海经》中的夸父逐日",
+      "dynasty": "先秦",
+      "category": "古代科技发明故事",
+      "source": "《山海经·海外北经》"
+    },
+    {
+      "title": "张衡与浑天仪",
+      "dynasty": "东汉",
+      "category": "古代科技发明故事",
+      "source": "《后汉书·张衡传》"
+    },
+    {
+      "title": "古代黑科技：木牛流马之谜",
+      "dynasty": "三国",
+      "category": "古代科技发明故事",
+      "source": "《三国志·蜀书·诸葛亮传》"
+    },
+    {
+      "title": "《水经注》与郦道元",
+      "dynasty": "北魏",
+      "category": "古代天文地理类",
+      "source": "《水经注》"
+    },
+    {
+      "title": "古代天象记录：哈雷彗星的最早记载",
+      "dynasty": "春秋",
+      "category": "古代天文地理类",
+      "source": "《春秋·文公十四年》"
+    },
+    {
+      "title": "古代奇葩法律：秦代的'诽谤罪'",
+      "dynasty": "秦",
+      "category": "历史趣考类",
+      "source": "《睡虎地秦墓竹简》"
+    },
+    {
+      "title": "颠覆常识：诸葛亮'空城计'是虚构的",
+      "dynasty": "三国",
+      "category": "历史趣考类",
+      "source": "《三国志·蜀书·诸葛亮传》裴松之注"
+    },
+    {
+      "title": "考古发现：西汉'金缕玉衣'的奢华",
+      "dynasty": "西汉",
+      "category": "历史趣考类",
+      "source": "《后汉书·礼仪志》"
+    },
+    {
+      "title": "古代水利：它山堰的千年智慧",
+      "dynasty": "唐",
+      "category": "古代科技发明故事",
+      "source": "《新唐书·地理志》"
+    },
+    {
+      "title": "古代天文：郭守敬与四海测验",
+      "dynasty": "元",
+      "category": "古代天文地理类",
+      "source": "《元史·郭守敬传》"
+    }
+  ]
+}
