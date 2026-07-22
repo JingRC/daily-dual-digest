@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-22",
+  "ai_news_count": 10,
+  "stories_count": 20,
+  "ai_news": [
+    {
+      "title": "Travis Kalanick机器人公司获17亿美元融资，a16z领投",
+      "summary_zh": "Uber联合创始人Travis Kalanick的机器人公司Atoms完成17亿美元融资，由a16z领投，Uber也参与投资。该公司声称利用工业AI实现现代化，但具体产品细节模糊。此轮巨额融资表明资本对AI与机器人结合领域的高度信心。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/travis-kalanicks-robotics-company-raises-1-7b-led-by-a16z/",
+      "score": 5
+    },
+    {
+      "title": "OpenAI AI支出飙升至7500亿美元",
+      "summary_zh": "OpenAI宣布到2030年将投入相当于瑞典GDP的7500亿美元用于AI基础设施建设。这一惊人数字凸显了顶级AI公司之间军备竞赛的激烈程度，也引发了对行业泡沫和可持续性的广泛讨论。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/",
+      "score": 5
+    },
+    {
+      "title": "Anthropic年收入飙至470亿美元，投资者称前所未见",
+      "summary_zh": "Anthropic截至5月年化收入达470亿美元，较2025年的90亿美元暴增。Menlo Ventures合伙人称25年投资生涯未见此增速，并指出成功关键在于企业市场策略而非模型本身。这标志着AI商业化进入爆发期。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/video/menlo-ventures-matt-murphy-explains-why-anthropic-is-winning-and-its-not-the-model/",
+      "score": 5
+    },
+    {
+      "title": "美国财政部威胁制裁：白宫指控月之暗面蒸馏Anthropic模型",
+      "summary_zh": "白宫指控中国AI公司月之暗面（Moonshot）蒸馏了Anthropic的Fable模型，美国财政部威胁实施制裁。此事件加剧了华盛顿关于中国开源模型涌入的争论，可能重塑中美AI技术交流格局。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/",
+      "score": 5
+    },
+    {
+      "title": "Google云业务强劲增长，证明巨额AI投资合理",
+      "summary_zh": "Google云业务因企业采用其AI和AI基础设施服务而蓬勃发展，帮助公司实现创纪录利润。这为科技巨头在AI领域的大规模投资提供了商业合理性，也展示了AI对云服务市场的变革性影响。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+      "score": 4
+    },
+    {
+      "title": "OpenAI人为失误导致Hugging Face遭AI驱动黑客攻击",
+      "summary_zh": "OpenAI在设置所谓'高度隔离'测试环境时犯错，被网络安全专家认为是导致Hugging Face遭受AI驱动攻击的关键原因。事件揭示了AI安全中人为因素的重要性，以及AI被用于攻击的潜在风险。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/how-an-openais-human-mistake-led-to-the-ai-powered-hack-on-hugging-face/",
+      "score": 4
+    },
+    {
+      "title": "Science Corp视觉恢复芯片获欧盟批准",
+      "summary_zh": "Science Corporation开发的视觉恢复芯片获得欧盟批准，CEO表示该领域需要一家年收入1亿美元的公司。这是脑机接口技术在医疗领域的重大突破，为失明患者带来希望，也标志着AI硬件在医疗应用上的里程碑。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/science-corporations-vision-restoring-chip-wins-eu-approval/",
+      "score": 4
+    },
+    {
+      "title": "Monday.com裁员630人，全面聚焦AI平台",
+      "summary_zh": "项目管理软件公司Monday.com宣布裁员20%（约630人），以支持'更精简、更专注'的运营模式，全力聚焦其AI工作平台。此举反映了传统SaaS公司加速向AI转型的趋势，也引发对AI替代就业的讨论。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/",
+      "score": 4
+    },
+    {
+      "title": "Substack推出AI检测工具，识别AI撰写的新闻通讯",
+      "summary_zh": "Substack推出新工具，让读者可以估算新闻通讯由AI撰写的比例。这标志着内容平台向AI辅助内容透明化迈出重要一步，也反映了行业对AI生成内容进行标识和监管的需求日益增长。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+      "score": 3
+    },
+    {
+      "title": "美国开源AI实验室称中国模型并非天生危险",
+      "summary_zh": "美国开源AI实验室Arcee发表声明，认为中国AI模型并非天生危险。随着中国模型能力和在美国企业中的受欢迎程度提升，关于如何应对的争论愈演愈烈。此观点为当前紧张的中美AI关系提供了不同视角。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/",
+      "score": 3
+    }
+  ],
+  "stories": [
+    {
+      "title": "寒食节的起源：介子推与绵山",
+      "dynasty": "春秋",
+      "category": "传统节日传说",
+      "source": "《左传·僖公二十四年》"
+    },
+    {
+      "title": "元宵节：汉文帝与‘平吕’纪念",
+      "dynasty": "西汉",
+      "category": "传统节日传说",
+      "source": "《史记·吕太后本纪》"
+    },
+    {
+      "title": "重阳节：桓景避灾的传说",
+      "dynasty": "东汉",
+      "category": "传统节日传说",
+      "source": "《续齐谐记》"
+    },
+    {
+      "title": "腊八节：朱元璋与杂粮粥",
+      "dynasty": "明",
+      "category": "传统节日传说",
+      "source": "《明史·太祖本纪》及民间传说"
+    },
+    {
+      "title": "中元节：目连救母与盂兰盆会",
+      "dynasty": "南北朝",
+      "category": "传统节日传说",
+      "source": "《盂兰盆经》"
+    },
+    {
+      "title": "端午节：伍子胥的悲歌",
+      "dynasty": "春秋",
+      "category": "传统节日传说",
+      "source": "《史记·伍子胥列传》"
+    },
+    {
+      "title": "田忌赛马：孙膑的博弈智慧",
+      "dynasty": "战国",
+      "category": "历史故事",
+      "source": "《史记·孙子吴起列传》"
+    },
+    {
+      "title": "完璧归赵：蔺相如的智勇双全",
+      "dynasty": "战国",
+      "category": "历史故事",
+      "source": "《史记·廉颇蔺相如列传》"
+    },
+    {
+      "title": "负荆请罪：将相和的美谈",
+      "dynasty": "战国",
+      "category": "古代名人逸事",
+      "source": "《史记·廉颇蔺相如列传》"
+    },
+    {
+      "title": "王羲之写经换鹅",
+      "dynasty": "东晋",
+      "category": "古代名人逸事",
+      "source": "《晋书·王羲之传》"
+    },
+    {
+      "title": "陶渊明不为五斗米折腰",
+      "dynasty": "东晋",
+      "category": "古代名人逸事",
+      "source": "《晋书·陶潜传》"
+    },
+    {
+      "title": "徐霞客游黄山：发现天都峰",
+      "dynasty": "明",
+      "category": "古代天文地理",
+      "source": "《徐霞客游记》"
+    },
+    {
+      "title": "郭守敬四海测验：元代的天文革命",
+      "dynasty": "元",
+      "category": "古代天文地理",
+      "source": "《元史·郭守敬传》"
+    },
+    {
+      "title": "《水经注》：郦道元的地理巨著",
+      "dynasty": "北魏",
+      "category": "古代天文地理",
+      "source": "《水经注》"
+    },
+    {
+      "title": "张骞通西域：丝绸之路的开拓",
+      "dynasty": "西汉",
+      "category": "古代天文地理",
+      "source": "《史记·大宛列传》"
+    },
+    {
+      "title": "郑成功收复台湾：海上霸权的保卫战",
+      "dynasty": "清初（南明）",
+      "category": "历史故事",
+      "source": "《清史稿·郑成功传》"
+    },
+    {
+      "title": "班超投笔从戎：书生定西域",
+      "dynasty": "东汉",
+      "category": "历史故事",
+      "source": "《后汉书·班超传》"
+    },
+    {
+      "title": "李时珍与《本草纲目》的诞生",
+      "dynasty": "明",
+      "category": "古代名人逸事",
+      "source": "《明史·李时珍传》"
+    },
+    {
+      "title": "古代黑科技：记里鼓车与指南车",
+      "dynasty": "东汉至宋",
+      "category": "历史故事",
+      "source": "《宋史·舆服志》及《西京杂记》"
+    },
+    {
+      "title": "历史上的冷知识：宋代已有‘纸币’（交子）",
+      "dynasty": "宋",
+      "category": "历史故事",
+      "source": "《宋史·食货志》"
+    }
+  ]
+}
