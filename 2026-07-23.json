@@ -1,0 +1,199 @@
+{
+  "date": "2026-07-23",
+  "ai_news_count": 10,
+  "stories_count": 20,
+  "ai_news": [
+    {
+      "title": "AMD发布Helios AI机架系统挑战英伟达",
+      "summary_zh": "AMD推出全新Helios AI机架系统，直接挑战英伟达在AI计算硬件领域的领导地位。该系统将于今年晚些时候开始向客户发货，标志着AI基础设施竞争进入新阶段。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/",
+      "score": 5
+    },
+    {
+      "title": "AI芯片初创公司Etched估值达103亿美元",
+      "summary_zh": "由三名哈佛辍学生创立的AI芯片初创公司Etched，凭借无需GPU即可加速任何AI模型推理的新型芯片和内存组件，获得知名投资者青睐，估值飙升至103亿美元。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+      "score": 5
+    },
+    {
+      "title": "OpenAI向所有美国用户开放ChatGPT Health",
+      "summary_zh": "OpenAI宣布ChatGPT Health面向所有美国用户开放，可连接Apple Health、Function和MyFitnessPal等个人健康数据。公司声称其模型现在能够处理复杂的医疗咨询，引发行业对AI医疗应用的广泛关注。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/",
+      "score": 5
+    },
+    {
+      "title": "Anthropic为Claude Opus和Sonnet推出语音模式",
+      "summary_zh": "Anthropic将语音模式扩展到更强大的Claude Opus和Sonnet模型，此前仅支持Haiku。新功能支持在Gmail、Slack和Canva等应用中操作，可帮助用户重新安排会议或起草邮件。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
+      "score": 5
+    },
+    {
+      "title": "Tesla自动驾驶出租车里程Q2下降36%",
+      "summary_zh": "尽管扩展到新城市，特斯拉自动驾驶出租车付费里程在第二季度下降36%。CEO马斯克在财报电话会议中试图积极描绘，但实际数据与承诺形成鲜明对比，引发市场担忧。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/",
+      "score": 4
+    },
+    {
+      "title": "Runway推出AI模型路由器应对生成式媒体拥挤",
+      "summary_zh": "Runway发布Media Router工具，可根据质量、速度或成本优先级，自动为图像、视频或音频生成请求选择最佳AI模型。这标志着生成式媒体领域模型路由策略的重要进展。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "score": 4
+    },
+    {
+      "title": "AegisAI获3600万美元融资防御AI钓鱼攻击",
+      "summary_zh": "由前Google安全高管创立的AegisAI获得3600万美元融资。其AI代理能像人类一样快速分析每条消息，捕捉即使最详尽检查表也难以发现的细微异常，专门防御AI驱动的精准钓鱼攻击。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/aegisai-founded-by- former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/",
+      "score": 4
+    },
+    {
+      "title": "亚马逊Alexa Plus获AI更新支持复杂智能家居指令",
+      "summary_zh": "亚马逊为Alexa Plus推出AI更新，使其能够以新方式连接智能家居设备。预览版支持博世、Delta、科沃斯、iRobot等品牌，可自动执行复杂任务，提升智能家居体验。",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/970399/amazon-alexa-plus-ai-update-smart-home-devices",
+      "score": 4
+    },
+    {
+      "title": "字节跳动发布Seed Audio 1.0音频创作模型",
+      "summary_zh": "字节跳动发布Seed Audio 1.0音频创作模型，标志着其在AI音频生成领域的重要布局。该模型可支持多种音频创作任务，进一步丰富字节跳动的AI模型生态。",
+      "source": "爱范儿",
+      "url": "https://www.ifanr.com/1672637",
+      "score": 4
+    },
+    {
+      "title": "Hugging Face推出一键部署至Amazon SageMaker Studio",
+      "summary_zh": "Hugging Face与亚马逊合作，推出从Hugging Face平台一键部署模型到Amazon SageMaker Studio的功能。这大幅简化了AI模型的部署流程，降低了开发者将模型投入生产的门槛。",
+      "source": "Hugging Face - Blog",
+      "url": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "score": 3
+    }
+  ],
+  "stories": [
+    {
+      "title": "弦高犒师",
+      "dynasty": "春秋",
+      "category": "兵法谋略",
+      "source": "《左传·僖公三十三年》"
+    },
+    {
+      "title": "退避三舍",
+      "dynasty": "春秋",
+      "category": "兵法谋略",
+      "source": "《左传·僖公二十三年》"
+    },
+    {
+      "title": "李愬雪夜入蔡州",
+      "dynasty": "唐",
+      "category": "兵法谋略",
+      "source": "《资治通鉴·唐纪》"
+    },
+    {
+      "title": "曹刿论战",
+      "dynasty": "春秋",
+      "category": "兵法谋略",
+      "source": "《左传·庄公十年》"
+    },
+    {
+      "title": "空城计（历史版）",
+      "dynasty": "唐",
+      "category": "兵法谋略",
+      "source": "《旧唐书·良吏传》"
+    },
+    {
+      "title": "假道伐虢",
+      "dynasty": "春秋",
+      "category": "兵法谋略",
+      "source": "《左传·僖公二年》"
+    },
+    {
+      "title": "请君入瓮",
+      "dynasty": "唐",
+      "category": "成语典故",
+      "source": "《资治通鉴·唐纪》"
+    },
+    {
+      "title": "东床快婿",
+      "dynasty": "东晋",
+      "category": "成语典故",
+      "source": "《世说新语·雅量》"
+    },
+    {
+      "title": "唐代的‘过所’制度",
+      "dynasty": "唐",
+      "category": "历史趣考",
+      "source": "《唐律疏议》《天圣令》"
+    },
+    {
+      "title": "古代‘冰箱’：曾侯乙铜鉴缶",
+      "dynasty": "战国",
+      "category": "历史趣考",
+      "source": "《周礼》《考古发现》"
+    },
+    {
+      "title": "二十八星宿与四象的起源",
+      "dynasty": "先秦",
+      "category": "古代天文地理",
+      "source": "《尚书·尧典》《史记·天官书》"
+    },
+    {
+      "title": "郭守敬四海测验",
+      "dynasty": "元",
+      "category": "古代天文地理",
+      "source": "《元史·郭守敬传》"
+    },
+    {
+      "title": "退避三舍（补充信息版）",
+      "dynasty": "春秋",
+      "category": "兵法谋略",
+      "source": "《左传·僖公二十三年》"
+    },
+    {
+      "title": "李愬雪夜入蔡州",
+      "dynasty": "唐",
+      "category": "兵法谋略",
+      "source": "《资治通鉴·唐纪》"
+    },
+    {
+      "title": "曹刿论战",
+      "dynasty": "春秋",
+      "category": "兵法谋略",
+      "source": "《左传·庄公十年》"
+    },
+    {
+      "title": "空城计（历史版）",
+      "dynasty": "唐",
+      "category": "兵法谋略",
+      "source": "《旧唐书·良吏传》"
+    },
+    {
+      "title": "假道伐虢",
+      "dynasty": "春秋",
+      "category": "兵法谋略",
+      "source": "《左传·僖公二年》"
+    },
+    {
+      "title": "请君入瓮",
+      "dynasty": "唐",
+      "category": "成语典故",
+      "source": "《资治通鉴·唐纪》"
+    },
+    {
+      "title": "东床快婿",
+      "dynasty": "东晋",
+      "category": "成语典故",
+      "source": "《世说新语·雅量》"
+    },
+    {
+      "title": "唐代的‘过所’制度",
+      "dynasty": "唐",
+      "category": "历史趣考",
+      "source": "《唐律疏议》《天圣令》"
+    }
+  ]
+}
