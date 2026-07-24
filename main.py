@@ -652,7 +652,6 @@ def main():
 
         except Exception as e:
             logger.error(f"小红书内容生成失败: {e}")
-            import traceback
             traceback.print_exc()
 
     # ── 7. 生成古风历史卡片 ──
@@ -672,7 +671,6 @@ def main():
             logger.info(f"🏯 历史卡片: {len(ancient_card_paths)} 张 -> docs/ancient_cards/")
         except Exception as e:
             logger.error(f"历史卡片生成失败: {e}")
-            import traceback
             traceback.print_exc()
 
     logger.info("=" * 50)
