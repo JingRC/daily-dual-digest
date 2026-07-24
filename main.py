@@ -681,4 +681,12 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import traceback as _tb
+    try:
+        main()
+    except SystemExit as e:
+        logger.warning(f"main() 退出码: {e.code}")
+        raise
+    except Exception:
+        logger.error(f"未捕获的异常:\n{_tb.format_exc()}")
+        sys.exit(1)
