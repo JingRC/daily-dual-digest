@@ -107,12 +107,14 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
+          git stash --include-untracked
+          git pull --rebase origin master
+          git stash pop || true
           git add docs/xhs/
           if git diff --cached --quiet; then
             echo "No card changes to commit"
           else
             git commit -m "auto: XHS cards — ${{ steps.date.outputs.today }}"
-            git pull --rebase origin master
             git push origin master
             echo "✅ Cards pushed to repo"
           fi
